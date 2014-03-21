@@ -1,0 +1,11 @@
+*.pyc
+*.swp
+*.mo
+*.o
+docs/api/_build/
+gui/local_settings.py
+FreeBSD/
+filtered-patches/
+os-base/
+pbi/
+sbin/

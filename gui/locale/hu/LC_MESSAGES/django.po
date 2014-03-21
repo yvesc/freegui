@@ -1,0 +1,7988 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-02 02:04+0000\n"
+"PO-Revision-Date: 2012-12-08 00:37+0000\n"
+"Last-Translator: ebela <bela@dandre.hu>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.5.0\n"
+"X-POOTLE-MTIME: 1354927033.0\n"
+
+#: choices.py:43
+msgid "Plain"
+msgstr "Egyszerű"
+
+#: choices.py:44 choices.py:628 system/models.py:366
+#: templates/system/settings.html:9
+msgid "SSL"
+msgstr "SSL"
+
+#: choices.py:45 choices.py:629
+msgid "TLS"
+msgstr "TLS"
+
+#: choices.py:50
+msgid "HTTP"
+msgstr "HTTP"
+
+#: choices.py:51
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#: choices.py:52
+#, fuzzy
+msgid "HTTP+HTTPS"
+msgstr "HTTPS"
+
+#: choices.py:56 choices.py:235
+msgid "Auto"
+msgstr "Automatikus"
+
+#: choices.py:57
+msgid "PIO0"
+msgstr "PIO0"
+
+#: choices.py:58
+msgid "PIO1"
+msgstr "PIO1"
+
+#: choices.py:59
+msgid "PIO2"
+msgstr "PIO2"
+
+#: choices.py:60
+msgid "PIO3"
+msgstr "PIO3"
+
+#: choices.py:61
+msgid "PIO4"
+msgstr "PIO4"
+
+#: choices.py:62
+msgid "WDMA0"
+msgstr "WDMA0"
+
+#: choices.py:63
+msgid "WDMA1"
+msgstr "WDMA1"
+
+#: choices.py:64
+msgid "WDMA2"
+msgstr "WDMA2"
+
+#: choices.py:65
+msgid "UDMA-16"
+msgstr "UDMA-16"
+
+#: choices.py:66
+msgid "UDMA-33"
+msgstr "UDMA-33"
+
+#: choices.py:67
+msgid "UDMA-66"
+msgstr "UDMA-66"
+
+#: choices.py:68
+msgid "UDMA-100"
+msgstr "UDMA-100"
+
+#: choices.py:69
+msgid "UDMA-133"
+msgstr "UDMA-133"
+
+#: choices.py:70
+msgid "SATA 1.5Gbit/s"
+msgstr "SATA 1.5Gbit/s"
+
+#: choices.py:71
+msgid "SATA 3.0Gbit/s"
+msgstr "SATA 3.0Gbit/s"
+
+#: choices.py:75
+msgid "Always On"
+msgstr "Mindig bekapcsolva"
+
+#: choices.py:89 choices.py:99
+msgid "Disabled"
+msgstr "Kikapcsolva"
+
+#: choices.py:90
+msgid "Level 1 - Minimum power usage with Standby (spindown)"
+msgstr "1. Szint - Minimális energia-felhasználás, készenléttel (leáll)"
+
+#: choices.py:91
+msgid "Level 64 - Intermediate power usage with Standby"
+msgstr "64. Szint - Közepes energia-felhasználás, készenléttel"
+
+#: choices.py:92
+msgid "Level 127 - Intermediate power usage with Standby"
+msgstr "127. Szint - Közepes energia-felhasználás, készenléttel"
+
+#: choices.py:94
+msgid "Level 128 - Minimum power usage without Standby (no spindown)"
+msgstr ""
+"128. Szint - Minimális energia-felhasználás, készenléti mód nélkül (lemez "
+"nem áll le)"
+
+#: choices.py:95
+msgid "Level 192 - Intermediate power usage without Standby"
+msgstr "192. Szint - Közepes energia-felhasználás, készenléti mód nélkül"
+
+#: choices.py:96
+msgid "Level 254 - Maximum performance, maximum power usage"
+msgstr "254. Szint - Maximális teljesítmény és energiafelhasználás"
+
+#: choices.py:100 choices.py:200
+msgid "Minimum"
+msgstr "Minimum"
+
+#: choices.py:101
+msgid "Medium"
+msgstr "Közepes"
+
+#: choices.py:102
+msgid "Maximum"
+msgstr "Maximum"
+
+# a magyar nyelvtan szabályai szerint a hónapneveket kis kezdőbetűvel írjuk.
+#: choices.py:136
+msgid "January"
+msgstr "január"
+
+#: choices.py:137
+msgid "February"
+msgstr "február"
+
+#: choices.py:138
+msgid "March"
+msgstr "március"
+
+#: choices.py:139
+msgid "April"
+msgstr "április"
+
+#: choices.py:140
+msgid "May"
+msgstr "május"
+
+#: choices.py:141
+msgid "June"
+msgstr "június"
+
+#: choices.py:142
+msgid "July"
+msgstr "július"
+
+#: choices.py:143
+msgid "August"
+msgstr "augusztus"
+
+#: choices.py:144
+msgid "September"
+msgstr "szeptember"
+
+#: choices.py:145
+msgid "October"
+msgstr "október"
+
+#: choices.py:146
+msgid "November"
+msgstr "november"
+
+#: choices.py:147
+msgid "December"
+msgstr "december"
+
+# a hónapokhoz hasonlóan a napok neveit sem írjuk nagy kezdőbetűvel
+#: choices.py:150
+msgid "Monday"
+msgstr "hétfő"
+
+#: choices.py:151
+msgid "Tuesday"
+msgstr "kedd"
+
+#: choices.py:152
+msgid "Wednesday"
+msgstr "szerda"
+
+#: choices.py:153
+msgid "Thursday"
+msgstr "csütörtök"
+
+#: choices.py:154
+msgid "Friday"
+msgstr "péntek"
+
+#: choices.py:155
+msgid "Saturday"
+msgstr "szombat"
+
+#: choices.py:156
+msgid "Sunday"
+msgstr "vasárnap"
+
+#: choices.py:165
+msgid "Unencrypted"
+msgstr ""
+
+#: choices.py:166
+msgid "Encrypted, no passphrase"
+msgstr ""
+
+#: choices.py:167
+msgid "Encrypted, with passphrase"
+msgstr ""
+
+#: choices.py:173
+msgid "Anonymous"
+msgstr "Névtelen"
+
+#: choices.py:174
+msgid "Local User"
+msgstr "Helyi felhasználó"
+
+#: choices.py:201
+msgid "Normal"
+msgstr "Normális"
+
+#: choices.py:202
+msgid "Full"
+msgstr "Teljes"
+
+#: choices.py:203 choices.py:663
+msgid "Debug"
+msgstr "Hibakeresés"
+
+#: choices.py:207
+msgid "No case folding"
+msgstr "Nincs betűméret átalakítás"
+
+#: choices.py:208 choices.py:209
+msgid "Lowercase names in both directions"
+msgstr "Kisbetűs nevek mindkét irányba"
+
+#: choices.py:210
+msgid "Client sees lowercase, server sees uppercase"
+msgstr "Kliens kisbetűvel, szerver nagybetűvel jelenjen meg"
+
+#: choices.py:211
+msgid "Client sees uppercase, server sees lowercase"
+msgstr "Kliens nagybetűvel, szerver kisbetűvel jelenjen meg"
+
+#: choices.py:215 services/forms.py:1131
+msgid "File"
+msgstr "Fájl"
+
+#: choices.py:216 services/forms.py:1132 services/forms.py:1139
+msgid "Device"
+msgstr "Eszköz"
+
+#: choices.py:217
+msgid "ZFS Volume"
+msgstr "ZFS kötet"
+
+#: choices.py:221 storage/models.py:556
+msgid "Disk"
+msgstr "Lemez"
+
+#: choices.py:229
+msgid "read-write"
+msgstr "olvasható-írható"
+
+#: choices.py:230
+msgid "read-only"
+msgstr "csak olvasható"
+
+#: choices.py:234 choices.py:240 services/forms.py:990 services/forms.py:992
+#: services/forms.py:1493
+msgid "None"
+msgstr "Nincs"
+
+#: choices.py:236
+msgid "CHAP"
+msgstr "CHAP"
+
+#: choices.py:237
+msgid "Mutual CHAP"
+msgstr "Kölcsönös CHAP"
+
+#: choices.py:268
+msgid "UPS reaches low battery"
+msgstr "UPS akkumulátora lemerül"
+
+#: choices.py:269
+msgid "UPS goes on battery"
+msgstr "UPS akkumulátorról üzemel"
+
+#: choices.py:272
+msgid "Preferred"
+msgstr "Javasolt"
+
+#: choices.py:273
+msgid "Tolerated"
+msgstr "Eltűrt"
+
+#: choices.py:274
+msgid "Required"
+msgstr "Szükséges"
+
+#: choices.py:296 choices.py:302 choices.py:565
+msgid "Inherit"
+msgstr "Örököl"
+
+#: choices.py:297 choices.py:559
+msgid "On"
+msgstr "Be"
+
+#: choices.py:298 choices.py:303 choices.py:561 choices.py:627
+msgid "Off"
+msgstr "Ki"
+
+#: choices.py:304
+#, fuzzy
+msgid "lz4 (recommended)"
+msgstr "lzjb (ajánlott)"
+
+#: choices.py:305
+msgid "gzip (default level, 6)"
+msgstr "gzip (alap szint, 6)"
+
+#: choices.py:306
+msgid "gzip (fastest)"
+msgstr "gzip (leggyorsabb)"
+
+#: choices.py:307
+msgid "gzip (maximum, slow)"
+msgstr "gzip (maximális, lassú)"
+
+#: choices.py:308
+msgid "zle (runs of zeros)"
+msgstr ""
+
+#: choices.py:309
+#, fuzzy
+msgid "lzjb (legacy, not recommended)"
+msgstr "lzjb (ajánlott)"
+
+#: choices.py:538
+msgid "Hour(s)"
+msgstr "óra"
+
+#: choices.py:539
+msgid "Day(s)"
+msgstr "nap"
+
+#: choices.py:540
+msgid "Week(s)"
+msgstr "hét"
+
+#: choices.py:541
+msgid "Month(s)"
+msgstr "hónap"
+
+#: choices.py:542
+msgid "Year(s)"
+msgstr "év"
+
+#: choices.py:546 storage/models.py:375 storage/models.py:400
+#: system/models.py:459 system/models.py:484 system/models.py:668
+#: system/models.py:689 system/models.py:757 system/models.py:778
+msgid "Everyday"
+msgstr "Minden nap"
+
+#: choices.py:547
+msgid "Every selected weekday"
+msgstr "Minden kiválasztott napon"
+
+#: choices.py:553
+msgid "Read-only"
+msgstr "Csak olvasható"
+
+#: choices.py:554
+msgid "Write-only"
+msgstr "Csak írható"
+
+#: choices.py:555
+msgid "Read and Write"
+msgstr "Írható és Olvasható"
+
+#: choices.py:560
+msgid "Verify"
+msgstr ""
+
+#: choices.py:569 choices.py:570 choices.py:571 choices.py:572
+#, python-format
+msgid "%(minutes)s minutes"
+msgstr "%(minutes) perc"
+
+#: choices.py:573
+#, python-format
+msgid "%(hour)s hour"
+msgstr "%(hour) óra"
+
+#: choices.py:574 choices.py:575 choices.py:576 choices.py:577 choices.py:578
+#, python-format
+msgid "%(hours)s hours"
+msgstr "%(hours) óra"
+
+#: choices.py:579
+#, python-format
+msgid "%(day)s day"
+msgstr "%(day) nap"
+
+#: choices.py:580
+#, python-format
+msgid "%(week)s week"
+msgstr "%(week) hét"
+
+#: choices.py:584
+msgid "Never - Check the device regardless of its power mode"
+msgstr "Ne ellenőrizze az eszközt."
+
+#: choices.py:585
+msgid "Sleep - Check the device unless it is in SLEEP mode"
+msgstr "Alvó - Ellenőrizze az eszközt amennyiben az nincs ALVÓ módban"
+
+#: choices.py:586
+msgid "Standby - Check the device unless it is in SLEEP or STANDBY mode"
+msgstr ""
+"Készenlét - Ellenőrizze az eszközt amennyiben nincs ALVÓ vagy KÉSZENLÉT "
+"módban"
+
+#: choices.py:588
+msgid "Idle - Check the device unless it is in SLEEP, STANDBY or IDLE mode"
+msgstr ""
+"Tétlen - Készenlét - Ellenőrizze az eszközt amennyiben az nincs ALVÓ, "
+"KÉSZENLÉT vagy TÉTLEN módban"
+
+#: choices.py:593
+msgid "Long Self-Test"
+msgstr "Hosszú önellenőrzés"
+
+#: choices.py:594
+msgid "Short Self-Test"
+msgstr "Rövid önellenőrzés"
+
+#: choices.py:595
+msgid "Conveyance Self-Test (ATA  only)"
+msgstr "Tovább az átvitelteszthez (Csak ATA eszköz)"
+
+#: choices.py:596
+msgid "Offline Immediate Test (ATA only)"
+msgstr "Offline azonnali teszt (Csak ATA eszköz)"
+
+#: choices.py:600
+msgid "9600"
+msgstr ""
+
+#: choices.py:601
+msgid "19200"
+msgstr ""
+
+#: choices.py:602
+msgid "38400"
+msgstr ""
+
+#: choices.py:603
+msgid "57600"
+msgstr ""
+
+#: choices.py:604
+msgid "115200"
+msgstr ""
+
+#: choices.py:633
+msgid "Rsync module"
+msgstr "Rsync Modul"
+
+#: choices.py:634
+msgid "Rsync over SSH"
+msgstr "Rsync SSH-en keresztül"
+
+#: choices.py:638
+msgid "Push"
+msgstr "nyomni"
+
+#: choices.py:639
+msgid "Pull"
+msgstr "Húz"
+
+#: choices.py:658 sharing/models.py:222 system/models.py:610
+msgid "Quiet"
+msgstr "Néma"
+
+#: choices.py:659
+msgid "Fatal"
+msgstr ""
+
+#: choices.py:660 middleware/zfs.py:540 storage/models.py:136
+#: storage/models.py:760 storage/models.py:768
+msgid "Error"
+msgstr "Hiba"
+
+#: choices.py:661
+msgid "Info"
+msgstr "Infórmácíó"
+
+#: choices.py:662
+msgid "Verbose"
+msgstr ""
+
+#: choices.py:664
+#, fuzzy
+msgid "Debug2"
+msgstr "Hibakeresés"
+
+#: choices.py:665
+#, fuzzy
+msgid "Debug3"
+msgstr "Hibakeresés"
+
+#: choices.py:670
+msgid "Daemon"
+msgstr ""
+
+#: choices.py:671 account/models.py:159 account/models.py:237
+#: services/models.py:699 services/models.py:1790 system/models.py:375
+#: system/models.py:580
+msgid "User"
+msgstr "Felhasználó"
+
+#: choices.py:672
+msgid "Auth"
+msgstr ""
+
+#: choices.py:673
+#, fuzzy
+msgid "Local 0"
+msgstr "Helyi felhasználó"
+
+#: choices.py:674
+#, fuzzy
+msgid "Local 1"
+msgstr "Helyi felhasználó"
+
+#: choices.py:675
+#, fuzzy
+msgid "Local 2"
+msgstr "Helyi felhasználó"
+
+#: choices.py:676
+#, fuzzy
+msgid "Local 3"
+msgstr "Helyi felhasználó"
+
+#: choices.py:677
+#, fuzzy
+msgid "Local 4"
+msgstr "Helyi felhasználó"
+
+#: choices.py:678
+#, fuzzy
+msgid "Local 5"
+msgstr "Helyi felhasználó"
+
+#: choices.py:679
+#, fuzzy
+msgid "Local 6"
+msgstr "Helyi felhasználó"
+
+#: choices.py:680
+#, fuzzy
+msgid "Local 7"
+msgstr "Helyi felhasználó"
+
+#: choices.py:684 services/models.py:1577 services/models.py:1578
+msgid "Active Directory"
+msgstr "Active Directory"
+
+#: choices.py:685 services/models.py:1728 services/models.py:1729
+msgid "LDAP"
+msgstr "LDAP"
+
+#: choices.py:686
+msgid "NT4"
+msgstr ""
+
+#: choices.py:687
+#, fuzzy
+msgid "NIS"
+msgstr "Hálókártya"
+
+#: choices.py:692
+msgid "type1"
+msgstr ""
+
+#: choices.py:693
+msgid "type2"
+msgstr ""
+
+#: choices.py:694
+msgid "type3"
+msgstr ""
+
+#: choices.py:695
+msgid "type4"
+msgstr ""
+
+#: choices.py:696
+msgid "type5"
+msgstr ""
+
+#: choices.py:702
+#, fuzzy
+msgid "on"
+msgstr "Nincs"
+
+#: choices.py:703
+#, fuzzy
+msgid "off"
+msgstr "Ki"
+
+#: choices.py:704
+msgid "data"
+msgstr ""
+
+#: choices.py:705
+msgid "!data"
+msgstr ""
+
+#: choices.py:706
+msgid "auth"
+msgstr ""
+
+#: choices.py:707
+msgid "ctrl"
+msgstr ""
+
+#: choices.py:708
+msgid "ctrl+data"
+msgstr ""
+
+#: choices.py:709
+msgid "ctrl+!data"
+msgstr ""
+
+#: choices.py:710
+msgid "auth+data"
+msgstr ""
+
+#: choices.py:711
+msgid "auth+!data"
+msgstr ""
+
+#: account/admin.py:91
+msgid "Modify User"
+msgstr ""
+
+#: account/admin.py:95
+msgid "Remove User"
+msgstr ""
+
+#: account/admin.py:104
+msgid "Change E-mail"
+msgstr "E-mail módosítása"
+
+#: account/admin.py:176
+msgid "Members"
+msgstr ""
+
+#: account/admin.py:180
+msgid "Modify Group"
+msgstr ""
+
+#: account/admin.py:185
+msgid "Delete Group"
+msgstr ""
+
+#: account/forms.py:55
+#, fuzzy
+msgid "New Password"
+msgstr "Új jelszó"
+
+#: account/forms.py:60
+#, fuzzy
+msgid "Confirm New Password"
+msgstr "Jelszó csere"
+
+#: account/forms.py:68
+#, fuzzy
+msgid "Passwords do not match"
+msgstr "A titkok nem egyeznek meg."
+
+#: account/forms.py:110
+msgid "Your name cannot start with \"-\""
+msgstr "A név kezdőbetűje nem lehet \"-\""
+
+#: account/forms.py:113
+msgid "The character $ is only allowed as the final character"
+msgstr "A $ jel csak szó végén állhat."
+
+#: account/forms.py:122
+#, python-format
+msgid "Your name contains invalid characters (%s)."
+msgstr "A név érvénytelen jeleket tartalmaz (%s)."
+
+#: account/forms.py:134
+#, python-format
+msgid "Your full name contains invalid characters (%s)."
+msgstr "A teljes név érvénytelen jeleket tartalmaz (%s)."
+
+# megnéztem, egy szó ;-)
+#: account/forms.py:298 account/forms.py:333 account/forms.py:745
+#: account/models.py:99 services/models.py:867 services/models.py:1290
+#: system/models.py:282
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: account/forms.py:302
+msgid "Required. 16 characters or fewer. Letters, digits and ./-/_ only."
+msgstr "Kitöltendő! Legfeljebb 16 jel: csak betű, szám és . / - / _ lehet."
+
+#: account/forms.py:306
+msgid "This value may contain only letters, numbers and ./-/_ characters."
+msgstr "Ez az érték csak betűket, számokat és . / - / _ jeleket tartalmazhat."
+
+#: account/forms.py:336 account/forms.py:747 services/models.py:871
+#: system/forms.py:397 system/models.py:289
+msgid "Password"
+msgstr "Jelszó"
+
+#: account/forms.py:340 account/forms.py:751 system/forms.py:401
+msgid "Password confirmation"
+msgstr "Jelszó megerősítése"
+
+#: account/forms.py:342 account/forms.py:753 system/forms.py:403
+msgid "Enter the same password as above, for verification."
+msgstr ""
+"Írja be ugyanazt a jelszó, mint amit az előző jelszó mezőbe írt, a jelszó "
+"megerősítéseként."
+
+#: account/forms.py:345
+msgid "Primary Group"
+msgstr "Elsődleges csoport"
+
+#: account/forms.py:349 account/models.py:126 freeadmin/navtree.py:257
+msgid "Shell"
+msgstr "Parancssor"
+
+#: account/forms.py:353
+msgid "Create a new primary group for the user"
+msgstr "Készíts egy új elsődleges csoportot a felhasználónak"
+
+#: account/forms.py:357
+msgid "SSH Public Key"
+msgstr "SSH Nyilvános kulcs"
+
+#: account/forms.py:362
+msgid "Home Directory Mode"
+msgstr "Saját könyvtár mód"
+
+#: account/forms.py:366 account/forms.py:915
+msgid "Auxiliary groups"
+msgstr "Külső csoportok"
+
+#: account/forms.py:502
+msgid "A user with that username already exists."
+msgstr "Már létezik ilyen nevű felhasználó."
+
+#: account/forms.py:520 services/forms.py:612 services/forms.py:621
+#: services/forms.py:1233 services/forms.py:1297 storage/forms.py:261
+#: storage/forms.py:1376 system/forms.py:439 system/forms.py:449
+#: system/forms.py:459 system/forms.py:893 system/forms.py:900
+#: system/forms.py:1058 system/forms.py:1065
+msgid "This field is required"
+msgstr "Szükséges mező"
+
+#: account/forms.py:528 account/forms.py:780 account/forms.py:982
+#: services/forms.py:507 services/forms.py:703 services/forms.py:779
+#: sharing/forms.py:138 system/forms.py:464
+msgid "The two password fields didn't match."
+msgstr "A két jelszó nem egyezik!"
+
+#: account/forms.py:539
+msgid "Home directory cannot contain colons"
+msgstr ""
+
+#: account/forms.py:561
+#, fuzzy
+msgid "Home directory must end with username"
+msgstr "A saját mappa nem írható. Ezt hagyd üresen."
+
+#: account/forms.py:570
+msgid "Home directory has to start with /mnt/ or be /nonexistent"
+msgstr ""
+"A saját mappának /mnt/-vel kell kezdődnie, vagy /nonexistent-nek lennie."
+
+#: account/forms.py:601 account/forms.py:939
+msgid "A user cannot belong to more than 64 auxiliary groups"
+msgstr "Egy felhasználó legfeljebb 64 kiegészítő csoporthoz tartozhat."
+
+#: account/forms.py:622
+msgid "Home directory is not writable, leave this blank"
+msgstr "A saját mappa nem írható. Ezt hagyd üresen."
+
+#: account/forms.py:629
+msgid "Password is disabled, leave this blank"
+msgstr "A jelszó kikapcsolva, hagyd ezt üresen."
+
+#: account/forms.py:635 plugins/forms.py:135 services/forms.py:1107
+#: services/forms.py:1515 storage/forms.py:237
+msgid "This field is required."
+msgstr "A mező kitöltése kötelező."
+
+#: account/forms.py:829
+msgid "Allow repeated GIDs"
+msgstr "Engedélyezd a csoportazonosítók (GID) ismétlését."
+
+#: account/forms.py:843
+msgid "A group with that name already exists."
+msgstr "Ilyen nevű csoport már létezik."
+
+#: account/forms.py:866
+msgid "A group with this gid already exists"
+msgstr "Ilyen csoportazonosító (GID) már létezik."
+
+#: account/forms.py:879
+msgid "Member users"
+msgstr "Tagok"
+
+#: account/forms.py:964
+msgid "New password"
+msgstr "Új jelszó"
+
+#: account/forms.py:968
+msgid "New password confirmation"
+msgstr "Új jelszó megerősítése"
+
+#: account/forms.py:999
+msgid "Change root password as well"
+msgstr "A root jelszavát is változtasd meg."
+
+#: account/forms.py:1008
+msgid "Old password"
+msgstr "Régi jelszó"
+
+#: account/forms.py:1030
+msgid "Your old password was entered incorrectly. Please enter it again."
+msgstr "A régi jelszó helytelen! Próbáld meg újra!"
+
+#: account/forms.py:1051
+msgid "Do you want to delete all users with this primary group?"
+msgstr ""
+"Ezzel az elsődleges csoporttal törölni szeretné a hozzá tartozó összes "
+"felhasználót?"
+
+#: account/models.py:42 services/models.py:638 services/models.py:695
+msgid "Group ID"
+msgstr "Csoport ID"
+
+#: account/models.py:47
+msgid "Group Name"
+msgstr "Csoport neve"
+
+#: account/models.py:52
+#, fuzzy
+msgid "Built-in Group"
+msgstr "Külső csoportok"
+
+#: account/models.py:56 account/models.py:150
+msgid "Permit Sudo"
+msgstr ""
+
+#: account/models.py:60 account/models.py:233 services/models.py:1801
+msgid "Group"
+msgstr "Csoport"
+
+#: account/models.py:61 templates/account/index.html:3
+msgid "Groups"
+msgstr "Csoportok"
+
+#: account/models.py:70
+#, python-format
+msgid "Group %s is built-in and can not be deleted!"
+msgstr "A %s csoport beépített, nem törölhető!"
+
+#: account/models.py:93
+msgid "User ID"
+msgstr "Felhasználó ID"
+
+#: account/models.py:98
+msgid "User &"
+msgstr "Felhasználó &"
+
+#: account/models.py:105
+msgid "Hashed UNIX password"
+msgstr "Kivonatolt UNIX jelszó"
+
+#: account/models.py:111
+msgid "Hashed SMB password"
+msgstr "Kivonatolt SMB jelszó"
+
+#: account/models.py:116
+msgid "Primary Group ID"
+msgstr "Elsődleges csoport ID"
+
+#: account/models.py:120
+msgid "Home Directory"
+msgstr "Saját könyvtár"
+
+#: account/models.py:130
+msgid "Full Name"
+msgstr "Teljes név"
+
+#: account/models.py:135
+msgid "Built-in User"
+msgstr ""
+
+#: account/models.py:138
+msgid "E-mail"
+msgstr "E-mail"
+
+#: account/models.py:142
+#, fuzzy
+msgid "Disable password login"
+msgstr "Jelszavas bejelentkezések letiltása"
+
+#: account/models.py:146
+msgid "Lock user"
+msgstr "Felhasználó zárolása"
+
+#: account/models.py:160 templates/account/index.html:9
+msgid "Users"
+msgstr "Felhasználók"
+
+#: account/models.py:203
+#, python-format
+msgid "User %s is built-in and can not be deleted!"
+msgstr "A %s felhasználó beépített, és nem törölhető!"
+
+#: account/models.py:241
+msgid "Group Membership"
+msgstr "Csoporttagság"
+
+#: account/models.py:242
+#, fuzzy
+msgid "Group Memberships"
+msgstr "Csoporttagság"
+
+#: account/nav.py:4 templates/menubar.html:67
+msgid "Account"
+msgstr "Fiók"
+
+#: account/views.py:63
+msgid "Users successfully updated."
+msgstr "A felhasználók sikeresen módosítva lettek!"
+
+#: account/views.py:80
+msgid "Groups successfully updated."
+msgstr "A csoportok sikeresen módosítva lettek!"
+
+#: api/resources.py:766 storage/models.py:725 storage/models.py:735
+#: storage/models.py:752
+#, fuzzy
+msgid "Locked"
+msgstr "Felhasználó zárolása"
+
+#: api/resources.py:852
+msgid "everyday"
+msgstr ""
+
+#: api/resources.py:859
+#, fuzzy, python-format
+msgid "on every %(days)s"
+msgstr "Minden nap"
+
+#: api/resources.py:865
+#, python-format
+msgid "From %(begin)s through %(end)s, %(repeat)s"
+msgstr ""
+
+#: common/system.py:278
+#, python-format
+msgid "Mount failed (%(retcode)s) -> %(output)s"
+msgstr ""
+
+#: freeadmin/forms.py:136
+#, python-format
+msgid "The user %s is not valid."
+msgstr "A %s felhasználó érvénytelen."
+
+#: freeadmin/forms.py:179
+#, python-format
+msgid "The group %s is not valid."
+msgstr "A %s csoport nem létezik."
+
+#: freeadmin/forms.py:212
+msgid "The path must reside within a volume mount point"
+msgstr "Az elérési útnak a köteten belül kell lennie"
+
+#: freeadmin/forms.py:220
+#, fuzzy
+msgid "A file is required"
+msgstr "Szükséges mező"
+
+#: freeadmin/forms.py:255 freeadmin/forms.py:279
+#, python-format
+msgid "Invalid address: %s"
+msgstr ""
+
+#: freeadmin/forms.py:259 freeadmin/forms.py:283
+#, fuzzy, python-format
+msgid "Invalid network: %s"
+msgstr "A %s felhasználó érvénytelen."
+
+#: freeadmin/middleware.py:191 freeadmin/options.py:339
+#: freeadmin/options.py:517
+#, python-format
+msgid "Error: %s"
+msgstr "Hiba: %s"
+
+#: freeadmin/navtree.py:248
+msgid "Display System Processes"
+msgstr "Rendszer folyamatok kijelzése"
+
+#: freeadmin/navtree.py:266 templates/system/reboot_dialog.html:14
+msgid "Reboot"
+msgstr "Újraindítás"
+
+#: freeadmin/navtree.py:277 system/models.py:918
+#: templates/system/shutdown_dialog.html:14
+msgid "Shutdown"
+msgstr "Leállítás"
+
+#: freeadmin/navtree.py:473
+#, python-format
+msgid "Add %s"
+msgstr "Hozzáad %s"
+
+#: freeadmin/navtree.py:488
+#, python-format
+msgid "View %s"
+msgstr "Nézet %s"
+
+#: freeadmin/navtree.py:518 jails/nav.py:154
+#, python-format
+msgid "Empty data returned from %s"
+msgstr "Üres válasszal tért vissza a következőtől: %s"
+
+#: freeadmin/navtree.py:520 jails/nav.py:157 plugins/utils/__init__.py:85
+#: plugins/utils/__init__.py:116 plugins/utils/__init__.py:147
+#, python-format
+msgid "Couldn't retrieve %(url)s: %(error)s"
+msgstr ""
+"Sikertelen a letöltés követekző url(ek)ről: %(url). A hiba(hibák): %(error)"
+
+#: freeadmin/navtree.py:570
+#, python-format
+msgid "An error occurred while unserializing from %(url)s: %(error)s"
+msgstr ""
+"Hiba történt miközben unserialize-álta a fogadott adatokat a következő "
+"urlről: %(url). Hiba: %(error)"
+
+#: freeadmin/navtree.py:573
+#, fuzzy, python-format
+msgid "Error unserializing %(url)s (%(error)s), data retrieved:"
+msgstr ""
+"Hiba történt miközben unserialize-álta a fogadott adatokat a következő "
+"urlről: %(url). Hiba: %(error)"
+
+#: freeadmin/navtree.py:608
+#, fuzzy, python-format
+msgid "Could not reverse url, skipping node %(node)s: %(error)s"
+msgstr ""
+"Sikertelen a letöltés követekző url(ek)ről: %(url). A hiba(hibák): %(error)"
+
+#: freeadmin/options.py:331 freeadmin/options.py:493 freeadmin/options.py:501
+#, python-format
+msgid "%s successfully updated."
+msgstr "%s sikeresen módosítva!"
+
+#: freeadmin/options.py:344 freeadmin/options.py:510
+msgid "The service failed to restart."
+msgstr "Nem sikerült a szolgáltatást újraindítani."
+
+#: freeadmin/options.py:657 freeadmin/options.py:667
+#, python-format
+msgid "%s successfully deleted."
+msgstr "%s sikeresen törölve!"
+
+#: freeadmin/options.py:738 jails/nav.py:227 templates/jails/mkdir.html:2
+#: templates/system/system_info.html:7
+msgid "Edit"
+msgstr ""
+
+#: freeadmin/site.py:297
+msgid "It was not possible to retrieve the current status"
+msgstr "A jelenlegi állapotot nem lehetett lekérdezni."
+
+#: jails/admin.py:75 jails/forms.py:724 jails/models.py:396
+#: templates/plugins/plugins.html:21
+#, fuzzy
+msgid "Jail"
+msgstr "Jail név"
+
+#: jails/admin.py:81 network/models.py:148 network/models.py:253
+#: templates/network/summary.html:6
+msgid "IPv4 Address"
+msgstr "IPv4 cím"
+
+#: jails/admin.py:91 jails/models.py:149
+#, fuzzy
+msgid "Autostart"
+msgstr "Automatikus"
+
+#: jails/admin.py:97 jails/models.py:153 storage/admin.py:125
+#: storage/admin.py:409 templates/storage/volumestatus_datagrid.html:5
+msgid "Status"
+msgstr "Állapot"
+
+#: jails/admin.py:103 jails/models.py:76 services/models.py:755
+#: system/models.py:717 system/models.py:901 system/models.py:921
+msgid "Type"
+msgstr "Típus"
+
+#: jails/admin.py:182
+#, fuzzy
+msgid "Edit Jail"
+msgstr "Lemez"
+
+#: jails/admin.py:185 jails/nav.py:264
+#, fuzzy
+msgid "Add Storage"
+msgstr "Tárhely"
+
+#: jails/admin.py:188 templates/plugins/available_datagrid.html:27
+#, fuzzy
+msgid "Upload Plugin"
+msgstr "Frissítés gyakorisága"
+
+#: jails/admin.py:196
+msgid "Start"
+msgstr ""
+
+#: jails/admin.py:197
+msgid "Stop"
+msgstr ""
+
+#: jails/admin.py:232 system/models.py:604
+#: templates/freeadmin/generic_model_edit.html:97
+#: templates/plugins/plugins.html:60
+msgid "Delete"
+msgstr ""
+
+#: jails/admin.py:255 jails/models.py:341 plugins/models.py:152
+#: sharing/models.py:39 sharing/models.py:102 storage/admin.py:99
+#: storage/admin.py:383 storage/models.py:49 storage/models.py:422
+#: templates/network/summary.html:5
+msgid "Name"
+msgstr "Név"
+
+#: jails/admin.py:261 jails/models.py:346
+msgid "URL"
+msgstr ""
+
+#: jails/admin.py:267
+msgid "Instances"
+msgstr ""
+
+#: jails/admin.py:287 jails/forms.py:655
+msgid "Mounted?"
+msgstr "Csatolva?"
+
+#: jails/forms.py:88
+msgid "type"
+msgstr ""
+
+#: jails/forms.py:92
+msgid "32 bit"
+msgstr ""
+
+#: jails/forms.py:98
+msgid "vanilla"
+msgstr ""
+
+#: jails/forms.py:170
+msgid "No jail root configured."
+msgstr ""
+
+#: jails/forms.py:233 jails/utils.py:623
+msgid "Unable to find template!"
+msgstr ""
+
+#: jails/forms.py:450
+#, fuzzy
+msgid "Path does not exist!"
+msgstr "A %s csoport nem létezik."
+
+#: jails/forms.py:458
+msgid "autostart"
+msgstr ""
+
+#: jails/forms.py:459 jails/models.py:158
+msgid "VIMAGE"
+msgstr ""
+
+#: jails/forms.py:460 jails/models.py:162
+msgid "NAT"
+msgstr ""
+
+#: jails/forms.py:651
+msgid "Create destination directory if it does not exist"
+msgstr ""
+
+#: jails/forms.py:693
+msgid "This shouldn't happen, but the jail could not be found"
+msgstr ""
+
+#: jails/forms.py:700
+msgid "The full path cannot exceed 88 characters"
+msgstr ""
+
+#: jails/forms.py:771
+#, fuzzy, python-format
+msgid "The path could not be mounted %(source)s: %(error)s"
+msgstr "Az elérési utat nem tudta felcsatoni %s"
+
+#: jails/forms.py:778
+#, python-format
+msgid "The path could not be umounted %s"
+msgstr "Az elérési utat nem tudta felcsatoni %s"
+
+#: jails/hook.py:13 jails/models.py:252 jails/models.py:253 jails/nav.py:47
+#: templates/jails/index.html:5
+msgid "Jails"
+msgstr ""
+
+#: jails/models.py:72
+#, fuzzy
+msgid "Jail Name"
+msgstr "Jail név"
+
+#: jails/models.py:82
+#, fuzzy
+msgid "IPv4 address"
+msgstr "IPv4 cím"
+
+#: jails/models.py:88
+#, fuzzy
+msgid "IPv4 aliases"
+msgstr "Aliasok"
+
+#: jails/models.py:94
+#, fuzzy
+msgid "IPv4 bridge address"
+msgstr "IPv4 cím"
+
+#: jails/models.py:100
+msgid "IPv4 bridge aliases"
+msgstr ""
+
+#: jails/models.py:107
+#, fuzzy
+msgid "IPv4 default gateway"
+msgstr "IPv4 alapértelmezett átjáró"
+
+#: jails/models.py:113
+#, fuzzy
+msgid "IPv6 address"
+msgstr "IPv6 cím"
+
+#: jails/models.py:119
+#, fuzzy
+msgid "IPv6 aliases"
+msgstr "Aliasok"
+
+#: jails/models.py:125
+#, fuzzy
+msgid "IPv6 bridge address"
+msgstr "IPv6 cím"
+
+#: jails/models.py:131
+msgid "IPv6 bridge aliases"
+msgstr ""
+
+#: jails/models.py:138
+#, fuzzy
+msgid "IPv6 default gateway"
+msgstr "IPv6 alapértelmezett átjáró"
+
+#: jails/models.py:144
+msgid "MAC"
+msgstr ""
+
+#: jails/models.py:224
+#, fuzzy, python-format
+msgid "This jail is required by %d plugin(s)"
+msgstr "Névtelen belépéshez szükséges mező"
+
+#: jails/models.py:260
+msgid "Jail Root"
+msgstr ""
+
+#: jails/models.py:261
+msgid "Path where to store jail data"
+msgstr ""
+
+#: jails/models.py:265
+#, fuzzy
+msgid "IPv4 Network"
+msgstr "IPv4 hálózati maszk"
+
+#: jails/models.py:266
+msgid "IPv4 network range for jails and plugins"
+msgstr ""
+
+#: jails/models.py:270
+#, fuzzy
+msgid "IPv4 Network Start Address"
+msgstr "IPv4 cím"
+
+#: jails/models.py:271
+msgid "IPv4 network start address for jails and plugins"
+msgstr ""
+
+#: jails/models.py:275
+#, fuzzy
+msgid "IPv4 Network End Address"
+msgstr "IPv4 cím"
+
+#: jails/models.py:276
+msgid "IPv4 network end address for jails and plugins"
+msgstr ""
+
+#: jails/models.py:280
+#, fuzzy
+msgid "IPv6 Network"
+msgstr "IPv6 hálózati maszk"
+
+#: jails/models.py:281
+msgid "IPv6 network range for jails and plugins"
+msgstr ""
+
+#: jails/models.py:285
+#, fuzzy
+msgid "IPv6 Network Start Address"
+msgstr "IPv6 cím"
+
+#: jails/models.py:286
+msgid "IPv6 network start address for jails and plugins"
+msgstr ""
+
+#: jails/models.py:290
+#, fuzzy
+msgid "IPv6 Network End Address"
+msgstr "IPv6 cím"
+
+#: jails/models.py:291
+msgid "IPv6 network end address for jails and plugins"
+msgstr ""
+
+#: jails/models.py:294
+#, fuzzy
+msgid "Collection URL"
+msgstr "Kapcsolatok"
+
+#: jails/models.py:296
+msgid "URL for the jails index"
+msgstr ""
+
+#: jails/models.py:305 jails/models.py:306
+#, fuzzy
+msgid "Jails Configuration"
+msgstr "Általános konfiguráció"
+
+#: jails/models.py:373
+msgid "Template must have 0 instances!"
+msgstr ""
+
+#: jails/models.py:388 jails/models.py:389
+#, fuzzy
+msgid "Jail Templates"
+msgstr "IPv4 hálózati maszk"
+
+#: jails/models.py:400
+msgid "Source"
+msgstr ""
+
+#: jails/models.py:404
+msgid "Destination"
+msgstr ""
+
+#: jails/models.py:408
+#, fuzzy
+msgid "Read-Only"
+msgstr "Csak olvasható"
+
+#: jails/models.py:412 jails/models.py:413 jails/nav.py:242 storage/nav.py:5
+#: templates/menubar.html:20
+msgid "Storage"
+msgstr "Tárhely"
+
+#: jails/nav.py:70
+#, fuzzy
+msgid "Add Jails"
+msgstr "Hozzáad %s"
+
+#: jails/nav.py:85
+msgid "Add Jail Templates"
+msgstr ""
+
+#: jails/nav.py:100
+#, fuzzy
+msgid "View Jails"
+msgstr "Nézet %s"
+
+#: jails/nav.py:114
+#, fuzzy
+msgid "View Jail Templates"
+msgstr "Minden felhasználó mutatása"
+
+#: jails/nav.py:129 plugins/models.py:183 templates/jails/index.html:28
+#: templates/plugins/index.html:18
+#, fuzzy
+msgid "Configuration"
+msgstr "Általános konfiguráció"
+
+#: jails/utils.py:567
+#, fuzzy
+msgid "Unable to determine IPv4 for plugin"
+msgstr "Nem tudta eltávolítani a bővítményt."
+
+#: jails/utils.py:640
+#, python-format
+msgid "Failed to install plugin: %s"
+msgstr ""
+
+#: jails/utils.py:679
+msgid "You need to create a ZFS volume to proceed!"
+msgstr ""
+
+#: jails/utils.py:694
+#, fuzzy, python-format
+msgid "Failed to create dataset %(name)s: %(error)s"
+msgstr ""
+"Sikertelen a letöltés követekző url(ek)ről: %(url). A hiba(hibák): %(error)"
+
+#: jails/views.py:94
+#, fuzzy
+msgid "Jail successfully edited."
+msgstr "%s sikeresen módosítva!"
+
+#: jails/views.py:114
+#, fuzzy
+msgid "Storage successfully added."
+msgstr "%s sikeresen törölve!"
+
+#: jails/views.py:134
+#, fuzzy
+msgid "Jail successfully started."
+msgstr "%s sikeresen módosítva!"
+
+#: jails/views.py:155
+#, fuzzy
+msgid "Jail successfully stopped."
+msgstr "%s sikeresen módosítva!"
+
+#: jails/views.py:176
+#, fuzzy
+msgid "Jail successfully deleted."
+msgstr "%s sikeresen törölve!"
+
+#: jails/views.py:397
+#, fuzzy
+msgid "Jail template successfully edited."
+msgstr "%s sikeresen törölve!"
+
+#: middleware/notifier.py:2874
+msgid "No RPC Token!"
+msgstr ""
+
+#: middleware/zfs.py:510 storage/models.py:723
+msgid "Error getting total space"
+msgstr ""
+
+#: middleware/zfs.py:517 storage/models.py:733
+msgid "Error getting available space"
+msgstr ""
+
+#: middleware/zfs.py:531 storage/models.py:750
+msgid "Error getting used space"
+msgstr ""
+
+#: middleware/zfs.py:609
+msgid "In Progress"
+msgstr ""
+
+#: middleware/zfs.py:633
+msgid "Completed"
+msgstr ""
+
+#: middleware/zfs.py:644
+#, fuzzy
+msgid "Canceled"
+msgstr "Haladó"
+
+#: middleware/zfs.py:648
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: middleware/zfs.py:654
+msgid "None requested"
+msgstr ""
+
+#: network/admin.py:39
+#, fuzzy
+msgid "IPv4 Addresses"
+msgstr "IPv4 cím"
+
+#: network/admin.py:44
+#, fuzzy
+msgid "IPv6 Addresses"
+msgstr "IPv6 cím"
+
+#: network/admin.py:62
+msgid "Edit Members"
+msgstr ""
+
+#: network/admin.py:92
+msgid "LAGG Members"
+msgstr "LAGG Tagok"
+
+#: network/forms.py:48 network/models.py:134
+msgid "NIC"
+msgstr "Hálókártya"
+
+#: network/forms.py:115 network/forms.py:190 network/forms.py:548
+#: network/forms.py:602
+#, python-format
+msgid "You cannot configure multiple interfaces with the same IP address (%s)"
+msgstr "Nem határozhat meg több hálózati csatolót ugyanazzal az IP címmel (%s)"
+
+#: network/forms.py:128
+msgid "Only one interface can be used for DHCP"
+msgstr ""
+
+#: network/forms.py:141
+msgid "Only one interface can have IPv6 autoconfiguration enabled"
+msgstr ""
+
+#: network/forms.py:175 network/forms.py:584
+#, python-format
+msgid "The network %s is already in use by another NIC."
+msgstr ""
+
+#: network/forms.py:208
+msgid "You have to specify IPv4 address as well"
+msgstr "Az IPv4 címet is meg kell adni."
+
+#: network/forms.py:212
+msgid "You have to choose IPv4 netmask as well"
+msgstr "Az IPv4 hálózati maszkot is ki kell választani."
+
+#: network/forms.py:219
+msgid "You have to specify IPv6 address as well"
+msgstr "Az IPv6 címet is meg kell adni."
+
+#: network/forms.py:223
+msgid "You have to choose IPv6 netmask as well"
+msgstr "Az IPv6 hálózati maszkot is ki kell választani."
+
+#: network/forms.py:228
+msgid "You have to choose between IPv4 or IPv6"
+msgstr "Választani kell: IPv4, vagy IPv6."
+
+#: network/forms.py:248
+msgid "Loopback is not a valid nameserver"
+msgstr "Loopback nem érvényes névszerver"
+
+# Nem is értem, ha unspec a cim akkor persze hogy nem valid mint nevszerver. 
+#: network/forms.py:251
+msgid "Unspecified addresses are not valid as nameservers"
+msgstr "A nem beállított cím nem használható névszerverként."
+
+#: network/forms.py:255
+msgid "This is not a valid nameserver address"
+msgstr "Nem érvényes a névszerver cím."
+
+#: network/forms.py:258
+msgid "169.254/16 subnet is not valid for nameserver"
+msgstr "169.254/16 alhálózat nem érvényes névszervernek."
+
+#: network/forms.py:284
+#, fuzzy, python-format
+msgid "The IP \"%s\" is not valid"
+msgstr "A(z) '%s' IP cím nem érvényes."
+
+#: network/forms.py:295
+msgid "Must fill out nameserver 2 before filling out nameserver 3"
+msgstr "Ki kell tölteni a 2. névszervert a 3. előtt!"
+
+#: network/forms.py:298 network/forms.py:305 network/forms.py:316
+msgid "Required when using nameserver 3"
+msgstr "Szükséges, ha használja a 3. névszervert."
+
+#: network/forms.py:302
+msgid "Must fill out nameserver 1 before filling out nameserver 3"
+msgstr "Ki kell tölteni a 1. névszervert a 3. előtt!"
+
+#: network/forms.py:313
+msgid "Must fill out nameserver 1 before filling out nameserver 2"
+msgstr "Ki kell tölteni a 1. névszervert a 2. előtt!"
+
+#: network/forms.py:343
+msgid "You need a domain, e.g. hostname.domain"
+msgstr ""
+
+#: network/forms.py:357
+msgid "Parent Interface"
+msgstr "Szülő interfész"
+
+#: network/forms.py:373
+#, fuzzy
+msgid "The name must be vlanX where X is a number. Example: vlan0"
+msgstr "Az interfész név vlanXX lehet, ahol XX egy szám."
+
+#: network/forms.py:380
+msgid "VLAN Tags are 1 - 4095 inclusive"
+msgstr "VLAN címkék 1 - 4095-ig"
+
+#: network/forms.py:402
+msgid "Physical NICs in the LAGG"
+msgstr "Fizikai hálókártyák a LAGG-ban"
+
+#: network/forms.py:468
+#, fuzzy
+msgid "LAGG Physical NIC"
+msgstr "Fizikai hálókártya"
+
+#: network/forms.py:513
+#, python-format
+msgid "The network '%s' is not valid, CIDR expected."
+msgstr "A '%s' hálózat érvénytelen, CIDR-t vártam."
+
+#: network/forms.py:620
+msgid "You have to specify IPv4 address as well per alias"
+msgstr "Az IPv4 címet be kell állítani alias-onként"
+
+#: network/forms.py:624
+msgid "You have to choose IPv4 netmask as well per alias"
+msgstr "Ki kell választani az IPv4 netmaszkot aliasonként"
+
+#: network/forms.py:631
+msgid "You have to specify IPv6 address as well per alias"
+msgstr "Be kell állítani az IPv6 címet aliasonként"
+
+#: network/forms.py:635
+msgid "You have to choose IPv6 netmask as well per alias"
+msgstr "Ki kell választani az IPv6 netmaszkot aliasonként"
+
+#: network/forms.py:640
+msgid "You have to choose between IPv4 or IPv6 per alias"
+msgstr ""
+
+#: network/forms.py:645
+msgid "You must specify either an valid IPv4 or IPv6 with maskbit per alias"
+msgstr ""
+"Meg kell adni egy érvényes IPv4 vagy IPv6 vagy mindekttő típusu bitmask "
+"aliasonként"
+
+#: network/models.py:43 services/models.py:1635
+#: templates/system/system_info.html:4
+msgid "Hostname"
+msgstr "Gép neve"
+
+#: network/models.py:48
+msgid "Domain"
+msgstr "Tartomány"
+
+#: network/models.py:54
+msgid "IPv4 Default Gateway"
+msgstr "IPv4 alapértelmezett átjáró"
+
+#: network/models.py:59
+msgid "IPv6 Default Gateway"
+msgstr "IPv6 alapértelmezett átjáró"
+
+#: network/models.py:64
+msgid "Nameserver 1"
+msgstr "1. Névszerver"
+
+#: network/models.py:69
+msgid "Nameserver 2"
+msgstr "2. Névszerver"
+
+#: network/models.py:74
+msgid "Nameserver 3"
+msgstr "3. Névszerver"
+
+#: network/models.py:77
+#, fuzzy
+msgid "Enable netwait feature"
+msgstr "Atime engedélyezése"
+
+#: network/models.py:78
+msgid ""
+"If enabled, delays the start of network-reliant services until interface is "
+"up and ICMP packets to a destination defined in netwait ip list are "
+"flowing.  Link state is examined first, followed by \"pinging\" an IP "
+"address to verify network usability.  If no destination can be reached or "
+"timeouts are exceeded, network services are started anyway with no guarantee "
+"that the network is usable."
+msgstr ""
+
+#: network/models.py:88
+msgid "Netwait IP list"
+msgstr ""
+
+#: network/models.py:89
+msgid ""
+"Space-delimited list of IP addresses to ping(8). If multiple IP addresses "
+"are specified, each will be tried until one is successful or the list is "
+"exhausted. If it is empty the default gateway will be used."
+msgstr ""
+
+#: network/models.py:97
+msgid "Host name data base"
+msgstr ""
+
+#: network/models.py:98
+msgid ""
+"This field is appended to /etc/hosts which contains information regarding "
+"known hosts on the network. hosts(5)"
+msgstr ""
+
+#: network/models.py:123 network/models.py:124 network/nav.py:23
+#: templates/network/index.html:2
+msgid "Global Configuration"
+msgstr "Általános konfiguráció"
+
+#: network/models.py:135
+msgid "Pick your NIC"
+msgstr "Válaszd ki a hálókártyád!"
+
+#: network/models.py:139
+msgid "Interface Name"
+msgstr "Interfész neve"
+
+#: network/models.py:140
+msgid "Name your NIC."
+msgstr "Nevezd el a hálókártyád!"
+
+#: network/models.py:143
+msgid "DHCP"
+msgstr "DHCP"
+
+#: network/models.py:144
+msgid ""
+"When enabled, use DHCP to obtain IPv4 address as well as default router, etc."
+msgstr ""
+"Ha engedélyezett, DHCP-től kapja meg az IPv4 címet, és egyéb beállításait, "
+"mint átjáró, útvonalak, stb."
+
+#: network/models.py:157 network/models.py:262
+msgid "IPv4 Netmask"
+msgstr "IPv4 hálózati maszk"
+
+#: network/models.py:161
+msgid "Auto configure IPv6"
+msgstr "IPv6 automatikus konfigurálása"
+
+#: network/models.py:162
+msgid "When enabled, automatically configurate IPv6 address via rtsol(8)."
+msgstr ""
+"Ha engedélyezett, automatikusan konfigurálja az IPv6 címet az rtsol(8) "
+"program."
+
+#: network/models.py:166 network/models.py:266
+msgid "IPv6 Address"
+msgstr "IPv6 cím"
+
+#: network/models.py:175 network/models.py:275
+msgid "IPv6 Prefix Length"
+msgstr "IPv6 előtaghossz"
+
+#: network/models.py:180 network/models.py:413
+msgid "Options"
+msgstr "Beállítások"
+
+#: network/models.py:208 network/models.py:250 network/models.py:361
+msgid "Interface"
+msgstr "Interfész"
+
+#: network/models.py:209 templates/network/index.html:8
+msgid "Interfaces"
+msgstr "Interfészek"
+
+#: network/models.py:302
+msgid "Alias"
+msgstr "Álnév(alias)"
+
+#: network/models.py:303
+msgid "Aliases"
+msgstr "Aliasok"
+
+#: network/models.py:314
+msgid "Virtual Interface"
+msgstr "Virtuális interfész"
+
+#: network/models.py:315
+#, fuzzy
+msgid "Interface names must be vlanX where X is a number. Example: vlan0."
+msgstr "Az interfész név vlanXX lehet, ahol XX egy szám."
+
+#: network/models.py:321
+msgid "Physical Interface"
+msgstr "Fizikai interfész"
+
+#: network/models.py:324
+msgid "VLAN Tag"
+msgstr "VLAN cimke"
+
+#: network/models.py:328 network/models.py:443 plugins/models.py:157
+#: services/models.py:91 services/models.py:994 storage/admin.py:505
+#: storage/models.py:313 storage/models.py:463 support/models.py:44
+msgid "Description"
+msgstr "Leírás"
+
+#: network/models.py:342 templates/network/index.html:28
+msgid "VLAN"
+msgstr "VLAN"
+
+#: network/models.py:343
+msgid "VLANs"
+msgstr "VLAN(ok)"
+
+#: network/models.py:365
+msgid "Protocol Type"
+msgstr "Protokoll típus"
+
+#: network/models.py:370 templates/network/index.html:13
+msgid "Link Aggregation"
+msgstr "Kapcsolat összefűzés"
+
+#: network/models.py:371 network/nav.py:34
+msgid "Link Aggregations"
+msgstr "Összefűzött kapcsolatok"
+
+#: network/models.py:401
+#, fuzzy
+msgid "LAGG Interface Group"
+msgstr "LAGG interfész csoport"
+
+#: network/models.py:404
+msgid "LAGG Priority Number"
+msgstr "LAGG prioritási szám"
+
+#: network/models.py:409
+msgid "Physical NIC"
+msgstr "Fizikai hálókártya"
+
+#: network/models.py:427
+#, fuzzy
+msgid "Link Aggregation Member"
+msgstr "Kapcsolat összefűzés"
+
+#: network/models.py:428
+#, fuzzy
+msgid "Link Aggregation Members"
+msgstr "Összefűzött kapcsolatok"
+
+#: network/models.py:435
+msgid "Destination network"
+msgstr "Cél hálózat"
+
+#: network/models.py:439
+msgid "Gateway"
+msgstr "Átjáró"
+
+#: network/models.py:448
+msgid "Static Route"
+msgstr "Állandó útvonal"
+
+#: network/models.py:449 templates/network/index.html:23
+msgid "Static Routes"
+msgstr "Statikus útvonalak"
+
+#: network/nav.py:6 templates/menubar.html:14
+msgid "Network"
+msgstr "Hálózat"
+
+#: network/nav.py:15 templates/network/index.html:18
+msgid "Network Summary"
+msgstr "Hálózat összegzés"
+
+#: network/nav.py:42
+msgid "Create Link Aggregation"
+msgstr "Összefűzött kapcsolat létrehozása"
+
+#: network/nav.py:51
+#, fuzzy
+msgid "View Link Aggregations"
+msgstr "Minden összefűzött kapcsolat mutatása"
+
+#: plugins/admin.py:58 plugins/admin.py:65
+#, fuzzy
+msgid "Install"
+msgstr "Telepítve..."
+
+#: plugins/forms.py:58
+#, fuzzy
+msgid "This IP is already in use."
+msgstr "Ilyen csoportazonosító (GID) már létezik."
+
+#: plugins/forms.py:87
+msgid "PBI file to be installed"
+msgstr ""
+
+#: plugins/forms.py:89
+msgid ""
+"Click here to find out what PBI's are!<a href='http://www.pcbsd.org/en/"
+"package-management/' onclick='window.open(this.href);return false;'>"
+msgstr ""
+
+#: plugins/forms.py:105
+#, fuzzy
+msgid "Plugin Jail"
+msgstr "Aljzat fájlok törlése"
+
+#: plugins/forms.py:106
+msgid "The plugin jail that the PBI is to be installed in."
+msgstr ""
+
+#: plugins/hook.py:14 plugins/models.py:104 plugins/nav.py:29
+msgid "Plugins"
+msgstr "Bővitmények"
+
+#: plugins/models.py:39 templates/plugins/plugin_info.html:5
+#: templates/plugins/plugins.html:18
+msgid "Plugin name"
+msgstr "Plugin név"
+
+#: plugins/models.py:40
+msgid "Name of the plugin"
+msgstr "Bővítmény neve"
+
+#: plugins/models.py:45
+msgid "Plugin info name"
+msgstr ""
+
+#: plugins/models.py:46
+msgid "Info name of the plugin"
+msgstr ""
+
+#: plugins/models.py:51
+msgid "Plugin version"
+msgstr ""
+
+#: plugins/models.py:52
+msgid "Version of the plugin"
+msgstr "Bővítmény verziója"
+
+#: plugins/models.py:58
+#, fuzzy
+msgid "Plugin API version"
+msgstr "Vezérlő IP címe"
+
+#: plugins/models.py:63 plugins/models.py:64
+msgid "Plugin architecture"
+msgstr ""
+
+#: plugins/models.py:68 plugins/models.py:69
+#: templates/plugins/plugin_info.html:9
+msgid "Plugin enabled"
+msgstr "Bővítmény engedélyezése"
+
+#: plugins/models.py:75 plugins/models.py:76
+#: templates/plugins/plugin_info.html:13
+msgid "Plugin IP address"
+msgstr "Bővitmény IP címe"
+
+#: plugins/models.py:81 plugins/models.py:82
+#: templates/plugins/plugin_info.html:17
+#, fuzzy
+msgid "Plugin TCP port"
+msgstr "TCP Port"
+
+#: plugins/models.py:87
+#, fuzzy
+msgid "Plugin archive path"
+msgstr "Domén név"
+
+#: plugins/models.py:88
+msgid "Path where the plugins are saved after installation"
+msgstr ""
+
+#: plugins/models.py:93
+#, fuzzy
+msgid "Plugin jail name"
+msgstr "Plugin név"
+
+#: plugins/models.py:94
+msgid "Jail where the plugin is installed"
+msgstr ""
+
+#: plugins/models.py:103
+#, fuzzy
+msgid "Plugin"
+msgstr "Bővitmények"
+
+#: plugins/models.py:141
+msgid "Kmod"
+msgstr ""
+
+#: plugins/models.py:162 templates/plugins/plugins.html:19
+#, fuzzy
+msgid "Version"
+msgstr "OS verzió"
+
+#: plugins/models.py:173
+msgid "Repository URL"
+msgstr ""
+
+#: plugins/models.py:175
+msgid "URL for the plugins repository"
+msgstr ""
+
+#: plugins/plugin.py:120
+#, fuzzy, python-format
+msgid "Failed to download %(url)s: %(error)s"
+msgstr ""
+"Sikertelen a letöltés követekző url(ek)ről: %(url). A hiba(hibák): %(error)"
+
+#: plugins/views.py:133
+#, fuzzy
+msgid "Plugin successfully updated."
+msgstr "%s sikeresen módosítva!"
+
+#: plugins/views.py:171
+#, fuzzy
+msgid "Plugin not installed"
+msgstr "Bővítmény engedélyezése"
+
+#: plugins/views.py:181 plugins/views.py:242
+msgid "Invalid plugin"
+msgstr ""
+
+#: plugins/views.py:192 plugins/views.py:250
+#, fuzzy
+msgid "Failed to download plugin"
+msgstr "Nem tudta eltávolítani a bővítményt."
+
+#: plugins/views.py:196
+#, fuzzy
+msgid "Jail does not exist"
+msgstr "A %s csoport nem létezik."
+
+#: plugins/views.py:205
+#, fuzzy
+msgid "Failed to update plugin"
+msgstr "Bővítmény neve"
+
+#: plugins/views.py:209
+#, fuzzy
+msgid "Plugin successfully updated"
+msgstr "%s sikeresen módosítva!"
+
+#: plugins/views.py:224 plugins/views.py:355
+#, fuzzy
+msgid "No available IP addresses"
+msgstr "Vezérlő IP címe"
+
+#: plugins/views.py:266 plugins/views.py:390
+#, fuzzy
+msgid "Plugin successfully installed"
+msgstr "%s sikeresen módosítva!"
+
+#: reporting/hook.py:15 reporting/hook.py:18 reporting/nav.py:3
+#: templates/system/reporting.html:1
+msgid "Reporting"
+msgstr ""
+
+#: services/admin.py:85
+msgid "Listen"
+msgstr ""
+
+#: services/forms.py:133
+#, fuzzy
+msgid "This is not a valid mask"
+msgstr "A %s felhasználó érvénytelen."
+
+#: services/forms.py:161
+msgid "This field is required for \"Enable home directories browsing\"."
+msgstr "Kötelező mező a \"Saját könyvtár böngészésének engedélyezéséhez\""
+
+#: services/forms.py:167 services/forms.py:207 services/forms.py:213
+msgid "This field is required for \"Home directories\"."
+msgstr "Kötelező mező a \"Saját könyvtárak\" eléréséhez"
+
+#: services/forms.py:181
+msgid "The CIFS service failed to reload."
+msgstr "Az CIFS szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:198
+msgid "The AFP service failed to reload."
+msgstr "Az AFP szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:281
+msgid "The NFS service failed to reload."
+msgstr "Az NFS szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:286
+msgid "File Permission"
+msgstr "Fájl jogosultság"
+
+#: services/forms.py:287
+msgid "Directory Permission"
+msgstr "Könyvtár jogosultság"
+
+#: services/forms.py:318
+msgid "This value must be between 1024 and 65535, inclusive. 0 for default"
+msgstr "Az értéknek 1024 és 65535 között kell lennie, 0-nak az alapértékhez."
+
+#: services/forms.py:328
+msgid "This value must be between 1024 and 65535, inclusive. 0 for default."
+msgstr "Az értéknek 1024 és 65535 között kell lennie, 0-nak az alapértékhez."
+
+#: services/forms.py:333
+msgid "This must be higher than minimum passive port"
+msgstr ""
+
+#: services/forms.py:354
+msgid "This field is required for anonymous login"
+msgstr "Névtelen belépéshez szükséges mező"
+
+#: services/forms.py:366
+msgid "The ftp service failed to start."
+msgstr "Az FTP szolgáltatást nem sikerült elindítani."
+
+#: services/forms.py:394
+msgid "The tftp service failed to reload."
+msgstr "A TFTP szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:414
+msgid "The SSH service failed to reload."
+msgstr "Az SSH szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:431 services/forms.py:468
+msgid "The Rsync service failed to reload."
+msgstr "Az Rsync szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:444
+msgid "The name cannot contain slash or a closing square backet."
+msgstr "A név nem tartalmazhat / vagy ] jeleket."
+
+#: services/forms.py:475
+#, fuzzy
+msgid "Confirm Password"
+msgstr "Jelszó csere"
+
+#: services/forms.py:526
+msgid "The DynamicDNS service failed to reload."
+msgstr "A DinamikusDNS szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:540
+msgid "This is not a valid e-mail address"
+msgstr "Érvénytelen e-mail cím."
+
+#: services/forms.py:544
+msgid ""
+"The contact must contain only alphanumeric characters, _, - or a valid e-"
+"mail address"
+msgstr ""
+
+#: services/forms.py:553
+msgid "The community must contain only alphanumeric characters, _ or -"
+msgstr "A közösség csak alfanumerikus jelekből, _, és - jelekből állhat."
+
+#: services/forms.py:567
+msgid "The SNMP service failed to reload."
+msgstr "Az SNMP szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:594 services/models.py:616 services/models.py:982
+#: services/models.py:1060 services/models.py:1281
+msgid "Port"
+msgstr "Port"
+
+#: services/forms.py:629
+msgid "Use alphanumeric characters, \".\", \"-\" and \"_\"."
+msgstr ""
+"Használjon alfanumerikus jeleket, valamint: \".\", \"-\" és \"_\" jeleket."
+
+#: services/forms.py:637 services/forms.py:645
+#, fuzzy
+msgid "Spaces or number signs are not allowed."
+msgstr "Az idézőjelek nem engdélyezettek"
+
+#: services/forms.py:659 services/forms.py:1570
+#, python-format
+msgid "The email %(email)s is not valid"
+msgid_plural "The following emails are not valid: %(email)s"
+msgstr[0] "Érvénytelen e-mail cím: %(email)s"
+msgstr[1] "Az alábbi e-mail címek érvénytelenek: %(email)s"
+
+#: services/forms.py:674
+msgid "The UPS service failed to reload."
+msgstr "A UPS szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:680 services/forms.py:717
+#, fuzzy
+msgid "Confirm Administrator Password"
+msgstr "Adminisztrátor jelszava"
+
+#: services/forms.py:794
+msgid "The activedirectory service failed to reload."
+msgstr "Az ActiveDirectory szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:816
+msgid "The ldap service failed to reload."
+msgstr "Az LDAP szolgáltatás újraindítása nem sikerült."
+
+#: services/forms.py:821
+msgid "Secret (Confirm)"
+msgstr "Titok (megerősít)"
+
+#: services/forms.py:823 services/forms.py:828
+msgid "Enter the same secret above for verification."
+msgstr "Ismételd meg a titkot"
+
+#: services/forms.py:826
+#, fuzzy
+msgid "Peer Secret (Confirm)"
+msgstr "Titok (megerősít)"
+
+#: services/forms.py:868
+msgid "Secret does not match"
+msgstr "A titkok nem egyeznek meg."
+
+#: services/forms.py:885 services/forms.py:890
+msgid "The peer secret is required if you set a peer user."
+msgstr ""
+
+#: services/forms.py:899
+msgid "The peer secret cannot be the same as user secret."
+msgstr ""
+
+#: services/forms.py:906 services/forms.py:913
+msgid "The peer user is required if you set a peer secret."
+msgstr ""
+
+#: services/forms.py:935 services/forms.py:969 services/forms.py:1124
+#: services/forms.py:1357 services/forms.py:1387 services/forms.py:1461
+#: services/forms.py:1530 services/models.py:603 services/models.py:846
+msgid "The iSCSI service failed to reload."
+msgstr "A iSCSI szolgáltatást nem sikerült újratölteni."
+
+#: services/forms.py:961
+msgid "LUN already exists in the same target."
+msgstr "A LUN már létezik a célcsoportban."
+
+#: services/forms.py:974 services/models.py:475
+msgid "Controller Auth Group"
+msgstr ""
+
+#: services/forms.py:976
+msgid ""
+"The istgtcontrol can access the targets with correct userand secret in "
+"specific Auth Group."
+msgstr ""
+
+#: services/forms.py:979 services/models.py:364
+msgid "Discovery Auth Group"
+msgstr ""
+
+#: services/forms.py:1015
+#, python-format
+msgid "This value must be between %(start)d and %(end)d, inclusive."
+msgstr "Az értéknek %(start) és %(end) közöttinek kell lennie."
+
+#: services/forms.py:1030
+msgid ""
+"This field is required if discovery method is set to CHAP or CHAP Mutual."
+msgstr ""
+"Ezt a mezőt kötelező kitölteni, ha a keresés módja CHAP vagy CHAP Mutual"
+
+#: services/forms.py:1080
+msgid ""
+"This field is required whether CHAP or Mutual CHAP are set for Controller "
+"Auth Method."
+msgstr ""
+
+#: services/forms.py:1093
+#, fuzzy
+msgid "This is not a valid network"
+msgstr "A %s felhasználó érvénytelen."
+
+#: services/forms.py:1134 services/models.py:503
+msgid "Extent Type"
+msgstr ""
+
+#: services/forms.py:1245
+msgid "You need to specify a filepath, not a directory."
+msgstr "Fájl elérést kell megadni, nem egy könyvtárat!"
+
+#: services/forms.py:1250
+msgid "You need to specify a file inside your volume/dataset."
+msgstr "Egy a köteten/adatcsoporton belüli fájlt kell megadnia."
+
+#: services/forms.py:1255
+msgid ""
+"Your path to the extent must reside inside a volume/dataset mount point."
+msgstr ""
+
+#: services/forms.py:1269
+msgid ""
+"This value can be a size in bytes, or can be postfixed with KB, MB, GB, TB"
+msgstr "Az érték byte-ban megadva, vagy utótagokkal (KB, MB, GB, TB)"
+
+#: services/forms.py:1292
+msgid "The file must exist if the extent size is set to auto (0)"
+msgstr ""
+
+#: services/forms.py:1331
+#, python-format
+msgid "Serial not found and glabel failed for %(disk)s: %(error)s"
+msgstr ""
+
+#: services/forms.py:1380
+#, python-format
+msgid "Your Portal Group ID cannot be higher than %d"
+msgstr "A Portal Csoport ID nem lehet nagyobb mint %d"
+
+#: services/forms.py:1444
+msgid ""
+"The field is a not a valid IP address or network. The keyword \"ALL\" can be "
+"used to allow everything."
+msgstr ""
+"A mezőben nem megfelelő IP cím vagy hálozat van beállítva. Az \"ALL\" szót "
+"használhatod, hogy mindent engdélyezzél."
+
+#: services/forms.py:1467
+msgid "Authentication Group number"
+msgstr "Hitelesítési csoport szám"
+
+#: services/forms.py:1498
+msgid "Use alphanumeric characters, \".\", \"-\" and \":\"."
+msgstr ""
+
+#: services/forms.py:1504
+#, fuzzy
+msgid "A target with that name already exists."
+msgstr "Ilyen nevű csoport már létezik."
+
+#: services/forms.py:1535
+msgid "Delete underlying file"
+msgstr "Aljzat fájlok törlése"
+
+#: services/forms.py:1581
+#, fuzzy
+msgid "The S.M.A.R.T. service failed to reload."
+msgstr "Az SNMP szolgáltatás újraindítása nem sikerült."
+
+#: services/models.py:52
+msgid "Service"
+msgstr "Szolgáltatás"
+
+#: services/models.py:53
+msgid "Name of Service, should be auto-generated at build time"
+msgstr ""
+
+#: services/models.py:57
+msgid "Enable Service"
+msgstr "Szolgáltatás engedélyezése"
+
+#: services/models.py:60 services/models.py:61 services/nav.py:11
+#: templates/menubar.html:32
+msgid "Services"
+msgstr "Szolgáltatások"
+
+#: services/models.py:75
+msgid "Authentication Model"
+msgstr "Hitelesítési modell"
+
+#: services/models.py:76
+msgid ""
+"Using Active Directory or LDAP authentication will supersede this option"
+msgstr ""
+"Active Directory, vagy LDAP hitelesítés használata felülbírálja ezt a "
+"lehetőséget."
+
+#: services/models.py:81
+msgid "NetBIOS name"
+msgstr "NetBIOS név"
+
+#: services/models.py:85
+msgid "Workgroup"
+msgstr "Munkacsoport"
+
+#: services/models.py:86
+msgid ""
+"Workgroup the server will appear to be in when queried by clients (maximum "
+"15 characters)."
+msgstr ""
+"A munkacsoport amiben megjelenik, ha keresik a kliensek. (legfeljebb 15 "
+"karakter)"
+
+#: services/models.py:93
+msgid "Server description. This can usually be left blank."
+msgstr "Szerver leírás. Üresen maradhat."
+
+#: services/models.py:99
+msgid "DOS charset"
+msgstr "DOS karakterkészlet"
+
+#: services/models.py:105
+msgid "UNIX charset"
+msgstr "UNIX karakterkészlet"
+
+#: services/models.py:111
+msgid "Log level"
+msgstr "Naplózási szint"
+
+#: services/models.py:114
+msgid "Local Master"
+msgstr "Helyi főtallózó"
+
+#: services/models.py:116
+msgid "Time Server for Domain"
+msgstr "Domain időkiszolgáló"
+
+#: services/models.py:121 services/models.py:240
+msgid "Guest account"
+msgstr "Vendég fiók"
+
+#: services/models.py:122 services/models.py:241
+msgid ""
+"Use this option to override the username ('nobody' by default) which will be "
+"used for access to services which are specified as guest. Whatever "
+"privileges this user has will be available to any client connecting to the "
+"guest service. This user must exist in the password file, but does not "
+"require a valid login. The user root can not be used as guest account."
+msgstr ""
+"Ezzel a beállítással megváltoztatható az - alapértelmezetten \"nobody\" - "
+"felhasználónév, amivel a vendégként elérhető szolgáltatások használhatók. "
+"Amilyen jogosultság van ehhez a felhasználói fiókhoz rendelve, azt minden "
+"vendégként kapcsolódó felhasználó megkapja. Ennek a felhasználónak "
+"szerepelnie kell a jelszó fájlban, de nem szükséges érvényes bejelentkezési "
+"engedélllyel rendelkeznie. A root felhasználót nem lehet vendég-fióknak "
+"beállítani."
+
+#: services/models.py:132 services/models.py:1112
+msgid "File mask"
+msgstr "Fájl maszk"
+
+#: services/models.py:134
+msgid "Use this option to override the file creation mask (0666 by default)."
+msgstr ""
+"Ezzel az opcióval felülírható a fájl létrehozási maszk (alapból 0666). "
+
+#: services/models.py:139 services/models.py:1119
+msgid "Directory mask"
+msgstr "Könyvtár maszk"
+
+#: services/models.py:141
+msgid ""
+"Use this option to override the directory creation mask (0777 by default)."
+msgstr ""
+"Ezzel az opcióval felülírható a mappa létrehozási maszk (alapból 0777). "
+
+#: services/models.py:145
+msgid "EA Support"
+msgstr "EA támogatás"
+
+#: services/models.py:147
+msgid "Support DOS File Attributes"
+msgstr "DOS fájl attribútumok támogatása"
+
+#: services/models.py:149
+msgid "Allow Empty Password"
+msgstr "Üres jelszó engedélyezése"
+
+#: services/models.py:151 services/models.py:885 services/models.py:930
+#: services/models.py:1261 services/models.py:1744 services/models.py:1828
+msgid "Auxiliary parameters"
+msgstr "Kiegészítő paraméterek"
+
+#: services/models.py:153
+#, fuzzy
+msgid "These parameters are added to [global] section of smb.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Global] részéhez adódnak."
+
+#: services/models.py:157 services/models.py:258
+msgid "Enable home directories"
+msgstr "Saját könyvtárak engedélyezése"
+
+#: services/models.py:158
+msgid "Enable/disable home directories for samba user."
+msgstr "Engedélyezi / tiltja a samba felhasználók saját könyvtárait."
+
+#: services/models.py:161
+msgid "Enable home directories browsing"
+msgstr "Saját könyvtár böngészésének engedélyezése"
+
+#: services/models.py:162
+msgid "Enable/disable home directories browsing for samba user."
+msgstr ""
+"Engedélyezi / tiltja a samba felhasználók saját könyvtárainak böngészését."
+
+#: services/models.py:167 services/models.py:262
+msgid "Home directories"
+msgstr "Saját könyvtárak"
+
+#: services/models.py:171
+#, fuzzy
+msgid "Homes auxiliary parameters"
+msgstr "Kiegészítő paraméterek"
+
+#: services/models.py:173
+#, fuzzy
+msgid "These parameters are added to [homes] section of smb.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Share] részéhez adódnak."
+
+#: services/models.py:177
+msgid "Unix Extensions"
+msgstr ""
+
+#: services/models.py:179
+msgid ""
+"These extensions enable Samba to better serve UNIX CIFS clients by "
+"supporting features such as symbolic links, hard links, etc..."
+msgstr ""
+
+#: services/models.py:185
+msgid "Enable AIO"
+msgstr "Aszinkron I/O (AIO) engedélyezése"
+
+#: services/models.py:187
+msgid "Enable/disable AIO support."
+msgstr "Ez engedélyezi\\tiltja az AIO támogatást."
+
+#: services/models.py:191
+msgid "Minimum AIO read size"
+msgstr "Minimum AIO olvasási méret"
+
+#: services/models.py:192
+#, fuzzy
+msgid ""
+"Samba will read asynchronously if request size is larger than this value."
+msgstr ""
+"A samba aszinkron módon fog olvasni, ha a kért méret nagyobb, mint ez az "
+"érték. Az olvasási alapérték 1."
+
+#: services/models.py:199
+msgid "Minimum AIO write size"
+msgstr "Minimum AIO írási méret"
+
+#: services/models.py:200
+#, fuzzy
+msgid ""
+"Samba will write asynchronously if request size is larger than this value."
+msgstr ""
+"A samba aszinkron módon fog írni, ha a kért méret nagyobb, mint ez az érték. "
+"Az írási alapérték 1."
+
+#: services/models.py:206
+msgid "Zeroconf share discovery"
+msgstr ""
+
+#: services/models.py:208
+msgid ""
+"Zeroconf support via Avahi allows clients (the Mac OSX finder in particular) "
+"to automatically discover the CIFS shares on the system similar to the "
+"Computer Browser service in Windows."
+msgstr ""
+
+#: services/models.py:214
+#, fuzzy
+msgid "Hostnames lookups"
+msgstr "Gép neve"
+
+#: services/models.py:216
+msgid ""
+"Specifies whether samba should use (expensive) hostname lookups or use the "
+"ip addresses instead. An example place where hostname lookups are currently "
+"used is when checking the hosts deny and hosts allow."
+msgstr ""
+
+#: services/models.py:223 services/models.py:224 storage/forms.py:2039
+#: templates/services/core.html:15
+msgid "CIFS"
+msgstr "CIFS"
+
+#: services/models.py:233
+msgid "Guest Access"
+msgstr "Vendég hozzáférés"
+
+#: services/models.py:234
+msgid "Allows guest access to all apple shares on this box."
+msgstr "A Vendég felhasználó hozzáférhet minden Apple megosztáshoz."
+
+#: services/models.py:251
+#, fuzzy
+msgid "Max. Connections"
+msgstr "Max. kapcsolatok"
+
+#: services/models.py:253
+#, fuzzy
+msgid ""
+"Maximum number of connections permitted via AFP. The default limit is 50."
+msgstr "Kapcsolatok maximális száma session-önként (8 alapból)"
+
+#: services/models.py:259
+#, fuzzy
+msgid "Enable/disable home directories for afp user."
+msgstr "Engedélyezi / tiltja a samba felhasználók saját könyvtárait."
+
+#: services/models.py:267 services/models.py:268 storage/forms.py:2038
+#: templates/services/core.html:4
+msgid "AFP"
+msgstr "AFP"
+
+#: services/models.py:279
+msgid "Number of servers"
+msgstr "Kiszolgálók száma"
+
+#: services/models.py:280
+msgid ""
+"Specifies how many servers to create. There should be enough to handle the "
+"maximum level of concurrency from its clients, typically four to six."
+msgstr ""
+
+#: services/models.py:287
+#, fuzzy
+msgid "Allow non-root mount"
+msgstr "Root belépés engedélyezése"
+
+#: services/models.py:288
+msgid ""
+"Allow non-root mount requests to be served. This should only be specified if "
+"there are clients that require it.  It will automatically clear the vfs."
+"nfsrv.nfs_privport sysctl flag, which controls if the kernel will accept NFS "
+"requests from reserved ports only."
+msgstr ""
+
+#: services/models.py:298
+#, fuzzy
+msgid "Bind IP Addresses"
+msgstr "IPv4 cím"
+
+#: services/models.py:299
+msgid ""
+"Specify specific IP addresses (separated by commas) to bind to for TCP and "
+"UDP requests. This option may be specified multiple times. If no IP is "
+"specified it will bind to INADDR_ANY. It will automatically add 127.0.0.1 "
+"and if IPv6 is enabled, ::1 to the list."
+msgstr ""
+
+#: services/models.py:307
+msgid "mountd(8) bind port"
+msgstr ""
+
+#: services/models.py:312
+msgid ""
+"Force mountd to bind to the specified port, for both IPv4 and IPv6 address "
+"families. This is typically done to ensure that the port which mountd binds "
+"to is a known value which can be used in firewall rulesets."
+msgstr ""
+
+#: services/models.py:319
+msgid "rpc.statd(8) bind port"
+msgstr ""
+
+#: services/models.py:324
+msgid ""
+"This option forces the rpc.statd daemon to bind to the specified port, for "
+"both IPv4 and IPv6 address families."
+msgstr ""
+
+#: services/models.py:329
+msgid "rpc.lockd(8) bind port"
+msgstr ""
+
+#: services/models.py:334
+msgid ""
+"This option forces rpc.lockd the daemon to bind to the specified port, for "
+"both IPv4 and IPv6 address families."
+msgstr ""
+
+#: services/models.py:340 services/models.py:341 storage/forms.py:2041
+#: templates/services/core.html:76
+msgid "NFS"
+msgstr "NFS"
+
+#: services/models.py:351
+msgid "Base Name"
+msgstr "Alap név"
+
+#: services/models.py:352
+#, fuzzy
+msgid ""
+"The base name (e.g. iqn.2007-09.jp.ne.peach.istgt, see RFC 3720 and 3721 for "
+"details) will append the target name that is not starting with 'iqn.'"
+msgstr ""
+"Az alap név (pl.iqn.2007-09.jp.ne.peach.istgt, részletesen az RFC 3720 és "
+"3721-ben) ..."
+
+#: services/models.py:360
+msgid "Discovery Auth Method"
+msgstr ""
+
+#: services/models.py:371
+msgid "I/O Timeout"
+msgstr "I/O időtúllépés"
+
+#: services/models.py:372
+msgid "I/O timeout in seconds (30 by default)."
+msgstr "I/O időtúllépés másodpercben (alapbeállítás 30 mp)"
+
+#: services/models.py:377
+msgid "NOPIN Interval"
+msgstr "NOPIN időköz"
+
+#: services/models.py:378
+msgid "NOPIN sending interval in seconds (20 by default)."
+msgstr "NOPIN küldési időköz másodpercben (20s alapból)"
+
+#: services/models.py:383
+#, fuzzy
+msgid "Max. sessions"
+msgstr "Max. session-ök"
+
+#: services/models.py:384
+#, fuzzy
+msgid "Maximum number of sessions holding at same time (16 by default)."
+msgstr "Session-ök maximális egyidejű száma (16 alapból)"
+
+#: services/models.py:390
+msgid "Max. connections"
+msgstr "Max. kapcsolat"
+
+#: services/models.py:391
+#, fuzzy
+msgid "Maximum number of connections in each session (8 by default)."
+msgstr "Kapcsolatok maximális száma session-önként (8 alapból)"
+
+#: services/models.py:397
+msgid "Max. pre-send R2T"
+msgstr ""
+
+#: services/models.py:398
+msgid ""
+"Maximum number of pre-send R2T in each connection (32 by default). The "
+"actual number is limited to QueueDepth of the target."
+msgstr ""
+
+#: services/models.py:405
+msgid "MaxOutstandingR2T"
+msgstr "MaxOutstandingR2T"
+
+#: services/models.py:406
+msgid "iSCSI initial parameter (16 by default)."
+msgstr "iSCSI kezdő paramétere (16 alapból)"
+
+#: services/models.py:411
+msgid "First burst length"
+msgstr "Első burst hossz"
+
+#: services/models.py:412
+msgid "iSCSI initial parameter (65536 by default)."
+msgstr "iSCSI kezdő paramétere (65536 alapból)"
+
+#: services/models.py:417
+msgid "Max burst length"
+msgstr "Max burst hossz"
+
+#: services/models.py:418 services/models.py:424
+msgid "iSCSI initial parameter (262144 by default)."
+msgstr "iSCSI kezdő paramétere (262144 alapból)"
+
+#: services/models.py:423
+msgid "Max receive data segment length"
+msgstr "Maximális fogadott adat-szegmens hossz"
+
+#: services/models.py:429
+msgid "DefaultTime2Wait"
+msgstr "Alapértelmezett várakozási idő"
+
+#: services/models.py:430
+msgid "iSCSI initial parameter (2 by default)."
+msgstr "iSCSI kezdő paramétere (2 alapból)"
+
+#: services/models.py:435
+#, fuzzy
+msgid "DefaultTime2Retain"
+msgstr "DefaultTime2Retain"
+
+#: services/models.py:436
+msgid "iSCSI initial parameter (60 by default)."
+msgstr "iSCSI kezdő paramétere (60 alapból)"
+
+#: services/models.py:440
+msgid "Enable LUC"
+msgstr "LUC engedélyezése"
+
+#: services/models.py:444
+msgid "Controller IP address"
+msgstr "Vezérlő IP címe"
+
+#: services/models.py:445
+#, fuzzy
+msgid "Logical Unit Controller IP address (127.0.0.1(localhost) by default)"
+msgstr "Logikai egység vezérlő IP címe (127.0.0.1(localhost) alapból)"
+
+#: services/models.py:452
+msgid "Controller TCP port"
+msgstr "Vezérlő TCP portja"
+
+#: services/models.py:453
+#, fuzzy
+msgid "Logical Unit Controller TCP port (3261 by default)"
+msgstr "Logikai egység vezérlő TCP portja (3261 alapból)"
+
+#: services/models.py:459
+#, fuzzy
+msgid "Controller Authorized Network"
+msgstr "Vezérlő engedélyezett hálózati maszk"
+
+#: services/models.py:461
+#, fuzzy
+msgid "Logical Unit Controller Authorized netmask (127.0.0.0/8 by default)"
+msgstr ""
+"Logikai egység vezérlő engedélyezett hálózati maszkja (255.255.255.0 alapból)"
+
+#: services/models.py:469
+msgid "Controller Auth Method"
+msgstr "Vezérlő hitelesítési módszere"
+
+#: services/models.py:470
+msgid "The method can be accepted in the controller."
+msgstr "A vezérlő által elfogadott mód"
+
+#: services/models.py:476
+msgid ""
+"The istgtcontrol can access the targets with correct user and secret in "
+"specific Auth Group."
+msgstr ""
+
+#: services/models.py:483 services/models.py:484
+#: templates/services/iscsi.html:2
+msgid "Target Global Configuration"
+msgstr ""
+
+#: services/models.py:498
+msgid "Extent Name"
+msgstr ""
+
+#: services/models.py:499
+msgid "String identifier of the extent."
+msgstr ""
+
+#: services/models.py:504
+msgid "Type used as extent."
+msgstr ""
+
+#: services/models.py:509
+msgid "Path to the extent"
+msgstr ""
+
+#: services/models.py:510
+msgid "File path (e.g. /mnt/sharename/extent/extent0) used as extent."
+msgstr ""
+
+#: services/models.py:516
+msgid "Extent size"
+msgstr ""
+
+#: services/models.py:517
+msgid ""
+"Size of extent, 0 means auto, a raw number is bytes, or suffix with KB, MB, "
+"TB for convenience."
+msgstr ""
+
+#: services/models.py:523 services/models.py:576 services/models.py:657
+#: services/models.py:1767 sharing/models.py:43 sharing/models.py:197
+#: system/models.py:827 system/models.py:866
+msgid "Comment"
+msgstr "Megjegyzés"
+
+#: services/models.py:524 services/models.py:577 services/models.py:658
+#, fuzzy
+msgid "You may enter a description here for your reference."
+msgstr "Megadható egy leírás tájékoztatásul"
+
+#: services/models.py:529 services/models.py:830
+msgid "Extent"
+msgstr ""
+
+#: services/models.py:571 services/models.py:766
+msgid "Portal Group ID"
+msgstr "Portal csoport ID"
+
+#: services/models.py:581 services/models.py:609
+msgid "Portal"
+msgstr "Portál"
+
+#: services/models.py:613
+#, fuzzy
+msgid "IP Address"
+msgstr "IPv4 cím"
+
+#: services/models.py:625
+#, fuzzy
+msgid "Portal IP"
+msgstr "Portál"
+
+#: services/models.py:642 templates/services/iscsi.html:14
+#, fuzzy
+msgid "Initiators"
+msgstr "Kezdeményezők"
+
+#: services/models.py:644
+#, fuzzy
+msgid ""
+"Initiator authorized to access to the iSCSI target. It takes a name or 'ALL' "
+"for any initiators."
+msgstr ""
+"Engedélyezett kezdeményezők az iSCSI cél eléréséhez. Név szükséges, vagy "
+"'ALL' az összes kezdeményezőhöz."
+
+#: services/models.py:649
+msgid "Authorized network"
+msgstr "Engedélyezett hálózat"
+
+#: services/models.py:651
+#, fuzzy
+msgid ""
+"Network authorized to access to the iSCSI target. It takes IP or CIDR "
+"addresses or 'ALL' for any IPs."
+msgstr ""
+"Engedélyezett hálózat az iSCSI cél eléréséhez. IP vagy CIDR cím szükséges, "
+"vagy 'ALL' minden IP-hez."
+
+#: services/models.py:662
+msgid "Initiator"
+msgstr "Kezdeményező"
+
+#: services/models.py:700
+msgid "Target side user name. It is usually the initiator name by default."
+msgstr ""
+
+#: services/models.py:705
+msgid "Secret"
+msgstr "Titok"
+
+#: services/models.py:706
+msgid "Target side secret."
+msgstr "Cél oldali titok."
+
+#: services/models.py:711
+msgid "Peer User"
+msgstr ""
+
+#: services/models.py:712
+msgid "Initiator side user name."
+msgstr ""
+
+#: services/models.py:716
+msgid "Peer Secret"
+msgstr ""
+
+#: services/models.py:718
+msgid "Initiator side secret. (for mutual CHAP authentication)"
+msgstr ""
+
+#: services/models.py:722 templates/services/iscsi.html:20
+msgid "Authorized Access"
+msgstr "Engedélyezett hozzáférés"
+
+#: services/models.py:723
+msgid "Authorized Accesses"
+msgstr "Engedélyezett hozzáférések"
+
+#: services/models.py:733
+msgid "Target Name"
+msgstr "Cél neve"
+
+#: services/models.py:734
+msgid "Base Name will be appended automatically when starting without 'iqn.'."
+msgstr ""
+
+#: services/models.py:742
+msgid "Target Alias"
+msgstr ""
+
+#: services/models.py:743
+msgid "Optional user-friendly string of the target."
+msgstr ""
+
+#: services/models.py:746 storage/models.py:440
+msgid "Serial"
+msgstr "Soros"
+
+#: services/models.py:749
+msgid "Serial number for the logical unit"
+msgstr "A logikai egység sorozatszáma"
+
+#: services/models.py:756
+msgid "Logical Unit Type mapped to LUN."
+msgstr ""
+
+#: services/models.py:762
+msgid "Target Flags"
+msgstr ""
+
+#: services/models.py:770
+msgid "Initiator Group ID"
+msgstr ""
+
+#: services/models.py:776 services/models.py:789
+msgid "Auth Method"
+msgstr ""
+
+#: services/models.py:777 services/models.py:790
+msgid ""
+"The method can be accepted by the target. Auto means both none and "
+"authentication."
+msgstr ""
+
+#: services/models.py:782
+msgid "Authentication Group ID"
+msgstr ""
+
+#: services/models.py:796
+msgid "Queue Depth"
+msgstr "Várakozási sor mélysége"
+
+#: services/models.py:797
+msgid ""
+"0=disabled, 1-255=enabled command queuing with specified depth. The "
+"recommended queue depth is 32."
+msgstr ""
+"0=tiltott, 1-255=engedélyezett a megadott várakozási sor mélységgel. Az "
+"ajánlott értéke 32."
+
+#: services/models.py:803
+msgid "Logical Block Size"
+msgstr "Logikai blokk méret"
+
+#: services/models.py:804
+msgid ""
+"You may specify logical block length (512 by default). The recommended "
+"length for compatibility is 512."
+msgstr ""
+"Megadható a logikai blokk hossza (512 az alap). Az ajánlott hossz 512 a "
+"kompatibilitás megőrzése miatt."
+
+#: services/models.py:809 services/models.py:824
+msgid "Target"
+msgstr "Cél"
+
+#: services/models.py:825
+msgid "Target this extent belongs to"
+msgstr ""
+
+#: services/models.py:834
+msgid "Target / Extent"
+msgstr ""
+
+#: services/models.py:835
+msgid "Targets / Extents"
+msgstr ""
+
+#: services/models.py:855
+msgid "Provider"
+msgstr "Szolgáltató"
+
+#: services/models.py:859
+msgid "Domain name"
+msgstr "Domén név"
+
+#: services/models.py:861
+msgid ""
+"A host name alias. This option can appear multiple times, for each domain "
+"that has the same IP. Use a comma to separate multiple alias names."
+msgstr ""
+
+#: services/models.py:875
+msgid "Update period"
+msgstr "Frissítés gyakorisága"
+
+#: services/models.py:877
+msgid "Time in seconds. Default is about 1 min."
+msgstr ""
+
+#: services/models.py:881
+msgid "Forced update period"
+msgstr "Kényszerített frissítés gyakorisága"
+
+#: services/models.py:888
+#, fuzzy
+msgid "These parameters will be added to global settings in inadyn-mt.conf."
+msgstr ""
+"Ezek a paraméterek hozzá lesznek adva a globális beállításokhoz az inadyn."
+"conf fájlban."
+
+#: services/models.py:894 services/models.py:895
+#: templates/services/core.html:39
+msgid "Dynamic DNS"
+msgstr "Dinamikus DNS"
+
+#: services/models.py:905
+msgid "Location"
+msgstr "Hely"
+
+#: services/models.py:907
+msgid ""
+"Location information, e.g. physical location of this system: 'Floor of "
+"building, Room xyzzy'."
+msgstr "Elhelyezkedés, pl. a rendszer fizikai helye: 'I. emelet, 5-ös szoba'."
+
+#: services/models.py:912
+msgid "Contact"
+msgstr "Kapcsolat"
+
+#: services/models.py:914
+msgid ""
+"Contact information, e.g. name or email of the person responsible for this "
+"system: 'admin@email.address'."
+msgstr ""
+"Kapcsolat, pl. a rendszerért felelős neve vagy e-mail címe: 'admin@e-mail."
+"address'."
+
+#: services/models.py:921
+msgid "Community"
+msgstr "Közösség"
+
+# az snmp trap-nál a public kulcsót használják, azért nem fordítottam le.
+#: services/models.py:922
+msgid "In most cases, 'public' is used here."
+msgstr "A legtöbbször a 'public' használatos."
+
+#: services/models.py:926
+msgid "Send SNMP Traps"
+msgstr "SNMP Trap küldése"
+
+#: services/models.py:932
+#, fuzzy
+msgid "These parameters will be added to /etc/snmpd.config."
+msgstr "Ezek a paraméterek a proftpd.conf fájlban lesznek tárolva."
+
+#: services/models.py:936 services/models.py:937
+#: templates/services/core.html:109
+msgid "SNMP"
+msgstr "SNMP"
+
+#: services/models.py:950
+#, fuzzy
+msgid "Master"
+msgstr "Helyi főtallózó"
+
+#: services/models.py:951
+msgid "Slave"
+msgstr ""
+
+#: services/models.py:953
+#, fuzzy
+msgid "UPS Mode"
+msgstr "Mód"
+
+#: services/models.py:957 storage/models.py:435
+msgid "Identifier"
+msgstr "Azonosító"
+
+#: services/models.py:960
+msgid "This name is used to uniquely identify your UPS on this system."
+msgstr "Ez a név egyedileg azonosítja a rendszerhez kapcsolt UPS-t."
+
+#: services/models.py:966 storage/models.py:848 system/models.py:510
+msgid "Remote Host"
+msgstr ""
+
+#: services/models.py:971
+#, fuzzy
+msgid "Remote Port"
+msgstr "Távoli megfigyelés"
+
+#: services/models.py:975
+msgid "Driver"
+msgstr "Meghajtó"
+
+#: services/models.py:978
+msgid "The driver used to communicate with your UPS."
+msgstr "Az UPS-el való kommunikációhoz használt vezérlő."
+
+#: services/models.py:984
+msgid "The serial or USB port where your UPS is connected."
+msgstr "A soros vagy USB port ahova az UPS csatlakoztatva van."
+
+#: services/models.py:987
+#, fuzzy
+msgid "Auxiliary parameters (ups.conf)"
+msgstr "Kiegészítő paraméterek"
+
+#: services/models.py:989
+msgid "Additional parameters to the hardware-specific part of the driver."
+msgstr ""
+
+#: services/models.py:1001
+msgid "Shutdown mode"
+msgstr "Leállítás mód"
+
+#: services/models.py:1004
+msgid "Shutdown timer"
+msgstr "Leállítás késleltetése"
+
+#: services/models.py:1007
+msgid ""
+"The time in seconds until shutdown is initiated. If the UPS happens to come "
+"back before the time is up the shutdown is canceled."
+msgstr ""
+"Ennyi idő (mp) után indul el a leállítási folyamat. Ha az áram visszajön ez "
+"idő alatt akkor a leállítási folyamat nem lesz elindítva."
+
+#: services/models.py:1015
+msgid "Monitor User"
+msgstr ""
+
+#: services/models.py:1020
+#, fuzzy
+msgid "Monitor Password"
+msgstr "Jelszó csere"
+
+#: services/models.py:1024
+msgid "Extra users (upsd.users)"
+msgstr ""
+
+#: services/models.py:1027
+msgid "Remote Monitor"
+msgstr "Távoli megfigyelés"
+
+#: services/models.py:1029
+msgid "Send Email Status Updates"
+msgstr ""
+
+#: services/models.py:1032
+msgid "To email"
+msgstr "E-mail címzett"
+
+#: services/models.py:1034
+msgid "Destination email address. Separate email addresses by semi-colon."
+msgstr "Az e-mail címzettje. Több cím esetén pontosvesszővel (;) felsorolva."
+
+#: services/models.py:1039
+msgid "Email Subject"
+msgstr "Email tárgya"
+
+#: services/models.py:1042
+msgid ""
+"The subject of the email. You can use the following parameters for "
+"substitution:<br /><ul><li>%d - Date</li><li>%h - Hostname</li></ul>"
+msgstr ""
+"Az e-mail tárgya. Az alábbi paraméterek használhatók:<br /><ul><li>%d - "
+"Dátum</li><li>%h - Hostnév</li></ul>"
+
+#: services/models.py:1049 services/models.py:1050
+#: templates/services/core.html:142
+msgid "UPS"
+msgstr "UPS"
+
+#: services/models.py:1062
+msgid "Port to bind FTP server."
+msgstr "Az FTP szerver portja."
+
+#: services/models.py:1066
+msgid "Clients"
+msgstr "Kliensek"
+
+#: services/models.py:1068
+msgid "Maximum number of simultaneous clients."
+msgstr "Az egyidejű kliensek maximális száma."
+
+#: services/models.py:1072
+msgid "Connections"
+msgstr "Kapcsolatok"
+
+#: services/models.py:1074
+msgid "Maximum number of connections per IP address (0 = unlimited)."
+msgstr "Az IP címenkénti kapcsolatok maximális száma (0=korlátlan)."
+
+#: services/models.py:1079
+msgid "Login Attempts"
+msgstr "Belépési kísérletek"
+
+#: services/models.py:1081
+msgid "Maximum number of allowed password attempts before disconnection."
+msgstr "A belépési kísérletek maximális száma a kapcsolat bontása előtt."
+
+#: services/models.py:1086
+msgid "Timeout"
+msgstr "Időtúllépés"
+
+#: services/models.py:1088
+msgid "Maximum idle time in seconds."
+msgstr "A maximális üresjárati idő (mp-ben)."
+
+#: services/models.py:1091
+msgid "Allow Root Login"
+msgstr "Root belépés engedélyezése"
+
+#: services/models.py:1093
+msgid "Allow Anonymous Login"
+msgstr "Anonymous belépés engedélyezése"
+
+#: services/models.py:1096 services/models.py:1770 sharing/models.py:47
+#: sharing/models.py:111 sharing/models.py:284 sharing/models.py:290
+#: storage/forms.py:174 system/models.py:505 templates/storage/wizard.html:76
+msgid "Path"
+msgstr "Útvonal"
+
+#: services/models.py:1098
+msgid "Allow Local User Login"
+msgstr "Helyi felhasználó belépésének engedélyezése"
+
+#: services/models.py:1102
+msgid "Display Login"
+msgstr ""
+
+#: services/models.py:1105
+msgid "Message which will be displayed to the user when they initially login."
+msgstr ""
+
+#: services/models.py:1113
+msgid "Use this option to override the file creation mask (077 by default)."
+msgstr "Ezzel az opcióval felülírható a fájl létrehozási maszk (alapból 077). "
+
+#: services/models.py:1121
+#, fuzzy
+msgid ""
+"Use this option to override the directory creation mask (077 by default)."
+msgstr ""
+"Ezzel az opcióval felülírható a mappa létrehozási maszk (alapból 0777). "
+
+#: services/models.py:1126
+msgid "Enable FXP"
+msgstr "FXP engedélyezése"
+
+#: services/models.py:1128
+msgid "Allow Transfer Resumption"
+msgstr "Adatátvitel újrakezdés engedélyezése"
+
+#: services/models.py:1130
+msgid "Always Chroot"
+msgstr "Mindig Chroot"
+
+#: services/models.py:1132
+msgid ""
+"For local users, only allow access to user home directory unless the user is "
+"a member of group wheel."
+msgstr ""
+
+#: services/models.py:1137
+msgid "Require IDENT Authentication"
+msgstr "IDENT azonosítás szükséges"
+
+#: services/models.py:1139
+#, fuzzy
+msgid "Perform Reverse DNS Lookups"
+msgstr "Reverse DNS szükséges az IP-hez"
+
+#: services/models.py:1141
+msgid "Masquerade address"
+msgstr ""
+
+#: services/models.py:1144
+msgid ""
+"Causes the server to display the network information for the specified "
+"address to the client, on the assumption that IP address or DNS host is "
+"acting as a NAT gateway or port forwarder for the server."
+msgstr ""
+
+#: services/models.py:1151
+msgid "Minimum passive port"
+msgstr "Minimális passzív port"
+
+#: services/models.py:1152
+msgid ""
+"The minimum port to allocate for PASV style data connections (0 = use any "
+"port)."
+msgstr ""
+
+#: services/models.py:1157
+msgid "Maximum passive port"
+msgstr "Maximális passzív port"
+
+#: services/models.py:1158
+msgid ""
+"The maximum port to allocate for PASV style data connections (0 = use any "
+"port). Passive ports restricts the range of ports from which the server will "
+"select when sent the PASV command from a client. The server will randomly "
+"choose a number from within the specified range until an open port is found. "
+"The port range selected must be in the non-privileged range (eg. greater "
+"than or equal to 1024). It is strongly recommended that the chosen range be "
+"large enough to handle many simultaneous passive connections (for example, "
+"49152-65534, the IANA-registered ephemeral port range)."
+msgstr ""
+
+#: services/models.py:1171
+msgid "Local user upload bandwidth"
+msgstr "Helyi felhasználó feltöltési sávszélesség"
+
+#: services/models.py:1172
+msgid "Local user upload bandwidth in KB/s. Zero means infinity."
+msgstr "Helyi felhasználó feltöltési sávszélessége (KB/s). 0=Korlátlan"
+
+#: services/models.py:1177
+msgid "Local user download bandwidth"
+msgstr "Helyi felhasználó letöltési sávszélesség"
+
+#: services/models.py:1178
+msgid "Local user download bandwidth in KB/s. Zero means infinity."
+msgstr "Helyi felhasználó letöltési sávszélessége (KB/s). 0=Korlátlan"
+
+#: services/models.py:1183
+msgid "Anonymous user upload bandwidth"
+msgstr "Anonim felhasználó feltöltési sávszélesség"
+
+#: services/models.py:1184
+msgid "Anonymous user upload bandwidth in KB/s. Zero means infinity."
+msgstr "Anonim felhasználó feltöltési sávszélessége (KB/s). 0=Korlátlan"
+
+#: services/models.py:1189
+msgid "Anonymous user download bandwidth"
+msgstr "Anonim felhasználó letöltési sávszélesség"
+
+#: services/models.py:1190
+msgid "Anonymous user download bandwidth in KB/s. Zero means infinity."
+msgstr "Anonim felhasználó letöltési sávszélessége (KB/s). 0=Korlátlan"
+
+#: services/models.py:1194
+#, fuzzy
+msgid "Enable TLS"
+msgstr "SSL/TLS engedélyezése"
+
+#: services/models.py:1199
+msgid "TLS policy"
+msgstr ""
+
+#: services/models.py:1202
+msgid "TLS allow client renegotiations"
+msgstr ""
+
+#: services/models.py:1206
+#, fuzzy
+msgid "TLS allow dot login"
+msgstr "Root belépés engedélyezése"
+
+#: services/models.py:1210
+msgid "TLS allow per user"
+msgstr ""
+
+#: services/models.py:1214
+msgid "TLS common name required"
+msgstr ""
+
+#: services/models.py:1218
+msgid "TLS enable diagnostics"
+msgstr ""
+
+#: services/models.py:1222
+#, fuzzy
+msgid "TLS export certificate data"
+msgstr "Magunk által aláírt(Self signed) tanusítvány"
+
+#: services/models.py:1226
+#, fuzzy
+msgid "TLS no certificate request"
+msgstr "Magunk által aláírt(Self signed) tanusítvány"
+
+#: services/models.py:1230
+msgid "TLS no empty fragments"
+msgstr ""
+
+#: services/models.py:1234
+msgid "TLS no session reuse required"
+msgstr ""
+
+#: services/models.py:1238
+msgid "TLS export standard vars"
+msgstr ""
+
+#: services/models.py:1242
+msgid "TLS use implicit SSL"
+msgstr ""
+
+#: services/models.py:1246
+#, fuzzy
+msgid "TLS DNS name required"
+msgstr "Kötelező."
+
+#: services/models.py:1250
+msgid "TLS IP address required"
+msgstr ""
+
+#: services/models.py:1254
+msgid "Certificate and private key"
+msgstr ""
+
+#: services/models.py:1256
+#, fuzzy
+msgid "Place the contents of your certificate and private key here."
+msgstr "Ird ide a Magunk Által Aláírt(Self signed) tanúsítvány tartalmát"
+
+#: services/models.py:1263
+msgid "These parameters are added to proftpd.conf."
+msgstr "Ezek a paraméterek a proftpd.conf fájlban lesznek tárolva."
+
+#: services/models.py:1267 services/models.py:1268
+#: templates/services/core.html:52
+msgid "FTP"
+msgstr "FTP"
+
+#: services/models.py:1273
+msgid "Directory"
+msgstr "Könyvtár"
+
+#: services/models.py:1274
+msgid ""
+"The directory containing the files you want to publish. The remote host does "
+"not need to pass along the directory as part of the transfer."
+msgstr ""
+
+#: services/models.py:1279
+msgid "Allow New Files"
+msgstr "Új fájlok engedélyezése"
+
+#: services/models.py:1284
+msgid ""
+"The port to listen to. The default is to listen to the tftp port specified "
+"in /etc/services."
+msgstr ""
+"TFTP portja. Az alapértelmezett érték az /etc/services fájlban található."
+
+#: services/models.py:1291
+msgid "Specifies the username which the service will run as."
+msgstr ""
+"Meghatározza a felhasználónevet akinek a nevében fog a szolgáltatás futni."
+
+#: services/models.py:1296
+msgid "umask"
+msgstr "umask"
+
+#: services/models.py:1298
+msgid ""
+"Set the umask for newly created files to the specified value. The default is "
+"022 (everyone can read, nobody can write)."
+msgstr ""
+
+#: services/models.py:1304 services/models.py:1363 system/models.py:628
+msgid "Extra options"
+msgstr "Extra opciók"
+
+#: services/models.py:1306
+msgid "Extra command line options (usually empty)."
+msgstr "Extra parancssori opciók (általában üres)."
+
+#: services/models.py:1310 services/models.py:1311
+#: templates/services/core.html:131
+msgid "TFTP"
+msgstr "TFTP"
+
+#: services/models.py:1320 services/models.py:1739
+msgid "TCP Port"
+msgstr "TCP Port"
+
+#: services/models.py:1323
+msgid "Alternate TCP port. Default is 22"
+msgstr "Alternatív TCP port. A 22 az alapértelmezett."
+
+#: services/models.py:1326
+msgid "Login as Root with password"
+msgstr "Belépés Root-ként jelszóval"
+
+#: services/models.py:1327
+msgid ""
+"Disabled: Root can only login via public key authentication; Enabled: Root "
+"login permitted with password"
+msgstr ""
+"Tiltva: A Root csak publikus kulccsal azonosíthatja magát; Engedélyezve: A "
+"Root azonosítható jelszóval"
+
+#: services/models.py:1331
+msgid "Allow Password Authentication"
+msgstr "Jelszavas hitelesítés engedélyezése"
+
+#: services/models.py:1333
+msgid "Allow TCP Port Forwarding"
+msgstr "TCP Port Forwarding engedélyezése"
+
+#: services/models.py:1335
+msgid "Compress Connections"
+msgstr "Kapcsolat tömörítés"
+
+#: services/models.py:1338
+msgid "Host Private Key"
+msgstr "Host Privát kulcsa"
+
+#: services/models.py:1340
+msgid "Paste a RSA PRIVATE KEY in PEM format here."
+msgstr "A PEM formátumú RSA Privát kulcs beillesztésének helye."
+
+#: services/models.py:1343
+#, fuzzy
+msgid "SFTP Log Level"
+msgstr "Naplózási szint"
+
+#: services/models.py:1347
+msgid ""
+"Specifies which messages will be logged by sftp-server. INFO and VERBOSE log "
+"transactions that sftp-server performs on behalf of the client. DEBUG2 and "
+"DEBUG3 each specify higher levels of debugging output. The default is ERROR."
+msgstr ""
+
+#: services/models.py:1354
+msgid "SFTP Log Facility"
+msgstr ""
+
+#: services/models.py:1358
+msgid ""
+"Specifies the facility code that is used when logging messages from sftp-"
+"server."
+msgstr ""
+
+#: services/models.py:1365
+msgid ""
+"Extra options to /etc/ssh/sshd_config (usually empty). Note, incorrect "
+"entered options prevent SSH service to be started."
+msgstr ""
+
+#: services/models.py:1419 services/models.py:1420
+#: templates/services/core.html:120
+msgid "SSH"
+msgstr "SSH"
+
+#: services/models.py:1436 services/models.py:1532
+#, fuzzy
+msgid "Domain Controller"
+msgstr "Domain vezérlő neve"
+
+#: services/models.py:1437 services/models.py:1533
+msgid "Hostname of the domain controller to use."
+msgstr ""
+
+#: services/models.py:1441 services/models.py:1487
+msgid "NetBIOS Name"
+msgstr "NetBIOS név"
+
+#: services/models.py:1442 services/models.py:1488
+#, fuzzy
+msgid "System hostname"
+msgstr "Host név régebbi formában, pl VALAMI"
+
+#: services/models.py:1446 services/models.py:1492
+msgid "Workgroup Name"
+msgstr "Munkacsoport neve"
+
+#: services/models.py:1447 services/models.py:1493
+#, fuzzy
+msgid "Workgroup or domain name in old format, eg WORKGROUP"
+msgstr "Munkacsoport neve régebbi formában, pl. VALAMI"
+
+#: services/models.py:1451 services/models.py:1497
+msgid "Administrator Name"
+msgstr "Adminisztrátor neve"
+
+#: services/models.py:1452 services/models.py:1498
+#, fuzzy
+msgid "Domain Administrator account name"
+msgstr "Domain Adminisztrátor fiók jelszava."
+
+#: services/models.py:1456 services/models.py:1502
+msgid "Administrator Password"
+msgstr "Adminisztrátor jelszava"
+
+#: services/models.py:1457 services/models.py:1503
+#, fuzzy
+msgid "Domain Administrator account password."
+msgstr "Domain Adminisztrátor fiók jelszava."
+
+#: services/models.py:1472 services/models.py:1473
+#, fuzzy
+msgid "NT4 Domain"
+msgstr "Tartomány"
+
+#: services/models.py:1482
+msgid "Domain Name (DNS/Realm-Name)"
+msgstr "Domain név (DNS/Realm-Name)"
+
+#: services/models.py:1483
+msgid "Domain Name, eg example.com"
+msgstr "Domain név, pl. valami.hu"
+
+#: services/models.py:1512
+#, fuzzy
+msgid "Verbose logging"
+msgstr "Jelentkezz be."
+
+#: services/models.py:1516
+#, fuzzy
+msgid "UNIX extensions"
+msgstr "Nincs NTP kiszolgáló kijelölve. "
+
+#: services/models.py:1517
+msgid "Set this if your Active Directory has UNIX extensions."
+msgstr ""
+
+#: services/models.py:1521
+#, fuzzy
+msgid "Allow Trusted Domains"
+msgstr "Engedélyezd a csoportazonosítók (GID) ismétlését."
+
+#: services/models.py:1522
+msgid "Set this if you want to allow Trusted Domains."
+msgstr ""
+
+#: services/models.py:1526
+msgid "Use default domain"
+msgstr ""
+
+#: services/models.py:1527
+msgid "Set this if you want to use the default domain for users and groups."
+msgstr ""
+
+#: services/models.py:1538
+msgid "Global Catalog Server"
+msgstr ""
+
+#: services/models.py:1539
+msgid "Hostname of the global catalog server to use."
+msgstr ""
+
+#: services/models.py:1544
+#, fuzzy
+msgid "Kerberos Server"
+msgstr "Kiszolgálók száma"
+
+#: services/models.py:1545
+msgid "Hostname of the kerberos server to use."
+msgstr ""
+
+#: services/models.py:1550
+msgid "Kerberos Password Server"
+msgstr ""
+
+#: services/models.py:1551
+msgid "Hostname of the kerberos password server to use."
+msgstr ""
+
+#: services/models.py:1555
+#, fuzzy
+msgid "AD timeout"
+msgstr "Időtúllépés"
+
+#: services/models.py:1556
+msgid "Timeout for AD related commands."
+msgstr ""
+
+#: services/models.py:1560
+#, fuzzy
+msgid "DNS timeout"
+msgstr "Időtúllépés"
+
+#: services/models.py:1561
+msgid "Timeout for AD DNS queries."
+msgstr ""
+
+#: services/models.py:1600
+#, fuzzy
+msgid "NIS domain"
+msgstr "Tartomány"
+
+#: services/models.py:1601
+#, fuzzy
+msgid "NIS domain name"
+msgstr "Domén név"
+
+#: services/models.py:1606
+#, fuzzy
+msgid "NIS servers"
+msgstr "NTP Szerverek"
+
+#: services/models.py:1607
+msgid "Comma delimited list of NIS servers"
+msgstr ""
+
+#: services/models.py:1611
+msgid "Secure mode"
+msgstr ""
+
+#: services/models.py:1612
+msgid "Cause ypbind to run in secure mode"
+msgstr ""
+
+#: services/models.py:1616
+msgid "Manycast"
+msgstr ""
+
+#: services/models.py:1617
+msgid "Cause ypbind to use 'many-cast' instead of broadcast"
+msgstr ""
+
+#: services/models.py:1625 services/models.py:1626
+#, fuzzy
+msgid "NIS Domain"
+msgstr "Tartomány"
+
+#: services/models.py:1637
+msgid "The name or IP address of the LDAP server"
+msgstr "A LDAP szerver címe vagy IP-je"
+
+#: services/models.py:1641
+msgid "Base DN"
+msgstr "Alap DN"
+
+#: services/models.py:1643
+msgid ""
+"The default base Distinguished Name (DN) to use for searches, eg dc=test,"
+"dc=org"
+msgstr ""
+
+#: services/models.py:1647
+msgid "Allow Anonymous Binding"
+msgstr ""
+
+#: services/models.py:1650
+msgid "Root bind DN"
+msgstr ""
+
+#: services/models.py:1652
+msgid ""
+"The distinguished name with which to bind to the directory server, e.g. "
+"cn=admin,dc=test,dc=org"
+msgstr ""
+
+#: services/models.py:1657
+msgid "Root bind password"
+msgstr ""
+
+#: services/models.py:1659
+msgid "The credentials with which to bind."
+msgstr ""
+
+#: services/models.py:1665
+msgid "Password Encryption"
+msgstr "Jelszótitkosítás"
+
+#: services/models.py:1666
+msgid "The password change protocol to use."
+msgstr ""
+
+#: services/models.py:1671
+msgid "User Suffix"
+msgstr "Felhasználói utótag"
+
+#: services/models.py:1672
+msgid ""
+"This parameter specifies the suffix that is used for users when these are "
+"added to the LDAP directory, e.g. ou=Users"
+msgstr ""
+
+#: services/models.py:1679
+msgid "Group Suffix"
+msgstr "Csoport utótag"
+
+#: services/models.py:1680
+msgid ""
+"This parameter specifies the suffix that is used for groups when these are "
+"added to the LDAP directory, e.g. ou=Groups"
+msgstr ""
+
+#: services/models.py:1686
+msgid "Password Suffix"
+msgstr "Jelszó utótag"
+
+#: services/models.py:1688
+msgid ""
+"This parameter specifies the suffix that is used for passwords when these "
+"are added to the LDAP directory, e.g. ou=Passwords"
+msgstr ""
+
+#: services/models.py:1694
+msgid "Machine Suffix"
+msgstr "Gép utótag"
+
+#: services/models.py:1696
+msgid ""
+"This parameter specifies the suffix that is used for machines when these are "
+"added to the LDAP directory, e.g. ou=Computers"
+msgstr ""
+
+#: services/models.py:1704
+#, fuzzy
+msgid "Encryption Mode"
+msgstr "Hitelesítési modell"
+
+#: services/models.py:1706
+msgid "This parameter specifies whether to use SSL/TLS, e.g. on/off/start_tls"
+msgstr ""
+
+#: services/models.py:1711
+msgid "Self signed certificate"
+msgstr "Magunk által aláírt(Self signed) tanusítvány"
+
+#: services/models.py:1713
+msgid "Place the contents of your self signed certificate file here."
+msgstr "Ird ide a Magunk Által Aláírt(Self signed) tanúsítvány tartalmát"
+
+#: services/models.py:1718 sharing/models.py:81
+msgid "Auxiliary Parameters"
+msgstr "További paraméterek"
+
+#: services/models.py:1720
+msgid "These parameters are added to ldap.conf."
+msgstr "A következő paraméterek hozzá lesznek adva az ldap.conf-hoz"
+
+#: services/models.py:1740
+msgid "Alternate TCP port. Default is 873"
+msgstr ""
+
+#: services/models.py:1745
+#, fuzzy
+msgid "These parameters will be added to [global] settings in rsyncd.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Global] részéhez adódnak."
+
+#: services/models.py:1750 services/models.py:1751
+msgid "Configure Rsyncd"
+msgstr ""
+
+#: services/models.py:1762
+msgid "Module name"
+msgstr "Module neve"
+
+#: services/models.py:1771
+msgid "Path to be shared"
+msgstr ""
+
+#: services/models.py:1777
+msgid "Access Mode"
+msgstr "Hozzáférési mód"
+
+#: services/models.py:1778
+msgid "This controls the access a remote host has to this module"
+msgstr ""
+
+#: services/models.py:1783
+#, fuzzy
+msgid "Maximum connections"
+msgstr "Max. kapcsolatok"
+
+#: services/models.py:1784
+#, fuzzy
+msgid "Maximum number of simultaneous connections. Default is 0 (unlimited)"
+msgstr "Kapcsolatok maximális száma session-önként (8 alapból)"
+
+#: services/models.py:1791
+msgid ""
+"This option specifies the user name that file transfers to and from that "
+"module should take place. In combination with the 'Group' option this "
+"determines what file permissions are available. Leave this field empty to "
+"use default settings"
+msgstr ""
+
+#: services/models.py:1802
+msgid ""
+"This option specifies the group name that file transfers to and from that "
+"module should take place. Leave this field empty to use default settings"
+msgstr ""
+
+#: services/models.py:1808
+msgid "Hosts allow"
+msgstr "Engedélyezett host-ok"
+
+#: services/models.py:1809
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this module. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings"
+msgstr ""
+
+#: services/models.py:1816
+msgid "Hosts deny"
+msgstr "Tiltott host-ok"
+
+#: services/models.py:1817
+msgid ""
+"This option is a comma, space, or tab delimited set of host which are NOT "
+"permitted to access this module. Where the lists conflict, the allow list "
+"takes precedence. In the event that it is necessary to deny all by default, "
+"use the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify "
+"to the hosts allow parameter those hosts that should be permitted access. "
+"Leave this field empty to use default settings"
+msgstr ""
+
+#: services/models.py:1829
+#, fuzzy
+msgid ""
+"These parameters will be added to the module configuration in rsyncd.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Global] részéhez adódnak."
+
+#: services/models.py:1835
+msgid "Rsync Module"
+msgstr "Rsync Modul"
+
+#: services/models.py:1836
+msgid "Rsync Modules"
+msgstr "Rsync Modulok"
+
+#: services/models.py:1850
+msgid "Check interval"
+msgstr "Ellenőrzés gyakorisága"
+
+#: services/models.py:1851
+msgid ""
+"Sets the interval between disk checks to N minutes. The default is 30 minutes"
+msgstr ""
+
+#: services/models.py:1858
+msgid "Power mode"
+msgstr ""
+
+#: services/models.py:1862
+msgid "Difference"
+msgstr "Különbség"
+
+#: services/models.py:1863
+msgid ""
+"Report if the temperature had changed by at least N degrees Celsius since "
+"last report. 0 to disable"
+msgstr ""
+
+#: services/models.py:1868
+#, fuzzy
+msgid "Informational"
+msgstr "Normális"
+
+#: services/models.py:1869
+msgid ""
+"Report as informational in the system log if the temperature is greater or "
+"equal than N degrees Celsius. 0 to disable"
+msgstr ""
+
+#: services/models.py:1875
+msgid "Critical"
+msgstr "Kritikus"
+
+#: services/models.py:1876
+msgid ""
+"Report as critical in the system log and send an email if the temperature is "
+"greater or equal than N degrees Celsius. 0 to disable"
+msgstr ""
+
+#: services/models.py:1881
+msgid "Email to report"
+msgstr "Email jelentés"
+
+#: services/models.py:1884
+#, fuzzy
+msgid "Destination email address. Separate email addresses by commas"
+msgstr "Az e-mail címzettje. Több cím esetén pontosvesszővel (;) felsorolva."
+
+#: services/models.py:1889 services/models.py:1890
+#: templates/services/core.html:98
+msgid "S.M.A.R.T."
+msgstr "S.M.A.R.T."
+
+#: services/nav.py:28
+msgid "Control Services"
+msgstr ""
+
+#: services/nav.py:79 storage/forms.py:2040 templates/services/core.html:63
+msgid "iSCSI"
+msgstr ""
+
+#: services/nav.py:87 templates/services/core.html:87
+msgid "Rsync"
+msgstr "Rsync"
+
+#: services/nav.py:95
+msgid "Add Rsync Module"
+msgstr "Rsync module hozzáadása"
+
+#: services/nav.py:106
+#, fuzzy
+msgid "View Rsync Modules"
+msgstr "Rsync Modulok"
+
+#: services/nav.py:115 templates/services/core.html:27
+#, fuzzy
+msgid "Directory Services"
+msgstr "Könyvtár jogosultság"
+
+#: services/views.py:191
+msgid "The service could not be stopped."
+msgstr ""
+
+#: services/views.py:197
+msgid "The service could not be started."
+msgstr "A szolgáltatás nem tudott elindulni."
+
+#: sharing/admin.py:78 sharing/models.py:291
+#, fuzzy
+msgid "Paths"
+msgstr "Útvonal"
+
+#: sharing/forms.py:88
+#, fuzzy
+msgid "Confirm Share Password"
+msgstr "Megosztás jelszava"
+
+#: sharing/forms.py:118
+#, fuzzy
+msgid "Delete password"
+msgstr "Jelszó letiltása"
+
+#: sharing/forms.py:148 sharing/forms.py:153
+#, fuzzy
+msgid "The umask must be between 000 and 777."
+msgstr "Az értéknek 0 és 1000 között kell lennie."
+
+#: sharing/forms.py:195
+#, fuzzy, python-format
+msgid "This is not a valid network: %s"
+msgstr "A %s felhasználó érvénytelen."
+
+#: sharing/forms.py:229
+msgid "Maproot group requires Maproot user"
+msgstr ""
+
+#: sharing/forms.py:237
+msgid "Mapall group requires Mapall user"
+msgstr ""
+
+#: sharing/forms.py:246 sharing/forms.py:251
+msgid "Maproot user/group disqualifies Mapall"
+msgstr ""
+
+#: sharing/forms.py:274
+msgid "Paths for a NFS share must reside within the same filesystem"
+msgstr ""
+
+#: sharing/forms.py:281
+msgid "You cannot share a mount point and subdirectories all at once"
+msgstr ""
+
+#: sharing/forms.py:309
+msgid "This option is only available once per mountpoint"
+msgstr ""
+
+#: sharing/forms.py:318
+#, python-format
+msgid ""
+"The network %s is already being shared and cannot be used twice for the same "
+"filesystem"
+msgstr ""
+
+#: sharing/forms.py:341
+msgid "You need at least one path for the share"
+msgstr ""
+
+#: sharing/forms.py:364
+#, fuzzy, python-format
+msgid "The path %s does not exist"
+msgstr "A %s csoport nem létezik."
+
+#: sharing/models.py:49
+msgid "Export Read Only"
+msgstr ""
+
+#: sharing/models.py:51
+msgid "Browsable to Network Clients"
+msgstr ""
+
+#: sharing/models.py:53
+#, fuzzy
+msgid "Inherit Owner"
+msgstr "Örököl"
+
+#: sharing/models.py:55
+msgid "Inherit Permissions"
+msgstr "Engedélyek öröklése"
+
+#: sharing/models.py:57
+msgid "Export Recycle Bin"
+msgstr ""
+
+#: sharing/models.py:59
+msgid "Show Hidden Files"
+msgstr "Rejtett fájlok megjelenítése"
+
+#: sharing/models.py:61
+msgid "Allow Guest Access"
+msgstr "Vendég hozzáférés engedélyezése"
+
+#: sharing/models.py:62
+msgid ""
+"If true then no password is required to connect to the share. Privileges "
+"will be those of the guest account."
+msgstr ""
+
+#: sharing/models.py:65
+msgid "Only Allow Guest Access"
+msgstr "Csak vendég hozzáférés engedélyezése"
+
+#: sharing/models.py:66
+msgid ""
+"If true then only guest connections to the share are permitted. This "
+"parameter will have no effect if Allow Guest Access is not set for the share."
+msgstr ""
+
+#: sharing/models.py:71
+msgid "Hosts Allow"
+msgstr "Engedélyezett host-ok"
+
+#: sharing/models.py:72
+msgid ""
+"This option is a comma, space, or tab delimited set of hosts which are "
+"permitted to access this share. You can specify the hosts by name or IP "
+"number. Leave this field empty to use default settings."
+msgstr ""
+
+#: sharing/models.py:76
+msgid "Hosts Deny"
+msgstr "Tiltott host-ok"
+
+#: sharing/models.py:77
+msgid ""
+"This option is a comma, space, or tab delimited set of host which are NOT "
+"permitted to access this share. Where the lists conflict, the allow list "
+"takes precedence. In the event that it is necessary to deny all by default, "
+"use the keyword ALL (or the netmask 0.0.0.0/0) and then explicitly specify "
+"to the hosts allow parameter those hosts that should be permitted access. "
+"Leave this field empty to use default settings."
+msgstr ""
+
+#: sharing/models.py:83
+msgid "These parameters are added to [Share] section of smb.conf"
+msgstr "Ezek a paraméterek az smb.conf fájl [Share] részéhez adódnak."
+
+#: sharing/models.py:94
+msgid "Windows (CIFS) Share"
+msgstr "Windows (CIFS) megosztás"
+
+#: sharing/models.py:95
+#, fuzzy
+msgid "Windows (CIFS) Shares"
+msgstr "Windows megosztások"
+
+#: sharing/models.py:103
+msgid ""
+"The volume name is the name that appears in the Chooser of the 'connect to "
+"server' dialog on Macintoshes to represent the appropriate share. If "
+"volumename is unspecified, the last component of pathname is used. No two "
+"volumes may have the same name. The volume name cannot contain the ':' "
+"character. The volume name is mangled if it is very long. Mac codepage "
+"volume name is limited to 27 characters. UTF8-MAC volume name is limited to "
+"'Volume Name Length' parameter in Services:Apple Share"
+msgstr ""
+
+#: sharing/models.py:107
+msgid "Share Comment"
+msgstr "Megosztás megjegyzés"
+
+#: sharing/models.py:114
+msgid "Share password"
+msgstr "Megosztás jelszava"
+
+#: sharing/models.py:116
+msgid ""
+"This option allows you to set a volume password, which can be a maximum of 8 "
+"characters long (using ASCII strongly recommended at the time of this "
+"writing)."
+msgstr ""
+
+#: sharing/models.py:120
+msgid "Allow List"
+msgstr "Engedélyezett lista"
+
+#: sharing/models.py:122
+msgid ""
+"This option allows the users and groups that access a share to be specified. "
+"Users and groups are specified, delimited by commas. Groups are designated "
+"by a @ prefix."
+msgstr ""
+
+#: sharing/models.py:126
+msgid "Deny List"
+msgstr "Tiltott lista"
+
+#: sharing/models.py:128
+msgid ""
+"The deny option specifies users and groups who are not allowed access to the "
+"share. It follows the same format as the allow option."
+msgstr ""
+
+#: sharing/models.py:132
+msgid "Read-only Access"
+msgstr "Csak olvasási hozzáférés"
+
+#: sharing/models.py:134
+msgid ""
+"Allows certain users and groups to have read-only access to a share. This "
+"follows the allow option format."
+msgstr ""
+
+#: sharing/models.py:138
+msgid "Read-write Access"
+msgstr ""
+
+#: sharing/models.py:140
+msgid ""
+"Allows certain users and groups to have read/write access to a share. This "
+"follows the allow option format."
+msgstr ""
+
+#: sharing/models.py:143
+msgid "Time Machine"
+msgstr "Időgép"
+
+#: sharing/models.py:144
+msgid "Check this to enable Time Machine backups on this share."
+msgstr ""
+
+#: sharing/models.py:148
+msgid "Database Path"
+msgstr "Adatbázis útvonal"
+
+#: sharing/models.py:150
+msgid ""
+"Sets the database information to be stored in path. You have to specify a "
+"writable location, even if the volume is read only."
+msgstr ""
+
+#: sharing/models.py:153
+msgid "Zero Device Numbers"
+msgstr ""
+
+#: sharing/models.py:154
+msgid ""
+"Always use 0 for device number, helps when the device number is not constant "
+"across a reboot, cluster, ..."
+msgstr ""
+
+#: sharing/models.py:157
+msgid "No Stat"
+msgstr "Nincs statisztika"
+
+#: sharing/models.py:158
+msgid ""
+"Don't stat volume path when enumerating volumes list, useful for "
+"automounting or volumes created by a preexec script."
+msgstr ""
+
+#: sharing/models.py:161
+msgid "AFP3 Unix Privs"
+msgstr ""
+
+#: sharing/models.py:163
+msgid "Use AFP3 unix privileges."
+msgstr ""
+
+#: sharing/models.py:168
+#, fuzzy
+msgid "Default file permission"
+msgstr "Fájl jogosultság"
+
+#: sharing/models.py:173
+#, fuzzy
+msgid "Default directory permission"
+msgstr "Könyvtár jogosultság"
+
+#: sharing/models.py:178
+#, fuzzy
+msgid "Default umask"
+msgstr "Alapértelmezett"
+
+#: sharing/models.py:189
+#, fuzzy
+msgid "Apple (AFP) Share"
+msgstr "Apple megosztás"
+
+#: sharing/models.py:190
+#, fuzzy
+msgid "Apple (AFP) Shares"
+msgstr "Apple megosztások"
+
+#: sharing/models.py:201
+#, fuzzy
+msgid "Authorized networks"
+msgstr "Engedélyezett hálózat"
+
+#: sharing/models.py:202
+msgid ""
+"Networks that are authorized to access the NFS share. Specify network "
+"numbers of the form 1.2.3.4/xx where xx is the number of bits of netmask."
+msgstr ""
+
+#: sharing/models.py:208
+#, fuzzy
+msgid "Authorized IP addresses or hosts"
+msgstr "Engedélyezett hozzáférések"
+
+#: sharing/models.py:209
+msgid "IP addresses or hostnames that are authorized to access the NFS share."
+msgstr ""
+
+#: sharing/models.py:214
+msgid "All Directories"
+msgstr "Minden könyvtár"
+
+#: sharing/models.py:215
+msgid ""
+"Allow mounting of any subdirectory under this mount point if selected. "
+"Otherwise, only the top level directory can be mounted."
+msgstr ""
+
+#: sharing/models.py:218
+msgid "Read Only"
+msgstr ""
+
+#: sharing/models.py:219
+msgid "Export the share read only. Writes are not permitted."
+msgstr ""
+
+#: sharing/models.py:223
+msgid ""
+"Inhibit syslog warnings if there are problems with exporting this share."
+msgstr ""
+
+#: sharing/models.py:226
+msgid "Maproot User"
+msgstr ""
+
+#: sharing/models.py:231
+msgid ""
+"If a user is selected, the root user is limited to that user's permissions"
+msgstr ""
+
+#: sharing/models.py:235
+msgid "Maproot Group"
+msgstr ""
+
+#: sharing/models.py:240
+msgid ""
+"If a group is selected, the root user will also be limited to that group's "
+"permissions"
+msgstr ""
+
+#: sharing/models.py:244
+msgid "Mapall User"
+msgstr ""
+
+#: sharing/models.py:249
+msgid "The specified user's permissions are used by all clients"
+msgstr ""
+
+#: sharing/models.py:253
+msgid "Mapall Group"
+msgstr ""
+
+#: sharing/models.py:258
+msgid "The specified group's permission are used by all clients"
+msgstr ""
+
+#: sharing/models.py:276
+#, fuzzy
+msgid "Unix (NFS) Share"
+msgstr "UNIX megosztás"
+
+#: sharing/models.py:277
+#, fuzzy
+msgid "Unix (NFS) Shares"
+msgstr "UNIX karakterkészlet"
+
+#: sharing/nav.py:4 templates/menubar.html:26
+msgid "Sharing"
+msgstr "Megosztás"
+
+#: storage/admin.py:35
+msgid "Wipe"
+msgstr ""
+
+#: storage/admin.py:46
+msgid "Edit In Bulk"
+msgstr ""
+
+#: storage/admin.py:107 templates/storage/snapshots.html:92
+msgid "Used"
+msgstr ""
+
+#: storage/admin.py:113 templates/plugins/index.html:3
+msgid "Available"
+msgstr "Elérhető"
+
+#: storage/admin.py:119
+msgid "Size"
+msgstr "Méret"
+
+#: storage/admin.py:229
+msgid "Detach Volume"
+msgstr "Kötet lecsatolása"
+
+#: storage/admin.py:236
+msgid "Scrub Volume"
+msgstr "Scrub kötet"
+
+#: storage/admin.py:240 storage/admin.py:326
+msgid "Edit ZFS Options"
+msgstr "ZFS Beálltások szerkesztése"
+
+#: storage/admin.py:245 storage/admin.py:332 storage/nav.py:157
+#: storage/nav.py:211
+msgid "Create ZFS Dataset"
+msgstr ""
+
+#: storage/admin.py:249 storage/admin.py:338 storage/nav.py:123
+#, fuzzy
+msgid "Create zvol"
+msgstr "ZFS kötet"
+
+#: storage/admin.py:253 storage/nav.py:165 storage/nav.py:223
+msgid "Change Permissions"
+msgstr "Jogosultságok modosítása"
+
+#: storage/admin.py:259
+msgid "Create Snapshot"
+msgstr ""
+
+#: storage/admin.py:265
+#, fuzzy
+msgid "Volume Status"
+msgstr "Kötetek"
+
+#: storage/admin.py:273
+msgid "Create Passphrase"
+msgstr ""
+
+#: storage/admin.py:280
+#, fuzzy
+msgid "Change Passphrase"
+msgstr "Jelszó csere"
+
+#: storage/admin.py:287
+msgid "Download Key"
+msgstr ""
+
+#: storage/admin.py:293
+#, fuzzy
+msgid "Encryption Re-key"
+msgstr "Hitelesítési modell"
+
+#: storage/admin.py:299
+msgid "Add recovery key"
+msgstr ""
+
+#: storage/admin.py:305
+msgid "Remove recovery key"
+msgstr ""
+
+#: storage/admin.py:311
+msgid "Unlock"
+msgstr ""
+
+#: storage/admin.py:319
+msgid "Destroy Dataset"
+msgstr ""
+
+#: storage/admin.py:345
+#, fuzzy
+msgid "Destroy zvol"
+msgstr "ZFS kötet"
+
+#: storage/admin.py:391
+#, fuzzy
+msgid "Read"
+msgstr "Csak olvasható"
+
+#: storage/admin.py:397
+#, fuzzy
+msgid "Write"
+msgstr "Csak írható"
+
+#: storage/admin.py:403
+msgid "Checksum"
+msgstr ""
+
+#: storage/admin.py:461
+#, fuzzy
+msgid "Edit Disk"
+msgstr "Lemez"
+
+#: storage/admin.py:464
+msgid "Offline"
+msgstr ""
+
+#: storage/admin.py:467
+#, fuzzy
+msgid "Detach"
+msgstr "Kötet lecsatolása"
+
+#: storage/admin.py:470
+#, fuzzy
+msgid "Replace"
+msgstr "Lemez áthelyezése"
+
+#: storage/admin.py:473
+msgid "Remove"
+msgstr ""
+
+#: storage/admin.py:495 storage/forms.py:854 storage/models.py:73
+#: storage/models.py:303
+msgid "Volume"
+msgstr "Kötet"
+
+#: storage/admin.py:500 storage/models.py:307
+msgid "Threshold days"
+msgstr ""
+
+#: storage/admin.py:510 storage/models.py:319 system/admin.py:13
+#: system/models.py:389 system/models.py:553
+msgid "Minute"
+msgstr ""
+
+#: storage/admin.py:516 storage/models.py:325 system/admin.py:18
+#: system/models.py:395 system/models.py:559 system/models.py:726
+#, fuzzy
+msgid "Hour"
+msgstr "Óra"
+
+#: storage/admin.py:522 storage/models.py:331 system/admin.py:23
+#: system/models.py:401 system/models.py:565 system/models.py:732
+msgid "Day of month"
+msgstr ""
+
+#: storage/admin.py:528 storage/models.py:337 system/admin.py:28
+#: system/models.py:407 system/models.py:571 system/models.py:739
+#, fuzzy
+msgid "Month"
+msgstr "Hónap"
+
+#: storage/admin.py:534 storage/models.py:342 system/admin.py:33
+#: system/models.py:412 system/models.py:576 system/models.py:744
+msgid "Day of week"
+msgstr ""
+
+#: storage/admin.py:540 storage/models.py:346 storage/models.py:829
+#: storage/models.py:911 system/models.py:428 system/models.py:634
+#: system/models.py:832 system/models.py:871
+#, fuzzy
+msgid "Enabled"
+msgstr "Aszinkron I/O (AIO) engedélyezése"
+
+#: storage/admin.py:572
+msgid "When"
+msgstr ""
+
+#: storage/admin.py:578
+msgid "Frequency"
+msgstr ""
+
+#: storage/admin.py:584
+msgid "Keep snapshot for"
+msgstr ""
+
+#: storage/admin.py:609
+#, fuzzy
+msgid "Remote Hostname"
+msgstr "Gép neve"
+
+#: storage/forms.py:71
+msgid ""
+"Enabling dedup may have drastic performance implications,<br /> as well as "
+"impact your ability to access your data.<br /> Consider using compression "
+"instead."
+msgstr ""
+
+#: storage/forms.py:120
+msgid "Enter positive number (optionally suffixed by K, M, G, T), or 0"
+msgstr ""
+
+#: storage/forms.py:134
+#, fuzzy, python-format
+msgid "%s is not a valid number"
+msgstr "A %s felhasználó érvénytelen."
+
+#: storage/forms.py:146
+msgid ""
+"The volume name must start with letters and may include numbers, \"-\", \"_"
+"\" and \".\" ."
+msgstr ""
+
+#: storage/forms.py:150
+#, fuzzy
+msgid "A volume with that name already exists."
+msgstr "Ilyen nevű csoport már létezik."
+
+#: storage/forms.py:157 storage/forms.py:532 templates/storage/wizard.html:21
+msgid "Volume name"
+msgstr "Kötetnév"
+
+#: storage/forms.py:170 templates/storage/wizard.html:69
+msgid "Specify custom path"
+msgstr ""
+
+#: storage/forms.py:186
+msgid ""
+"Leaving this blank will give the volume a default path of /mnt/${VOLUME_NAME}"
+msgstr ""
+
+#: storage/forms.py:248
+msgid "Path does not exist."
+msgstr ""
+
+#: storage/forms.py:251
+msgid "Path is not a directory."
+msgstr ""
+
+#: storage/forms.py:265 storage/forms.py:581 storage/forms.py:915
+msgid "You already have a volume with same name"
+msgstr "Már létezik ilyen nevü kötet"
+
+#: storage/forms.py:271
+msgid "UFS volume names cannot be higher than 9 characters"
+msgstr ""
+
+#: storage/forms.py:276
+msgid "UFS volume names can only contain alphanumeric characters"
+msgstr ""
+
+#: storage/forms.py:383
+msgid ""
+"You must specify a new volume name or select an existing ZFS volume to "
+"append a virtual device"
+msgstr ""
+
+#: storage/forms.py:483
+#, python-format
+msgid "You need at least %d disks"
+msgstr ""
+
+#: storage/forms.py:527
+msgid "You need a data disk group"
+msgstr ""
+
+#: storage/forms.py:536 storage/forms.py:1530
+msgid "Member disk"
+msgstr ""
+
+#: storage/forms.py:591 storage/forms.py:932
+msgid "The selected disks were not verified for this import rules."
+msgstr ""
+
+#: storage/forms.py:601
+msgid "An error occurred while labeling the disk."
+msgstr ""
+
+#: storage/forms.py:735
+#, python-format
+msgid ""
+"The volume \"%s\" failed to import, for futher details check pool status"
+msgstr ""
+
+#: storage/forms.py:764
+#, fuzzy
+msgid "Volume imported"
+msgstr "Kötet kiterjesztése"
+
+#: storage/forms.py:770
+msgid "No: Skip to import"
+msgstr ""
+
+#: storage/forms.py:771
+msgid "Yes: Decrypt disks"
+msgstr ""
+
+#: storage/forms.py:773
+#, fuzzy
+msgid "Encrypted ZFS volume?"
+msgstr "ZFS kötet"
+
+#: storage/forms.py:791
+#, fuzzy
+msgid "Encryption Key"
+msgstr "Hitelesítési modell"
+
+#: storage/forms.py:794 storage/forms.py:1585 storage/forms.py:1904
+#: storage/forms.py:2019 storage/forms.py:2131 system/models.py:354
+msgid "Passphrase"
+msgstr ""
+
+#: storage/forms.py:839
+#, python-format
+msgid "The following disks failed to attach: %s"
+msgstr ""
+
+#: storage/forms.py:909
+msgid "You must select a volume."
+msgstr "Válaszd ki a kötetett"
+
+#: storage/forms.py:994
+#, fuzzy
+msgid "The SMART service failed to restart."
+msgstr "Nem sikerült a szolgáltatást újraindítani."
+
+#: storage/forms.py:1008 storage/models.py:476
+msgid "HDD Standby"
+msgstr ""
+
+#: storage/forms.py:1013 storage/models.py:482
+msgid "Advanced Power Management"
+msgstr ""
+
+#: storage/forms.py:1018 storage/models.py:488
+msgid "Acoustic Level"
+msgstr ""
+
+#: storage/forms.py:1022 storage/models.py:492
+msgid "Enable S.M.A.R.T."
+msgstr "S.M.A.R.T. engedélyezése"
+
+#: storage/forms.py:1027 storage/models.py:496
+msgid "S.M.A.R.T. extra options"
+msgstr "S.M.A.R.T. extra opciók"
+
+#: storage/forms.py:1087
+msgid "Dataset Name"
+msgstr "Adatcsoport neve"
+
+#: storage/forms.py:1091 storage/forms.py:1213 storage/forms.py:1277
+msgid "Compression level"
+msgstr "Tömörítési szint"
+
+#: storage/forms.py:1095 storage/forms.py:1217
+msgid "Enable atime"
+msgstr "Atime engedélyezése"
+
+#: storage/forms.py:1099
+msgid "Quota for this dataset"
+msgstr "Adatcsoport kvótája"
+
+#: storage/forms.py:1100 storage/forms.py:1105 storage/forms.py:1222
+msgid "0=Unlimited; example: 1g"
+msgstr "0=Korlátlan; például: 1g"
+
+#: storage/forms.py:1104
+msgid "Quota for this dataset and all children"
+msgstr "Az adatcsoport és gyermekei kvótája"
+
+#: storage/forms.py:1109
+msgid "Reserved space for this dataset"
+msgstr "Adatcsoport számára lefoglalt tárhely"
+
+#: storage/forms.py:1110 storage/forms.py:1115 storage/forms.py:1227
+msgid "0=None; example: 1g"
+msgstr "0=Semmi; például: 1g"
+
+#: storage/forms.py:1114
+msgid "Reserved space for this dataset and all children"
+msgstr "Az adatcsoport és gyermekei számára lefoglalt tárhely"
+
+#: storage/forms.py:1117 storage/forms.py:1229
+#, fuzzy
+msgid "ZFS Deduplication"
+msgstr "Replikációs feladat"
+
+#: storage/forms.py:1124
+msgid "Record Size"
+msgstr ""
+
+#: storage/forms.py:1128
+msgid ""
+"Specifies a suggested block size for files in the file system. This property "
+"is designed solely for use with database workloads that access files in "
+"fixed-size records.  ZFS automatically tunes block sizes according to "
+"internal algorithms optimized for typical access patterns."
+msgstr ""
+
+#: storage/forms.py:1173
+#, fuzzy
+msgid ""
+"Dataset names must begin with an alphanumeric character and may only contain "
+"\"-\", \"_\", \":\" and \".\"."
+msgstr ""
+"Az adatcsoport neve alfanumerikus karakterrel kell, hogy kezdődjön. "
+"Tartalmazhat még (-), (_), (:) és (.) karaktereket."
+
+#: storage/forms.py:1198 storage/forms.py:1321
+msgid "You already have a dataset with the same name"
+msgstr "Már létezik ilyen nevü adatcsoport"
+
+#: storage/forms.py:1221
+#, fuzzy
+msgid "Quota for this volume"
+msgstr "Adatcsoport kvótája"
+
+#: storage/forms.py:1226
+#, fuzzy
+msgid "Reserved space for this volume"
+msgstr "Adatcsoport számára lefoglalt tárhely"
+
+#: storage/forms.py:1269
+#, fuzzy
+msgid "zvol name"
+msgstr "Module neve"
+
+#: storage/forms.py:1272
+#, fuzzy
+msgid "Size for this zvol"
+msgstr "ZFS kötet"
+
+#: storage/forms.py:1273
+#, fuzzy
+msgid "Example: 1g"
+msgstr "0=Semmi; például: 1g"
+
+#: storage/forms.py:1279
+#, fuzzy
+msgid "Sparse volume"
+msgstr "Scrub kötet"
+
+#: storage/forms.py:1281
+msgid ""
+"Creates a sparse volume with no reservation, also kown as \"thin provisioning"
+"\". A \"sparse volume\" is a volume where the reservation is less then the "
+"volume size. Consequently, writes to a sparse volume can fail with ENOSPC "
+"when the pool is low on space. (NOT RECOMMENDED)"
+msgstr ""
+
+#: storage/forms.py:1290
+#, fuzzy
+msgid "Block size"
+msgstr "Logikai blokk méret"
+
+#: storage/forms.py:1292
+msgid ""
+"The default blocksize for volumes is 8 Kbytes. Any power of 2 from 512 bytes "
+"to 128 Kbytes is valid."
+msgstr ""
+
+#: storage/forms.py:1310
+msgid ""
+"ZFS Volume names must begin with an alphanumeric character and may only "
+"contain (-), (_), (:) and (.)."
+msgstr ""
+
+#: storage/forms.py:1333
+msgid "Owner (user)"
+msgstr "Tulajdonos (felhasználó)"
+
+#: storage/forms.py:1334
+msgid "Owner (group)"
+msgstr "Tulajdonos (csoport)"
+
+#: storage/forms.py:1335
+msgid "Mode"
+msgstr "Mód"
+
+#: storage/forms.py:1337
+msgid "Type of ACL"
+msgstr ""
+
+#: storage/forms.py:1348
+msgid "Set permission recursively"
+msgstr "Jogok rekurzív kiosztása"
+
+#: storage/forms.py:1440
+msgid "At least one day must be chosen"
+msgstr ""
+
+#: storage/forms.py:1450
+msgid "Recursive snapshot"
+msgstr "Rekurzív pillanatkép"
+
+#: storage/forms.py:1451 templates/storage/snapshots.html:87
+msgid "Snapshot Name"
+msgstr "Pillanatkép neve"
+
+#: storage/forms.py:1462
+msgid "Only [-a-zA-Z0-9_.] permitted as snapshot name"
+msgstr ""
+
+#: storage/forms.py:1474
+msgid "Snapshot"
+msgstr "Pillanatkép"
+
+#: storage/forms.py:1475
+msgid "Clone Name (must be on same volume)"
+msgstr ""
+
+#: storage/forms.py:1505
+msgid "Only [-a-zA-Z0-9_./] permitted as clone name"
+msgstr ""
+
+#: storage/forms.py:1513
+msgid "Clone must be within the same volume"
+msgstr ""
+
+#: storage/forms.py:1589 storage/forms.py:1908 system/forms.py:479
+#, fuzzy
+msgid "Confirm Passphrase"
+msgstr "Jelszó csere"
+
+#: storage/forms.py:1598
+msgid "Confirmation does not match passphrase"
+msgstr ""
+
+#: storage/forms.py:1606
+#, fuzzy
+msgid "Passphrase is not valid"
+msgstr "A %s felhasználó érvénytelen."
+
+#: storage/forms.py:1658 storage/models.py:783
+msgid "Remote hostname"
+msgstr ""
+
+#: storage/forms.py:1660 storage/models.py:787
+#, fuzzy
+msgid "Remote port"
+msgstr "Távoli megfigyelés"
+
+#: storage/forms.py:1665
+msgid "Dedicated User Enabled"
+msgstr ""
+
+#: storage/forms.py:1666
+msgid "If disabled then root will be used for replication."
+msgstr ""
+
+#: storage/forms.py:1670
+msgid "Dedicated User"
+msgstr ""
+
+#: storage/forms.py:1674
+msgid "Enable High Speed Ciphers"
+msgstr ""
+
+#: storage/forms.py:1678
+msgid ""
+"Enabling this may increase transfer speed on high speed/low latency local "
+"networks.  It uses less secure encryption algorithms than the defaults, "
+"which makes it less desirable on untrusted networks."
+msgstr ""
+
+#: storage/forms.py:1684 storage/models.py:801
+msgid "Remote hostkey"
+msgstr ""
+
+#: storage/forms.py:1806
+msgid "Mark the disks as new (destroy data)"
+msgstr ""
+
+#: storage/forms.py:1817
+msgid "Delete all shares related to this volume"
+msgstr ""
+
+#: storage/forms.py:1843 system/forms.py:779 system/forms.py:846
+msgid "minute"
+msgstr "perc"
+
+#: storage/forms.py:1846 system/forms.py:626 system/forms.py:782
+#: system/forms.py:849
+msgid "hour"
+msgstr ""
+
+#: storage/forms.py:1852 system/forms.py:630 system/forms.py:786
+#: system/forms.py:853
+msgid "day of month"
+msgstr ""
+
+#: storage/forms.py:1891
+msgid "Method"
+msgstr ""
+
+#: storage/forms.py:1893
+msgid "Quick"
+msgstr ""
+
+#: storage/forms.py:1894
+msgid "Full with zeros"
+msgstr ""
+
+#: storage/forms.py:1895
+msgid "Full with random data"
+msgstr ""
+
+#: storage/forms.py:1917 storage/forms.py:1983
+#, fuzzy
+msgid "The passphrases do not match"
+msgstr "A titkok nem egyeznek meg."
+
+#: storage/forms.py:1940 storage/forms.py:2100
+#, fuzzy
+msgid "Admin password"
+msgstr "Régi jelszó"
+
+#: storage/forms.py:1944
+#, fuzzy
+msgid "New Passphrase"
+msgstr "Új jelszó"
+
+#: storage/forms.py:1948
+#, fuzzy
+msgid "Confirm New Passphrase"
+msgstr "Jelszó csere"
+
+#: storage/forms.py:1952
+msgid "Remove passphrase"
+msgstr ""
+
+#: storage/forms.py:1974 storage/forms.py:2119
+#, fuzzy
+msgid "Invalid password"
+msgstr "Régi jelszó"
+
+#: storage/forms.py:2024
+msgid "Recovery Key"
+msgstr ""
+
+#: storage/forms.py:2028
+msgid "Restart services"
+msgstr ""
+
+#: storage/forms.py:2045
+#, fuzzy
+msgid "Jails/Plugins"
+msgstr "Bővitmények"
+
+#: storage/forms.py:2054
+msgid "You need either a passphrase or a recovery key to unlock"
+msgstr ""
+
+#: storage/forms.py:2084
+#, python-format
+msgid "Volume could not be imported: %d devices failed to decrypt"
+msgstr ""
+
+#: storage/forms.py:2088
+#, fuzzy
+msgid "Volume could not be imported"
+msgstr "Az elérési utat nem tudta felcsatoni %s"
+
+#: storage/models.py:54
+msgid "File System Type"
+msgstr "Fájlrendszer típusa"
+
+#: storage/models.py:64
+#, fuzzy
+msgid "Encryption Type"
+msgstr "Hitelesítési modell"
+
+#: storage/models.py:126
+msgid "LOCKED"
+msgstr ""
+
+#: storage/models.py:309
+msgid "Determine how many days shall be between scrubs"
+msgstr ""
+
+#: storage/models.py:320 system/models.py:390 system/models.py:554
+msgid "Values 0-59 allowed."
+msgstr ""
+
+#: storage/models.py:326 system/models.py:396 system/models.py:560
+#: system/models.py:727
+msgid "Values 0-23 allowed."
+msgstr ""
+
+#: storage/models.py:332 system/models.py:402 system/models.py:566
+#: system/models.py:733
+msgid "Values 1-31 allowed."
+msgstr ""
+
+#: storage/models.py:350
+msgid "ZFS Scrub"
+msgstr ""
+
+#: storage/models.py:351
+#, fuzzy
+msgid "ZFS Scrubs"
+msgstr "UNIX karakterkészlet"
+
+#: storage/models.py:359 system/models.py:443 system/models.py:652
+msgid "Every minute"
+msgstr "Miden percben"
+
+#: storage/models.py:361 system/models.py:445 system/models.py:654
+#, fuzzy, python-format
+msgid "Every %s minute(s)"
+msgstr "Minden %s percben"
+
+#: storage/models.py:367 system/models.py:451 system/models.py:660
+#: system/models.py:749
+msgid "Every hour"
+msgstr ""
+
+#: storage/models.py:369 system/models.py:453 system/models.py:662
+#: system/models.py:751
+#, python-format
+msgid "Every %s hour(s)"
+msgstr ""
+
+#: storage/models.py:377 system/models.py:461 system/models.py:670
+#: system/models.py:759
+#, fuzzy, python-format
+msgid "Every %s days"
+msgstr "Minden nap"
+
+#: storage/models.py:384 system/models.py:468 system/models.py:677
+#: system/models.py:766
+msgid "Every month"
+msgstr ""
+
+#: storage/models.py:402 system/models.py:486 system/models.py:691
+#: system/models.py:780
+msgid "Weekdays"
+msgstr "Munkanapok"
+
+#: storage/models.py:404 system/models.py:488 system/models.py:693
+#: system/models.py:782
+msgid "Weekends"
+msgstr "Hétvégék"
+
+#: storage/models.py:445
+#, fuzzy
+msgid "Disk Size"
+msgstr "Lemez eszköz"
+
+#: storage/models.py:451
+#, fuzzy
+msgid "Multipath name"
+msgstr "Module neve"
+
+#: storage/models.py:457
+msgid "Multipath member"
+msgstr ""
+
+#: storage/models.py:470
+msgid "Transfer Mode"
+msgstr "Átviteli mód"
+
+#: storage/models.py:557 system/models.py:712
+msgid "Disks"
+msgstr "Lemezek"
+
+#: storage/models.py:574
+msgid "Underlying provider"
+msgstr ""
+
+#: storage/models.py:583
+msgid "Mount Point"
+msgstr "Csatolási pont"
+
+#: storage/models.py:584
+msgid "Path to mount point"
+msgstr ""
+
+#: storage/models.py:588
+#, fuzzy
+msgid "Mount options"
+msgstr "Csatolási opciók"
+
+#: storage/models.py:589
+msgid "Enter Mount Point options here"
+msgstr ""
+
+#: storage/models.py:791
+msgid "Remote Dedicated User Enabled"
+msgstr ""
+
+#: storage/models.py:794
+msgid "Remote Dedicated User"
+msgstr ""
+
+#: storage/models.py:805
+msgid "High Speed Encryption Ciphers"
+msgstr ""
+
+#: storage/models.py:807
+msgid ""
+"Enabling this may increase transfer speed on high speed/low latency local "
+"networks.  It uses less secure encryption algorithms than the defaults, "
+"which make it less desirable on untrusted networks."
+msgstr ""
+
+#: storage/models.py:814
+msgid "Remote Replication Host"
+msgstr ""
+
+#: storage/models.py:815
+msgid "Remote Replication Hosts"
+msgstr ""
+
+#: storage/models.py:831
+msgid ""
+"Disabling will stop any new replications being queued. It will not stop any "
+"replications which are queued or in progress."
+msgstr ""
+
+#: storage/models.py:836 storage/models.py:915
+#: templates/storage/snapshots.html:82
+#, fuzzy
+msgid "Volume/Dataset"
+msgstr "Kötetek"
+
+#: storage/models.py:843
+msgid "Last snapshot sent to remote side (leave blank for full replication)"
+msgstr ""
+
+#: storage/models.py:852
+#, fuzzy
+msgid "Remote ZFS Volume/Dataset"
+msgstr "ZFS kötet"
+
+#: storage/models.py:854
+msgid ""
+"This should be the name of the ZFS filesystem on remote side. eg: Volumename/"
+"Datasetname not the mountpoint or filesystem path"
+msgstr ""
+
+#: storage/models.py:861
+msgid "Recursively replicate and remove stale snapshot on remote side"
+msgstr ""
+
+#: storage/models.py:867
+msgid "Initialize remote side for once. (May cause data loss on remote side!)"
+msgstr ""
+
+#: storage/models.py:872
+msgid "Limit (kB/s)"
+msgstr ""
+
+#: storage/models.py:874
+msgid "Limit the replication speed. Unit in kilobytes/seconds. 0 = unlimited."
+msgstr ""
+
+#: storage/models.py:879 storage/models.py:933
+msgid "Begin"
+msgstr "kezdés"
+
+#: storage/models.py:880
+#, fuzzy
+msgid "Do not start replication before"
+msgstr "Rekurzív pillanatkép"
+
+#: storage/models.py:884 storage/models.py:938
+msgid "End"
+msgstr "Vége"
+
+#: storage/models.py:885
+#, fuzzy
+msgid "Do not start replication after"
+msgstr "Rekurzív pillanatkép"
+
+#: storage/models.py:889
+msgid "Replication Task"
+msgstr "Replikációs feladat"
+
+#: storage/models.py:890
+msgid "Replication Tasks"
+msgstr "Replikációs feladatok"
+
+#: storage/models.py:919 system/models.py:584
+msgid "Recursive"
+msgstr "Rekurzív"
+
+#: storage/models.py:923
+msgid "Snapshot lifetime value"
+msgstr ""
+
+#: storage/models.py:929
+msgid "Snapshot lifetime unit"
+msgstr ""
+
+#: storage/models.py:934
+#, fuzzy
+msgid "Do not snapshot before"
+msgstr "Rekurzív pillanatkép"
+
+#: storage/models.py:939
+#, fuzzy
+msgid "Do not snapshot after"
+msgstr "Rekurzív pillanatkép"
+
+#: storage/models.py:945
+msgid "Interval"
+msgstr ""
+
+#: storage/models.py:947
+msgid "How much time has been passed between two snapshot attempts."
+msgstr ""
+
+#: storage/models.py:953
+msgid "Occurrence"
+msgstr ""
+
+#: storage/models.py:954
+msgid "How the task is repeated"
+msgstr ""
+
+#: storage/models.py:959
+msgid "Weekday"
+msgstr "Munkanap"
+
+#: storage/models.py:997
+msgid "Periodic Snapshot Task"
+msgstr ""
+
+#: storage/models.py:998 templates/storage/index.html:17
+msgid "Periodic Snapshot Tasks"
+msgstr ""
+
+#: storage/nav.py:28
+#, fuzzy
+msgid "View Snapshots"
+msgstr "Pillanatkép"
+
+#: storage/nav.py:39 templates/storage/volume_datagrid.html:6
+#: templates/storage/volume_datagrid.html:10
+#, fuzzy
+msgid "ZFS Volume Manager"
+msgstr "Kötetnév"
+
+#: storage/nav.py:51 templates/storage/volume_datagrid.html:20
+#, fuzzy
+msgid "UFS Volume Manager (legacy)"
+msgstr "Kötetnév"
+
+#: storage/nav.py:63 templates/storage/import.html:2
+#: templates/storage/volume_datagrid.html:28
+#: templates/storage/volume_datagrid.html:30
+msgid "Import Volume"
+msgstr "Kötet importálása"
+
+#: storage/nav.py:75 templates/storage/volume_datagrid.html:44
+#: templates/storage/volume_datagrid.html:46
+msgid "View Disks"
+msgstr ""
+
+#: storage/nav.py:87 templates/storage/volume_datagrid.html:53
+#: templates/storage/volume_datagrid.html:55
+msgid "View Multipaths"
+msgstr ""
+
+#: storage/nav.py:99 templates/storage/volume_datagrid.html:36
+#: templates/storage/volume_datagrid.html:38
+msgid "Auto Import Volume"
+msgstr "Automatikus Kötet Importálás"
+
+#: storage/nav.py:111
+#, fuzzy
+msgid "View Volumes"
+msgstr "Kötetek"
+
+#: storage/nav.py:135 templates/storage/task_datagrid.html:6
+msgid "Add Periodic Snapshot"
+msgstr ""
+
+#: storage/nav.py:147
+msgid "Volumes"
+msgstr "Kötetek"
+
+#: storage/views.py:115
+#, fuzzy
+msgid "Please enter a hostname"
+msgstr "Host név régebbi formában, pl VALAMI"
+
+#: storage/views.py:128
+msgid "Key could not be retrieved for unknown reason"
+msgstr ""
+
+#: storage/views.py:143 storage/views.py:207 storage/views.py:241
+#, fuzzy
+msgid "Volume successfully added."
+msgstr "%s sikeresen hozzáadva!"
+
+#: storage/views.py:293
+#, fuzzy
+msgid "Dataset successfully added."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:347
+#, fuzzy
+msgid "Dataset successfully edited."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:386
+msgid "ZFS Volume successfully added."
+msgstr "ZFS kötet sikeresen hozzáadva."
+
+#: storage/views.py:410
+msgid "This is in use by the iscsi target, please remove it there first."
+msgstr ""
+
+#: storage/views.py:416
+msgid "ZFS Volume successfully destroyed."
+msgstr "ZFS kötet sikeresen törölve!"
+
+#: storage/views.py:465
+#, fuzzy
+msgid "Native dataset successfully edited."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:484
+#, fuzzy
+msgid "Mount Point permissions successfully updated."
+msgstr "%s sikeresen módosítva!"
+
+#: storage/views.py:504
+#, fuzzy
+msgid "Dataset successfully destroyed."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:524
+#, fuzzy
+msgid "Snapshot successfully deleted."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:545
+#, fuzzy
+msgid "Snapshots successfully deleted."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:557
+msgid "Rollback successful."
+msgstr "Visszavonás sikeres."
+
+#: storage/views.py:572
+#, fuzzy
+msgid "Snapshot successfully taken."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:590
+#, fuzzy
+msgid "Snapshot successfully cloned."
+msgstr "%s sikeresen törölve!"
+
+#: storage/views.py:611 storage/views.py:746
+msgid "Disk replacement has been initiated."
+msgstr ""
+
+#: storage/views.py:616 storage/views.py:751
+msgid "An error occurred."
+msgstr ""
+
+#: storage/views.py:634
+msgid "Disk detach has been successfully done."
+msgstr ""
+
+#: storage/views.py:651
+msgid "Disk offline operation has been issued."
+msgstr ""
+
+#: storage/views.py:667
+msgid "Disk has been removed."
+msgstr ""
+
+#: storage/views.py:698
+msgid "The volume has been successfully detached"
+msgstr "A kötet sikeresen lecsatolva"
+
+#: storage/views.py:717
+msgid "Pool output could not be parsed. Is the pool imported?"
+msgstr ""
+
+#: storage/views.py:722
+msgid "The scrub process has stopped"
+msgstr ""
+
+#: storage/views.py:725
+msgid "The scrub process has begun"
+msgstr ""
+
+#: storage/views.py:830
+#, fuzzy
+msgid "Disk successfully wiped"
+msgstr "%s sikeresen módosítva!"
+
+#: storage/views.py:885
+msgid "Passphrase created"
+msgstr ""
+
+#: storage/views.py:903
+#, fuzzy
+msgid "Passphrase updated"
+msgstr "A jelszó sikeresen módosítva lett!"
+
+#: storage/views.py:926 storage/views.py:939
+#, fuzzy
+msgid "Volume unlocked"
+msgstr "Kötetnév"
+
+#: storage/views.py:930
+#, fuzzy
+msgid "Volume failed unlocked"
+msgstr "Kötetnév"
+
+#: storage/views.py:958
+msgid "GELI key download starting..."
+msgstr ""
+
+#: storage/views.py:997
+#, fuzzy
+msgid "Encryption re-key succeeded"
+msgstr "Hitelesítési modell"
+
+#: storage/views.py:1016
+msgid "GELI recovery key download starting..."
+msgstr ""
+
+#: storage/views.py:1057
+msgid "Recovery has been removed"
+msgstr ""
+
+#: storage/views.py:1076
+#, fuzzy
+msgid "Disks successfully edited"
+msgstr "%s sikeresen módosítva!"
+
+#: support/models.py:40
+#, fuzzy
+msgid "Subject"
+msgstr "Email tárgya"
+
+#: support/models.py:41
+msgid "Support subject."
+msgstr ""
+
+#: support/models.py:45
+msgid "A description of the issue."
+msgstr ""
+
+#: support/models.py:49
+#, fuzzy
+msgid "Support"
+msgstr "EA támogatás"
+
+#: support/views.py:86
+#, fuzzy
+msgid "Support request successfully sent"
+msgstr "%s sikeresen törölve!"
+
+#: system/forms.py:68
+#, python-format
+msgid "The path '%s' requires execute permission bit"
+msgstr ""
+
+#: system/forms.py:86
+#, python-format
+msgid "The volume %s is locked by encryption"
+msgstr ""
+
+#: system/forms.py:222
+msgid "Language (Require UI reload)"
+msgstr "Nyelv (szükséges az UI újratöltése)"
+
+#: system/forms.py:280
+msgid "Force"
+msgstr ""
+
+#: system/forms.py:306
+msgid "Max Poll should be higher than Min Poll"
+msgstr ""
+
+#: system/forms.py:314
+msgid "Server could not be reached. Check \"Force\" to continue regardless."
+msgstr ""
+
+#: system/forms.py:512
+#, fuzzy
+msgid "The two passphrase fields didn't match."
+msgstr "A két jelszó nem egyezik!"
+
+#: system/forms.py:564
+msgid "RSA or DSA private key not found"
+msgstr ""
+
+#: system/forms.py:581
+msgid "RSA or DSA private key is not valid"
+msgstr ""
+
+#: system/forms.py:604
+msgid "The modulus of certificate and key must match"
+msgstr ""
+
+#: system/forms.py:717
+#, python-format
+msgid "The following disks already have tests for this type: %s"
+msgstr ""
+
+#: system/forms.py:727
+msgid "Place to temporarily place firmware file"
+msgstr ""
+
+#: system/forms.py:729
+msgid ""
+"The system will use this place to temporarily store the firmware file before "
+"it's being applied."
+msgstr ""
+
+#: system/forms.py:749
+#, fuzzy
+msgid "Memory device"
+msgstr "Memória"
+
+#: system/forms.py:761
+msgid "New image to be installed"
+msgstr ""
+
+#: system/forms.py:763
+msgid "SHA256 sum for the image"
+msgstr ""
+
+#: system/forms.py:769
+msgid "New config to be installed"
+msgstr ""
+
+#: system/forms.py:811
+msgid "Usernames cannot exceed 17 characters for cronjobs"
+msgstr ""
+
+#: system/forms.py:881
+msgid "Usernames cannot exceed 17 characters for rsync tasks"
+msgstr ""
+
+#: system/forms.py:886
+msgid "Usernames cannot have spaces"
+msgstr ""
+
+#: system/forms.py:935
+msgid ""
+"In order to use rsync over SSH you need a user<br />with a public key (DSA/"
+"ECDSA/RSA) set up in home dir."
+msgstr ""
+
+#: system/forms.py:1011 system/forms.py:1029
+msgid "Quotes are not allowed"
+msgstr "Az idézőjelek nem engdélyezettek"
+
+#: system/models.py:54
+msgid "Protocol"
+msgstr ""
+
+#: system/models.py:60
+#, fuzzy
+msgid "WebGUI IPv4 Address"
+msgstr "WebGUI címe"
+
+#: system/models.py:66
+#, fuzzy
+msgid "WebGUI IPv6 Address"
+msgstr "WebGUI címe"
+
+#: system/models.py:69
+#, fuzzy
+msgid "WebGUI HTTP Port"
+msgstr "WebGUI Port"
+
+#: system/models.py:75
+#, fuzzy
+msgid "WebGUI HTTPS Port"
+msgstr "WebGUI Port"
+
+#: system/models.py:84
+msgid "Language"
+msgstr "Nyelv"
+
+#: system/models.py:89
+msgid "Console Keyboard Map"
+msgstr ""
+
+#: system/models.py:96
+msgid "Timezone"
+msgstr "Időzóna"
+
+#: system/models.py:102
+#, fuzzy
+msgid "Syslog server"
+msgstr "Syslog szerver"
+
+#: system/models.py:108
+#, fuzzy
+msgid "Directory Service"
+msgstr "Könyvtár jogosultság"
+
+#: system/models.py:113 system/nav.py:22 templates/system/settings.html:2
+msgid "Settings"
+msgstr "Beállítások"
+
+#: system/models.py:121 system/models.py:963
+msgid "Address"
+msgstr "Címek"
+
+#: system/models.py:125
+msgid "Burst"
+msgstr ""
+
+#: system/models.py:127
+msgid ""
+"When the server is reachable, send a burst of eight packets instead of the "
+"usual one. This is designed to improve timekeeping quality with the server "
+"command and s addresses."
+msgstr ""
+
+#: system/models.py:133
+#, fuzzy
+msgid "IBurst"
+msgstr "IBurst"
+
+#: system/models.py:135
+msgid ""
+"When the server is unreachable, send a burst of eight packets instead of the "
+"usual one. This is designed to speed the initial synchronization acquisition "
+"with the server command and s addresses."
+msgstr ""
+
+#: system/models.py:141
+#, fuzzy
+msgid "Prefer"
+msgstr "Javasolt"
+
+#: system/models.py:143
+msgid ""
+"Marks the server as preferred. All other things being equal, this host will "
+"be chosen for synchronization among a set of correctly operating hosts."
+msgstr ""
+
+#: system/models.py:148
+msgid "Min. Poll"
+msgstr ""
+
+#: system/models.py:151
+msgid ""
+"The minimum poll interval for NTP messages, as a power of 2 in seconds. "
+"Defaults to 6 (64 s), but can be decreased to a lower limit of 4 (16 s)"
+msgstr ""
+
+#: system/models.py:156
+msgid "Max. Poll"
+msgstr ""
+
+#: system/models.py:159
+msgid ""
+"The maximum poll interval for NTP messages, as a power of 2 in seconds. "
+"Defaults to 10 (1,024 s), but can be increased to an upper limit of 17 (36.4 "
+"h)"
+msgstr ""
+
+#: system/models.py:173
+#, fuzzy
+msgid "NTP Server"
+msgstr "NTP kiszolgáló 1"
+
+#: system/models.py:174
+msgid "NTP Servers"
+msgstr "NTP Szerverek"
+
+#: system/models.py:186
+msgid "Enable Console Menu"
+msgstr "Konzol menü engedélyezése"
+
+#: system/models.py:188
+msgid "Use Serial Console"
+msgstr "Soros konzol használata"
+
+#: system/models.py:193
+msgid "Set this to match your serial port speed"
+msgstr ""
+
+#: system/models.py:194
+msgid "Serial Port Speed"
+msgstr ""
+
+#: system/models.py:197
+msgid "Enable screen saver"
+msgstr "Képernyőkímélő engedélyezése"
+
+#: system/models.py:199
+msgid "Enable powerd (Power Saving Daemon)"
+msgstr ""
+
+#: system/models.py:202
+msgid ""
+"Swap size on each drive in GiB, affects new disks only. Setting this to 0 "
+"disables swap creation completely (STRONGLY DISCOURAGED)."
+msgstr ""
+
+#: system/models.py:207
+msgid "Show console messages in the footer"
+msgstr ""
+
+#: system/models.py:210
+msgid "Show tracebacks in case of fatal errors"
+msgstr ""
+
+#: system/models.py:213
+msgid "Show advanced fields by default"
+msgstr ""
+
+#: system/models.py:216
+#, fuzzy
+msgid "Enable autotune"
+msgstr "Atime engedélyezése"
+
+#: system/models.py:219
+#, fuzzy
+msgid "Enable debug kernel"
+msgstr "Szolgáltatás engedélyezése"
+
+#: system/models.py:222
+msgid "Enable report anonymous statistics"
+msgstr ""
+
+#: system/models.py:234
+msgid "MOTD banner"
+msgstr ""
+
+#: system/models.py:239 templates/system/settings.html:5
+msgid "Advanced"
+msgstr "Haladó"
+
+#: system/models.py:248
+msgid "From email"
+msgstr ""
+
+#: system/models.py:249
+msgid ""
+"An email address that the system will use for the sending address for mail "
+"it sends, eg: freenas@example.com"
+msgstr ""
+
+#: system/models.py:255
+msgid "Outgoing mail server"
+msgstr "Kimenő levelek kiszolgálója"
+
+#: system/models.py:256
+msgid ""
+"A hostname or ip that will accept our mail, for instance mail.example.org, "
+"or 192.168.1.1"
+msgstr ""
+
+#: system/models.py:263
+msgid "An integer from 1 - 65535, generally will be 25, 465, or 587"
+msgstr ""
+
+#: system/models.py:265
+msgid "Port to connect to"
+msgstr ""
+
+#: system/models.py:271
+msgid "encryption of the connection"
+msgstr ""
+
+#: system/models.py:272
+msgid "TLS/SSL"
+msgstr "TLS/SSL"
+
+#: system/models.py:275
+msgid "Use SMTP Authentication"
+msgstr "SMTP hitelesítés használata"
+
+#: system/models.py:283
+msgid "A username to authenticate to the remote server"
+msgstr ""
+
+#: system/models.py:290
+msgid "A password to authenticate to the remote server"
+msgstr ""
+
+#: system/models.py:294 system/models.py:987 templates/system/settings.html:7
+msgid "Email"
+msgstr "E-mail"
+
+#: system/models.py:305
+msgid "Organization"
+msgstr "Szervezet"
+
+#: system/models.py:306
+msgid "Organization Name (eg, company)"
+msgstr ""
+
+#: system/models.py:312
+msgid "Organizational Unit"
+msgstr ""
+
+#: system/models.py:313
+msgid "Organizational Unit Name (eg, section)"
+msgstr ""
+
+#: system/models.py:319 system/models.py:320
+msgid "Email Address"
+msgstr ""
+
+#: system/models.py:326
+msgid "Locality"
+msgstr ""
+
+#: system/models.py:327
+msgid "Locality Name (eg, city)"
+msgstr ""
+
+#: system/models.py:333 system/models.py:975
+msgid "State"
+msgstr ""
+
+#: system/models.py:334
+msgid "State or Province Name (full name)"
+msgstr ""
+
+#: system/models.py:340
+msgid "Country"
+msgstr ""
+
+#: system/models.py:341
+msgid "Country Name (2 letter code)"
+msgstr ""
+
+#: system/models.py:347
+msgid "Common Name"
+msgstr ""
+
+#: system/models.py:348
+msgid "Common Name (eg, YOUR name)"
+msgstr ""
+
+#: system/models.py:355
+msgid "Private key passphrase"
+msgstr ""
+
+#: system/models.py:360
+msgid "SSL Certificate"
+msgstr ""
+
+#: system/models.py:361
+msgid ""
+"Cut and paste the contents of your private and public certificate files here."
+msgstr ""
+
+#: system/models.py:376 system/models.py:581
+msgid "The user to run the command"
+msgstr ""
+
+#: system/models.py:379 system/models.py:896 system/models.py:905
+#, fuzzy
+msgid "Command"
+msgstr "Megjegyzés"
+
+#: system/models.py:383 system/models.py:547 system/models.py:721
+#, fuzzy
+msgid "Short description"
+msgstr "Leírás"
+
+#: system/models.py:416
+msgid "Redirect Stdout"
+msgstr ""
+
+#: system/models.py:417
+msgid ""
+"Redirect the standard output to /dev/null. In other words, disable output."
+msgstr ""
+
+#: system/models.py:422
+msgid "Redirect Stderr"
+msgstr ""
+
+#: system/models.py:423
+msgid ""
+"Redirect the standard error output to /dev/null. In other words, disable "
+"error output."
+msgstr ""
+
+#: system/models.py:432
+msgid "Cron Job"
+msgstr ""
+
+#: system/models.py:433
+msgid "Cron Jobs"
+msgstr ""
+
+#: system/models.py:511
+msgid "IP Address or hostname"
+msgstr ""
+
+#: system/models.py:515
+#, fuzzy
+msgid "Remote SSH Port"
+msgstr "Távoli megfigyelés"
+
+#: system/models.py:516
+#, fuzzy
+msgid "SSH Port"
+msgstr "Port"
+
+#: system/models.py:526
+msgid "Remote Module Name"
+msgstr ""
+
+#: system/models.py:528
+msgid "Name of the module defined in the remote rsync daemon"
+msgstr "A távoli rsync deamonban beállított modul neve."
+
+#: system/models.py:533
+msgid "Remote Path"
+msgstr "Távoli útvonal"
+
+#: system/models.py:535
+msgid "Path on remote host to rsync to, e.g. /mnt/tank"
+msgstr "Az útvonal a távoli gépen az rsync használatához. p.l. /mnt/tank"
+
+#: system/models.py:539
+msgid "Direction"
+msgstr "Irány"
+
+#: system/models.py:540
+msgid ""
+"Push - From local to remote machine. Pull - From remote to local machine."
+msgstr ""
+
+#: system/models.py:585
+#, fuzzy
+msgid "Recurse into directories"
+msgstr "Saját könyvtárak"
+
+#: system/models.py:589
+msgid "Times"
+msgstr ""
+
+#: system/models.py:590
+msgid "Preserve modification times"
+msgstr ""
+
+#: system/models.py:594
+msgid "Compress"
+msgstr ""
+
+#: system/models.py:595
+msgid "Compress data during the transfer"
+msgstr ""
+
+#: system/models.py:599
+msgid "Archive"
+msgstr ""
+
+#: system/models.py:600
+msgid "Archive mode"
+msgstr ""
+
+#: system/models.py:605
+msgid "Delete files on the receiving side that don't exist on sender"
+msgstr ""
+"Azoknak a fileoknak a törlése a fogadó oldalon amelyek nem léteznek a "
+"küldőnél."
+
+#: system/models.py:611
+msgid "Suppress non-error messages"
+msgstr ""
+
+#: system/models.py:615
+msgid "Preserve permissions"
+msgstr "Engdélyek megörzése"
+
+#: system/models.py:616
+msgid ""
+"This option causes the receiving rsync to set the destination permissions to "
+"be the same as the source permissions"
+msgstr ""
+
+#: system/models.py:622
+msgid "Preserve extended attributes"
+msgstr "A bővitett tulajdonsáok megtartása"
+
+#: system/models.py:623
+msgid ""
+"This option causes rsync to update the remote extended attributes to be the "
+"same as the local ones"
+msgstr ""
+
+#: system/models.py:629
+msgid "Extra options to rsync command line (usually empty)"
+msgstr ""
+
+#: system/models.py:638
+#, fuzzy
+msgid "Rsync Task"
+msgstr "Rsync"
+
+#: system/models.py:639
+msgid "Rsync Tasks"
+msgstr "Rsync feladatok"
+
+#: system/models.py:810
+#, fuzzy
+msgid "S.M.A.R.T. Test"
+msgstr "S.M.A.R.T."
+
+#: system/models.py:811
+msgid "S.M.A.R.T. Tests"
+msgstr "S.M.A.R.T. Tesztek"
+
+#: system/models.py:819 system/models.py:858
+msgid "Variable"
+msgstr "Változó"
+
+#: system/models.py:823 system/models.py:862
+msgid "Value"
+msgstr ""
+
+#: system/models.py:843
+#, fuzzy
+msgid "Sysctl"
+msgstr "Sysctl"
+
+#: system/models.py:844
+msgid "Sysctls"
+msgstr "Sysctl-ek"
+
+#: system/models.py:882
+#, fuzzy
+msgid "Tunable"
+msgstr "Aszinkron I/O (AIO) engedélyezése"
+
+#: system/models.py:883
+#, fuzzy
+msgid "Tunables"
+msgstr "Aszinkron I/O (AIO) engedélyezése"
+
+#: system/models.py:897 system/models.py:909
+msgid "Script"
+msgstr ""
+
+#: system/models.py:916
+msgid "Pre Init"
+msgstr ""
+
+#: system/models.py:917
+msgid "Post Init"
+msgstr ""
+
+#: system/models.py:935
+msgid "Init/Shutdown Script"
+msgstr ""
+
+#: system/models.py:936
+msgid "Init/Shutdown Scripts"
+msgstr ""
+
+#: system/models.py:949
+#, fuzzy
+msgid "First Name"
+msgstr "Cél neve"
+
+#: system/models.py:953
+#, fuzzy
+msgid "Last Name"
+msgstr "Alap név"
+
+#: system/models.py:957
+msgid "Company"
+msgstr ""
+
+#: system/models.py:969
+msgid "City"
+msgstr ""
+
+#: system/models.py:981
+msgid "Zip"
+msgstr ""
+
+#: system/models.py:991
+msgid "Home Phone"
+msgstr ""
+
+#: system/models.py:997
+msgid "Cell Phone"
+msgstr ""
+
+#: system/models.py:1003
+msgid "Work Phone"
+msgstr ""
+
+#: system/models.py:1009 templates/system/settings.html:12
+#, fuzzy
+msgid "Registration"
+msgstr "Leírás"
+
+#: system/nav.py:5 templates/menubar.html:8
+msgid "System"
+msgstr ""
+
+#: system/nav.py:13 templates/system/system_info.html:1
+msgid "System Information"
+msgstr ""
+
+#: system/views.py:135
+msgid "The uploaded file is not valid."
+msgstr ""
+
+#: system/views.py:252
+msgid "Reboot is being issued"
+msgstr ""
+
+#: system/views.py:279
+msgid "Shutdown is being issued"
+msgstr ""
+
+#: system/views.py:316
+msgid "You must configure the root email (Accounts->Users->root)"
+msgstr ""
+
+#: system/views.py:326
+#, python-format
+msgid "Test message from %s"
+msgstr ""
+
+#: system/views.py:328
+#, python-format
+msgid "This is a message test from %s"
+msgstr ""
+
+#: system/views.py:331
+#, python-format
+msgid "Your test email could not be sent: %s"
+msgstr ""
+
+#: system/views.py:333
+msgid "Your test email has been sent!"
+msgstr ""
+
+#: templates/base.html:67
+msgid "expand all"
+msgstr ""
+
+#: templates/base.html:68
+msgid "collapse all"
+msgstr ""
+
+#: templates/menubar.html:49
+msgid "Alert"
+msgstr ""
+
+#: templates/menubar.html:55
+msgid "Log Out"
+msgstr ""
+
+#: templates/menubar.html:61
+msgid "Help"
+msgstr ""
+
+#: templates/menubar.html:74 templates/registration/login.html:62
+msgid "Log In"
+msgstr ""
+
+#: templates/account/index.html:1
+msgid "Admin Account"
+msgstr "Rendszergazda Fiók"
+
+#: templates/freeadmin/advanced_btn.html:18
+#: templates/freeadmin/advanced_btn.html:31
+#, fuzzy
+msgid "Basic Mode"
+msgstr "Rsync Modul"
+
+#: templates/freeadmin/advanced_btn.html:21
+#: templates/freeadmin/advanced_btn.html:33
+#, fuzzy
+msgid "Advanced Mode"
+msgstr "Haladó"
+
+#: templates/freeadmin/alert_status.html:7
+#: templates/freeadmin/generic_form.html:20
+#: templates/freeadmin/generic_model_add.html:52
+#: templates/freeadmin/generic_model_edit.html:60
+#: templates/plugins/plugin_edit.html:2 templates/plugins/plugin_info.html:25
+#: templates/storage/scrub_confirm.html:14
+#: templates/system/registration_add.html:8
+#: templates/system/registration_edit.html:8
+#: templates/system/terminal_paste.html:3 templates/system/wizard.html:21
+msgid "OK"
+msgstr ""
+
+#: templates/freeadmin/alert_status.html:11
+msgid "WARNING"
+msgstr "FIGYELMEZTETÉS"
+
+#: templates/freeadmin/alert_status.html:14
+msgid "CRITICAL"
+msgstr "KRITIKUS"
+
+#: templates/freeadmin/generic_form.html:24
+#: templates/freeadmin/generic_model_add.html:55
+#: templates/freeadmin/generic_model_delete.html:38
+#: templates/freeadmin/generic_model_edit.html:65
+#: templates/storage/wizard.html:96 templates/system/reboot_dialog.html:11
+#: templates/system/shutdown_dialog.html:11
+#: templates/system/terminal_paste.html:18 templates/system/wizard.html:27
+msgid "Cancel"
+msgstr ""
+
+#: templates/freeadmin/generic_model_add.html:38
+#: templates/freeadmin/generic_model_edit.html:42
+#: templates/support/index.html:41
+#, fuzzy
+msgid "Add extra"
+msgstr "Tárhely"
+
+#: templates/freeadmin/generic_model_datagrid.html:8
+#, fuzzy, python-format
+msgid "Add %(name)s"
+msgstr "Hozzáad %s"
+
+#: templates/freeadmin/generic_model_datagrid.html:10
+#, fuzzy
+msgid "Add"
+msgstr "Hozzáad %s"
+
+#: templates/freeadmin/generic_model_datagrid.html:175
+#: templates/freeadmin/index.html:39 templates/freeadmin/index.html.py:45
+#: templates/freeadmin/index.html:50
+msgid "Loading..."
+msgstr "Töltődik..."
+
+#: templates/freeadmin/generic_model_datagrid.html:176
+msgid "No entry has been found"
+msgstr ""
+
+#: templates/freeadmin/generic_model_delete.html:19
+#, python-format
+msgid ""
+"There is %(related_num)s related entry that will also be deleted as it "
+"depend upon this item"
+msgid_plural ""
+"There are %(related_num)s related entries that will also be deleted as they "
+"depend upon this item"
+msgstr[0] ""
+
+#: templates/freeadmin/generic_model_delete.html:29
+#: templates/plugins/plugin_confirm_delete.html:3
+#: templates/storage/snapshot_confirm_delete.html:3
+#: templates/storage/snapshot_confirm_delete_bulk.html:5
+#: templates/storage/zvol_confirm_delete.html:3
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#: templates/freeadmin/generic_model_delete.html:35
+#: templates/jails/delete.html:5 templates/jails/start.html:5
+#: templates/jails/stop.html:5 templates/plugins/plugin_confirm_delete.html:5
+#: templates/services/enable.html:6
+#: templates/storage/dataset_confirm_delete.html:17
+#: templates/storage/disk_detach.html:5 templates/storage/disk_offline.html:5
+#: templates/storage/disk_remove.html:5 templates/storage/disk_wipe.html:7
+#: templates/storage/snapshot_confirm_delete.html:5
+#: templates/storage/snapshot_confirm_delete_bulk.html:7
+#: templates/storage/snapshot_confirm_rollback.html:5
+#: templates/storage/unlock.html:5 templates/storage/volume_detach.html:34
+#: templates/storage/zvol_confirm_delete.html:5
+#: templates/system/config_restore.html:5
+msgid "Yes"
+msgstr ""
+
+#: templates/freeadmin/generic_model_edit.html:12
+msgid "Your changes have been successfully updated!"
+msgstr ""
+
+#: templates/freeadmin/generic_model_edit.html:58 templates/jails/edit.html:2
+#: templates/jails/template_edit.html:2
+msgid "Save"
+msgstr "Mentés"
+
+#: templates/freeadmin/help.html:4
+msgid "Forum"
+msgstr ""
+
+#: templates/freeadmin/help.html:6
+msgid "Community Forum"
+msgstr ""
+
+#: templates/freeadmin/help.html:11
+msgid "IRC (Chat)"
+msgstr ""
+
+#: templates/freeadmin/help.html:13
+msgid "#freenas on freenode"
+msgstr ""
+
+#: templates/freeadmin/help.html:17
+msgid "Mailing Lists"
+msgstr ""
+
+#: templates/freeadmin/help.html:19
+msgid "FreeNAS Announce"
+msgstr ""
+
+#: templates/freeadmin/help.html:20
+msgid "FreeNAS Commit"
+msgstr ""
+
+#: templates/freeadmin/help.html:21
+msgid "FreeNAS Devel"
+msgstr ""
+
+#: templates/freeadmin/help.html:22
+msgid "FreeNAS Testing"
+msgstr ""
+
+#: templates/freeadmin/help.html:23
+msgid "FreeNAS Docs"
+msgstr ""
+
+#: templates/freeadmin/help.html:24
+msgid "FreeNAS Translations"
+msgstr ""
+
+#: templates/freeadmin/help.html:29
+msgid "Support Issues"
+msgstr ""
+
+#: templates/freeadmin/help.html:31
+msgid "Bug Tracker"
+msgstr ""
+
+#: templates/freeadmin/help.html:36
+msgid "Documentation"
+msgstr ""
+
+#: templates/freeadmin/help.html:38
+msgid "FreeNAS Documentation"
+msgstr ""
+
+#: templates/freeadmin/help.html:39
+msgid "FreeBSD Man Pages"
+msgstr ""
+
+#: templates/freeadmin/help.html:44
+msgid "Professional Support"
+msgstr ""
+
+#: templates/freeadmin/help.html:46
+msgid "Professionally-Supported FreeNAS-Based Storage Appliance"
+msgstr ""
+
+#: templates/freeadmin/index.html:34
+msgid "Running Processes"
+msgstr ""
+
+#: templates/freeadmin/index.html:54
+#, fuzzy
+msgid "Help & Support"
+msgstr "EA támogatás"
+
+#: templates/jails/delete.html:3
+#, fuzzy
+msgid "Are you sure you want to delete "
+msgstr "Biztos, hogy eltávolítod?"
+
+#: templates/jails/delete.html:3 templates/jails/start.html:3
+#: templates/jails/stop.html:3
+msgid "?"
+msgstr ""
+
+#: templates/jails/index.html:20
+msgid "Templates"
+msgstr ""
+
+#: templates/jails/start.html:3
+msgid "Start "
+msgstr ""
+
+#: templates/jails/stop.html:3
+msgid "Stop "
+msgstr ""
+
+#: templates/network/summary.html:16
+msgid "No interfaces defined"
+msgstr ""
+
+#: templates/network/summary.html:22
+msgid "Nameserver"
+msgstr ""
+
+#: templates/network/summary.html:31
+msgid "No nameserver defined"
+msgstr ""
+
+#: templates/network/summary.html:37
+msgid "Default route"
+msgstr "Alapértelmezett átjáró"
+
+#: templates/network/summary.html:46
+msgid "No default route defined"
+msgstr "Nincs alapértelmezett átjáró beállítva"
+
+#: templates/plugins/available_datagrid.html:13
+msgid "Refresh"
+msgstr ""
+
+#: templates/plugins/available_datagrid.html:25
+#: templates/plugins/upload.html:17
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: templates/plugins/available_install.html:3
+#, fuzzy, python-format
+msgid "Are you sure you want to install \"%(plugin)s\" plugin?"
+msgstr "Biztos, hogy offline-ba teszed?"
+
+#: templates/plugins/done.html:13
+msgid "Installed..."
+msgstr "Telepítve..."
+
+#: templates/plugins/index.html:10
+#, fuzzy
+msgid "Installed"
+msgstr "Telepítve..."
+
+#: templates/plugins/jail_import.html:2
+#, fuzzy
+msgid "Import"
+msgstr "Kötet importálása"
+
+#: templates/plugins/plugin_info.html:2
+#, fuzzy
+msgid "Plugin information"
+msgstr "Bővítmény infórmácíó"
+
+#: templates/plugins/plugin_info.html:27 templates/system/wizard.html:23
+msgid "Please wait..."
+msgstr ""
+
+#: templates/plugins/plugin_update.html:3
+#, fuzzy, python-format
+msgid "Are you sure you want to update \"%(plugin)s\" plugin?"
+msgstr "Biztos, hogy offline-ba teszed?"
+
+#: templates/plugins/plugins.html:20
+msgid "PBI"
+msgstr ""
+
+#: templates/plugins/plugins.html:22
+#, fuzzy
+msgid "Service status"
+msgstr "Szolgáltatások"
+
+#: templates/plugins/plugins.html:23
+msgid "Actions"
+msgstr ""
+
+#: templates/plugins/plugins.html:52 templates/system/config_upload.html:2
+msgid "Update"
+msgstr "Frissítés"
+
+#: templates/plugins/plugins.html:54
+#, fuzzy
+msgid "Update plugin"
+msgstr "Frissítés gyakorisága"
+
+#: templates/plugins/plugins.html:62
+msgid "Delete plugin"
+msgstr ""
+
+#: templates/plugins/plugins.html:70
+msgid "No available plugins services"
+msgstr ""
+
+#: templates/plugins/plugins_datagrid.html:4
+#: templates/plugins/plugins_datagrid.html:6
+#, fuzzy
+msgid "Available Plugins"
+msgstr "Elérhető"
+
+#: templates/registration/login.html:45
+msgid "Your username and password didn't match. Please try again."
+msgstr "A megadott felhasználónév vagy a jelszó hibás. Próbáld újra."
+
+#: templates/registration/login.html:49
+#, fuzzy, python-format
+msgid "Welcome, %(username)s. Thanks for logging in."
+msgstr "Üdv, %(username)s. Kösz, hogy beléptél. Kellemes használatot."
+
+#: templates/registration/login.html:51
+#, python-format
+msgid "Welcome to %(sw_name)s&reg; %(sw_login_version)s"
+msgstr ""
+
+#: templates/registration/login.html:54
+msgid ""
+"The web admin user has been removed in this release in order to unify the "
+"web and Unix authentication mechanisms."
+msgstr ""
+
+#: templates/registration/login.html:55
+msgid ""
+"Administrators should log in to the web UI as root, since the web UI already "
+"confers superuser privileges in many areas."
+msgstr ""
+
+#: templates/registration/login.html:57
+msgid "For security reasons, you must now set a new root password:"
+msgstr ""
+
+#: templates/registration/logout.html:4
+msgid "Logged Out"
+msgstr ""
+
+#: templates/registration/logout.html:24
+msgid "You are now logged out."
+msgstr ""
+
+#: templates/registration/logout.html:24
+msgid "Log back in"
+msgstr ""
+
+#: templates/services/core.html:10
+msgid "AFP Settings"
+msgstr ""
+
+#: templates/services/core.html:21
+msgid "CIFS Settings"
+msgstr ""
+
+#: templates/services/core.html:33
+#, fuzzy
+msgid "Directory Service Settings"
+msgstr "Könyvtár jogosultság"
+
+#: templates/services/core.html:47
+msgid "Dynamic DNS Settings"
+msgstr ""
+
+#: templates/services/core.html:58
+msgid "FTP Settings"
+msgstr ""
+
+#: templates/services/core.html:71
+msgid "ISCSI Settings"
+msgstr ""
+
+#: templates/services/core.html:82
+msgid "NFS Settings"
+msgstr ""
+
+#: templates/services/core.html:93
+msgid "Rsync Settings"
+msgstr ""
+
+#: templates/services/core.html:104
+msgid "S.M.A.R.T. Settings"
+msgstr "S.M.A.R.T. beállítások"
+
+#: templates/services/core.html:115
+msgid "SNMP Settings"
+msgstr ""
+
+#: templates/services/core.html:126
+msgid "SSH Settings"
+msgstr ""
+
+#: templates/services/core.html:137
+msgid "TFTP Settings"
+msgstr ""
+
+#: templates/services/core.html:148
+#, fuzzy
+msgid "UPS Settings"
+msgstr "Beállítások"
+
+#: templates/services/enable.html:3
+msgid "Would you like to enable this service?"
+msgstr ""
+
+#: templates/services/enable.html:16
+msgid "No"
+msgstr ""
+
+#: templates/services/index.html:1
+msgid "Core"
+msgstr "Mag(Core)"
+
+#: templates/services/iscsi.html:1
+msgid "iSCSI Management"
+msgstr ""
+
+#: templates/services/iscsi.html:8
+msgid "Portals"
+msgstr ""
+
+#: templates/services/iscsi.html:26
+msgid "Targets"
+msgstr ""
+
+#: templates/services/iscsi.html:32
+msgid "Extents"
+msgstr ""
+
+#: templates/services/iscsi.html:38
+msgid "Associated Targets"
+msgstr ""
+
+#: templates/sharing/index.html:3
+#, fuzzy
+msgid "Apple (AFP)"
+msgstr "Apple (AFP)"
+
+#: templates/sharing/index.html:9
+msgid "UNIX (NFS)"
+msgstr ""
+
+#: templates/sharing/index.html:15
+#, fuzzy
+msgid "Windows (CIFS)"
+msgstr "Windows megosztás"
+
+#: templates/storage/clonesnap.html:2 templates/storage/snapshots.html:32
+msgid "Clone Snapshot"
+msgstr ""
+
+#: templates/storage/create_passphrase.html:5
+msgid ""
+"Remember to add a new recovery key as this action invalidates the previous "
+"recovery key"
+msgstr ""
+
+#: templates/storage/dataset_confirm_delete.html:5
+#, python-format
+msgid "Are you sure you want to destroy \"%(name)s\"?"
+msgstr ""
+
+#: templates/storage/dataset_confirm_delete.html:8
+msgid ""
+"\n"
+"        This will delete all files within the dataset.\n"
+"        "
+msgid_plural ""
+"\n"
+"        This will delete all files within the dataset and child datasets.\n"
+"        "
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/storage/dataset_edit.html:4
+#, fuzzy
+msgid "Dataset"
+msgstr "Adatcsoport neve"
+
+#: templates/storage/dataset_edit.html:8
+msgid "Edit Dataset"
+msgstr ""
+
+#: templates/storage/datasets.html:3
+#, python-format
+msgid "Create ZFS dataset in %(fs)s"
+msgstr ""
+
+#: templates/storage/datasets.html:6
+msgid "Add Dataset"
+msgstr ""
+
+#: templates/storage/disk_detach.html:3
+#: templates/storage/volume_detach.html:32
+msgid "Are you sure you want to detach?"
+msgstr ""
+
+#: templates/storage/disk_editbulk.html:3
+msgid "Editing the following disks"
+msgstr ""
+
+#: templates/storage/disk_offline.html:3
+msgid "Are you sure you want to offline?"
+msgstr "Biztos, hogy offline-ba teszed?"
+
+#: templates/storage/disk_remove.html:3
+msgid "Are you sure you want to remove?"
+msgstr "Biztos, hogy eltávolítod?"
+
+#: templates/storage/disk_wipe.html:4
+msgid "Are you sure you want to wipe?"
+msgstr ""
+
+#: templates/storage/geom_disk_replace.html:2
+msgid "Replace disk"
+msgstr ""
+
+#: templates/storage/index.html:3
+msgid "Active Volumes"
+msgstr ""
+
+#: templates/storage/index.html:10
+msgid "ZFS Snapshots"
+msgstr ""
+
+#: templates/storage/index.html:24
+msgid "ZFS Replication"
+msgstr ""
+
+#: templates/storage/key.html:3
+msgid "You are about to download the global GELI key"
+msgstr ""
+
+#: templates/storage/key.html:6 templates/storage/recoverykey_add.html:9
+#: templates/storage/recoverykey_remove.html:6 templates/storage/rekey.html:6
+msgid "Continue"
+msgstr ""
+
+#: templates/storage/manualsnap.html:2
+msgid "Manually Create Snapshot"
+msgstr ""
+
+#: templates/storage/permission.html:2
+msgid "Change"
+msgstr "Módosítás"
+
+#: templates/storage/permission.html:4
+msgid "Change permission"
+msgstr "Engedélyek módosítása"
+
+#: templates/storage/permission.html:5
+#, python-format
+msgid "Change permission on %(path)s to"
+msgstr "Engedélyek módosítása a %(path) útvonalon a következőre"
+
+#: templates/storage/recoverykey_add.html:4
+msgid "You are about to add a recovery key for this volume"
+msgstr ""
+
+#: templates/storage/recoverykey_add.html:5
+msgid "This will invalidate any previous recovery key"
+msgstr ""
+
+#: templates/storage/recoverykey_remove.html:3
+msgid "You are about to remove a recovery key for this volume"
+msgstr ""
+
+#: templates/storage/rekey.html:3
+msgid "You are about to re-key the encryption"
+msgstr ""
+
+#: templates/storage/replication_add.html:5
+msgid "SSH Key Scan"
+msgstr ""
+
+#: templates/storage/replication_datagrid.html:5
+#: templates/storage/replication_datagrid.html:7
+msgid "Add Replication"
+msgstr ""
+
+#: templates/storage/replication_datagrid.html:11
+#: templates/storage/replication_datagrid.html:13
+msgid "View Public Key"
+msgstr "A Publikus kulcs megtekintése"
+
+#: templates/storage/replication_datagrid.html:17
+msgid ""
+"ATTENTION: A periodic snapshot of a given ZFS filesystem/volume is required "
+"to create a replication task"
+msgstr ""
+
+#: templates/storage/scrub_confirm.html:6
+msgid ""
+"Scrub is currently running! Are you sure you want to STOP the scrub process?"
+msgstr ""
+
+#: templates/storage/scrub_confirm.html:8
+msgid "Are you sure you want to scrub?"
+msgstr ""
+
+#: templates/storage/scrub_confirm.html:8
+msgid "This will increase system overhead while in progress"
+msgstr ""
+
+#: templates/storage/snapshot_confirm_rollback.html:3
+msgid "Are you sure you want to rollback dataset to this snapshot state?"
+msgstr ""
+
+#: templates/storage/snapshots.html:37
+msgid "Clone snapshot"
+msgstr ""
+
+#: templates/storage/snapshots.html:47
+#, fuzzy
+msgid "Destroy Snapshot"
+msgstr "Pillanatkép"
+
+#: templates/storage/snapshots.html:52
+#, fuzzy
+msgid "Destroy this snapshot"
+msgstr "Rekurzív pillanatkép"
+
+#: templates/storage/snapshots.html:62
+#, fuzzy
+msgid "Rollback Snapshot"
+msgstr "Pillanatkép"
+
+#: templates/storage/snapshots.html:67
+msgid "Rollback to this snapshot"
+msgstr ""
+
+#: templates/storage/snapshots.html:97
+#, fuzzy
+msgid "Refer"
+msgstr "Javasolt"
+
+#: templates/storage/snapshots.html:102
+#, fuzzy
+msgid "Available Actions"
+msgstr "Elérhető"
+
+#: templates/storage/snapshots.html:142
+msgid "Destroy"
+msgstr ""
+
+#: templates/storage/snapshots.html:164
+#, fuzzy
+msgid "Delete snapshots"
+msgstr "Pillanatkép"
+
+#: templates/storage/task_datagrid.html:9
+msgid "Periodic Snapshots"
+msgstr ""
+
+#: templates/storage/unlock.html:3
+msgid "Do you want to unlock this volume?"
+msgstr ""
+
+#: templates/storage/volume_datagrid.html:22
+#, fuzzy
+msgid "UFS Volume Manager"
+msgstr "Kötetnév"
+
+#: templates/storage/volume_detach.html:13
+#, python-format
+msgid "You have %(used)s of used space within this volume"
+msgstr ""
+
+#: templates/storage/volume_detach.html:19
+msgid "ATTENTION - Currently the following services depend on this volume: "
+msgstr ""
+
+#: templates/storage/volume_detach.html:27
+#, python-format
+msgid ""
+"This is an encrypted volume, make sure to <a href=\"%(url)s\" target=\"_blank"
+"\">download</a> the key so you can be able to import it in the future"
+msgstr ""
+
+#: templates/storage/volume_edit.html:3
+msgid "Edit ZFS Volume"
+msgstr ""
+
+#: templates/storage/volumestatus_datagrid.html:4
+#, fuzzy
+msgid "Scrub"
+msgstr "UNIX karakterkészlet"
+
+#: templates/storage/volumestatus_datagrid.html:8
+msgid "Progress"
+msgstr ""
+
+#: templates/storage/volumestatus_datagrid.html:9
+msgid "Scan"
+msgstr ""
+
+#: templates/storage/volumestatus_datagrid.html:9
+#, python-format
+msgid "%(scanned)s out of %(total)s"
+msgstr ""
+
+#: templates/storage/volumestatus_datagrid.html:14
+#, fuzzy
+msgid "Errors"
+msgstr "Hiba"
+
+#: templates/storage/volumestatus_datagrid.html:15
+#, fuzzy
+msgid "Repaired"
+msgstr "Szükséges"
+
+#: templates/storage/wizard.html:30
+msgid "Member disks"
+msgstr ""
+
+#: templates/storage/wizard.html:47
+msgid "Group type"
+msgstr "Csoport típus"
+
+#: templates/storage/wizard.html:88
+msgid "Add Volume"
+msgstr "Kötet hozzádása"
+
+#: templates/storage/wizard.html:89
+msgid "Existing data will be cleared"
+msgstr "A jelenlegi adatok törlödnek."
+
+#: templates/storage/wizard.html:92
+#, fuzzy
+msgid "Extend Volume"
+msgstr "ZFS kötet"
+
+#: templates/storage/zpool_disk_replace.html:2
+msgid "Replace Disk"
+msgstr "Lemez áthelyezése"
+
+#: templates/storage/zpool_disk_replace.html:6
+msgid "Replacing disk"
+msgstr "Lemezek cseréje"
+
+#: templates/storage/zpool_disk_replace.html:8
+msgid "WARNING: The recovery key of your volume will be invalidated!"
+msgstr ""
+
+#: templates/storage/zvols.html:3
+#, fuzzy, python-format
+msgid "Create zvol on %(name)s"
+msgstr "ZFS kötet létrehozása a következőn: %(name)"
+
+#: templates/storage/zvols.html:6
+#, fuzzy
+msgid "Add zvol"
+msgstr "Kötet hozzádása"
+
+#: templates/support/index.html:57
+msgid "Submit"
+msgstr ""
+
+#: templates/support/index.html:60 templates/system/registration_add.html:11
+#: templates/system/registration_edit.html:11
+msgid "Reset"
+msgstr ""
+
+#: templates/system/advanced_edit.html:6
+msgid "Rebuild LDAP/AD Cache"
+msgstr ""
+
+#: templates/system/advanced_edit.html:12
+msgid "Save Debug"
+msgstr "Debug mentése"
+
+#: templates/system/advanced_edit.html:18
+#: templates/system/advanced_edit.html:20
+msgid "Firmware Update"
+msgstr "Firmware frissíés"
+
+#: templates/system/config_ok.html:13 templates/system/config_ok2.html:6
+msgid "Restarting..."
+msgstr "Újraindítás..."
+
+#: templates/system/config_restore.html:3
+msgid "Are you sure you want to restore to factory config?"
+msgstr "Biztos, hogy visszaállítod a gyári beállításokra a konfigurácíot?"
+
+#: templates/system/done.html:13
+msgid "Rebooting..."
+msgstr "Újraindítás..."
+
+#: templates/system/email_edit.html:14
+msgid "Send Test Mail"
+msgstr "Teszt levél küldése"
+
+#: templates/system/email_edit.html:21
+msgid ""
+"HINT: Test e-mails are sent to root user. To configure it use Users -> root -"
+"> Change E-mail"
+msgstr ""
+
+#: templates/system/firmware_wizard_0.html:6
+#: templates/system/firmware_wizard_1.html:21
+#, python-format
+msgid ""
+"Consider downloading your configuration before proceeding, <a href=\"%(url)s"
+"\" target=\"_blank\">click here</a>."
+msgstr ""
+
+#: templates/system/firmware_wizard_1.html:26
+msgid "Apply Update"
+msgstr "Frissítés érvényesítése"
+
+#: templates/system/reboot.html:79
+#, fuzzy
+msgid "System is rebooting"
+msgstr "Rendszeridő"
+
+#: templates/system/reboot_dialog.html:3
+#: templates/system/shutdown_dialog.html:3
+msgid "Warning!"
+msgstr ""
+
+#: templates/system/reboot_dialog.html:4
+msgid ""
+"You are about to <strong>REBOOT</strong> the system, what would you like to "
+"do?"
+msgstr ""
+
+#: templates/system/reporting.html:2
+#, fuzzy
+msgid "History"
+msgstr "Könyvtár"
+
+#: templates/system/settings.html:3
+msgid "General"
+msgstr "Általános"
+
+#: templates/system/settings_edit.html:6
+msgid "Factory Restore"
+msgstr ""
+
+#: templates/system/settings_edit.html:8
+msgid "Restore Config"
+msgstr ""
+
+#: templates/system/settings_edit.html:12
+msgid "Save Config"
+msgstr ""
+
+#: templates/system/settings_edit.html:18
+#: templates/system/settings_edit.html:20
+msgid "Upload Config"
+msgstr "Konfigurácíó feltöltése"
+
+#: templates/system/shutdown.html:85
+msgid "System is shutting down"
+msgstr ""
+
+#: templates/system/shutdown_dialog.html:4
+msgid ""
+"You are about to <strong>SHUTDOWN</strong> the system, what would you like "
+"to do?"
+msgstr ""
+
+#: templates/system/system_info.html:73
+msgid "Build"
+msgstr "Build"
+
+#: templates/system/system_info.html:77
+msgid "Platform"
+msgstr "Platform"
+
+#: templates/system/system_info.html:81
+msgid "Memory"
+msgstr "Memória"
+
+#: templates/system/system_info.html:85
+msgid "System Time"
+msgstr "Rendszeridő"
+
+#: templates/system/system_info.html:89
+msgid "Uptime"
+msgstr "Rendszer mükési idő (uptime)"
+
+#: templates/system/system_info.html:93
+msgid "Load Average"
+msgstr "Átlagos terhelés"
+
+#: templates/system/wizard.html:2
+#, python-format
+msgid "Step %(step)s of %(step_count)s"
+msgstr ""
+
+#: tools/alert.py:143
+#, python-format
+msgid "The volume %s status is HEALTHY"
+msgstr "A volume %s státusza: HIBÁTLAN(HEALTHY)"
+
+#: tools/alert.py:152
+#, python-format
+msgid "The volume %(volume)s status is %(status)s: %(message)s"
+msgstr ""
+
+#: tools/alert.py:160
+#, python-format
+msgid "The volume %(volume)s status is %(status)s"
+msgstr "A volume %s státusza: %(status)"
+
+#: tools/alert.py:166
+#, python-format
+msgid "The volume %s status is DEGRADED"
+msgstr "A volume %s státusza:LEFOKZOTT(DEGRADED)"
+
+#: tools/alert.py:176
+#, fuzzy, python-format
+msgid "The WebGUI Address could not bind to %s; using wildcard"
+msgstr ""
+"A WebGUI címét nem lehet csatolni a következőhőz: %s, joker(wildard) "
+"használatával"
+
+#: tools/alert.py:186
+#, python-format
+msgid ""
+"The following IPs are bind to iSCSI Portal but were not found in the system: "
+"%s"
+msgstr ""
+
+#: tools/alert.py:198
+#, python-format
+msgid "The following multipaths are not optimal: %s"
+msgstr ""
+
+#: tools/alert.py:236
+msgid "Critical Alerts"
+msgstr "Kritikus riasztások"
+
+#~ msgid "Default"
+#~ msgstr "Alapértelmezett"
+
+#~ msgid "lzjb (recommended)"
+#~ msgstr "lzjb (ajánlott)"
+
+#~ msgid "Disable password logins"
+#~ msgstr "Jelszavas bejelentkezések letiltása"
+
+#~ msgid "A user with that uid already exists."
+#~ msgstr "Ezzel az egyedi azonosítóval (uid) már létezik egy felhasználó."
+
+#~ msgid "Home directory has to start with /mnt or be /nonexistent"
+#~ msgstr ""
+#~ "A saját mappának /mnt/-vel kell kezdődnie, vagy /nonexistent-nek lennie."
+
+#~ msgid "Change Password"
+#~ msgstr "Jelszó csere"
+
+#~ msgid "Change Admin User"
+#~ msgstr "Admin felhasználó csere"
+
+#~ msgid "Password successfully updated."
+#~ msgstr "A jelszó sikeresen módosítva lett!"
+
+#~ msgid "Admin user successfully updated."
+#~ msgstr "Az Admin felhasználó sikeresen módosítva lett!"
+
+#~ msgid "The name must be vlanXX where XX is an integer"
+#~ msgstr "A neve vlanXX lehet, ahol XX egy egész szám."
+
+#~ msgid "LAGG Interface group"
+#~ msgstr "LAGG interfész csoport"
+
+#~ msgid "LAGG successfully added"
+#~ msgstr "LAGG sikeresen hozzáadva"
+
+#~ msgid "Place to temporarily place PBI file"
+#~ msgstr "PBI fájlok ideiglenes tárolásának helye"
+
+#~ msgid ""
+#~ "The system will use this place to temporarily store the PBI file before "
+#~ "it's installed."
+#~ msgstr ""
+#~ "A rendszer ezt a területet, installálásig, átmenetileg PBI fájl "
+#~ "tárolására használja.  "
+
+#, fuzzy
+#~ msgid "The path %s already exists"
+#~ msgstr "Ilyen csoportazonosító (GID) már létezik."
+
+#, fuzzy
+#~ msgid "Jail IPv4 Address"
+#~ msgstr "Vezérlő IP címe"
+
+#, fuzzy
+#~ msgid "Jail IPv4 Netmask"
+#~ msgstr "IPv4 hálózati maszk"
+
+#, fuzzy
+#~ msgid "Plugin successfully removed."
+#~ msgstr "%s sikeresen hozzáadva!"
+
+#~ msgid "Unable to remove plugin."
+#~ msgstr "Nem tudta eltávolítani a bővítményt."
+
+#, fuzzy
+#~ msgid "Jail successfully imported."
+#~ msgstr "%s sikeresen módosítva!"
+
+#~ msgid "This IP already exists."
+#~ msgstr "Ilyen IP cím már létezik."
+
+#~ msgid "The Plugins Jail service failed to reload."
+#~ msgstr "A bővitmény jail (Plugin Jail) újraindítása nem sikerült."
+
+#~ msgid "Disk device"
+#~ msgstr "Lemez eszköz"
+
+#~ msgid "Large RW support"
+#~ msgstr "Nagy írás/olvasás támogatása"
+
+#~ msgid "Send files with sendfile(2)"
+#~ msgstr "Fájl küldése sendfile(2) alkalmazással."
+
+#~ msgid "Server Name"
+#~ msgstr "Szerver neve"
+
+#~ msgid ""
+#~ "Name of the server. If this field is left empty the default server is "
+#~ "specified."
+#~ msgstr ""
+#~ "A szerver neve. Ha ez a mező üresen marad, az alapértelmezett szerver "
+#~ "lesz meghatározva."
+
+#~ msgid "Asynchronous mode"
+#~ msgstr "Aszinkron mód"
+
+#~ msgid ""
+#~ "Enable asynchronous mode, which will help performance beyond gigabit "
+#~ "network speed."
+#~ msgstr ""
+#~ "Aszinkron mód engedélyezése, ami javíthat a teljesítményen gigabit "
+#~ "hálózati sebességen túl."
+
+#~ msgid "These parameters will be added to global settings in inadyn.conf."
+#~ msgstr ""
+#~ "Ezek a paraméterek hozzá lesznek adva a globális beállításokhoz az inadyn."
+#~ "conf fájlban."
+
+#~ msgid "Jail name"
+#~ msgstr "Jail név"
+
+#, fuzzy
+#~ msgid "Jail IP address"
+#~ msgstr "Vezérlő IP címe"
+
+#, fuzzy
+#~ msgid "Jail IP Netmask"
+#~ msgstr "IPv4 hálózati maszk"
+
+#, fuzzy
+#~ msgid "UPS Master User Password"
+#~ msgstr "Megosztás jelszava"
+
+#~ msgid "Banner"
+#~ msgstr "Üdvözlő üzenet"
+
+#~ msgid "Greeting banner displayed by FTP when a connection first comes in."
+#~ msgstr "Az FTP kapcsolatkor ez az üdvözlő üzenet jelenik meg elsőként."
+
+#~ msgid "Require Reverse DNS for IP"
+#~ msgstr "Reverse DNS szükséges az IP-hez"
+
+#~ msgid "Enable SSL/TLS"
+#~ msgstr "SSL/TLS engedélyezése"
+
+#~ msgid "Domain Controller Name"
+#~ msgstr "Domain vezérlő neve"
+
+#~ msgid "AD or PDC name."
+#~ msgstr "AD vagy PDC neve."
+
+#, fuzzy
+#~ msgid "Informal"
+#~ msgstr "Normális"
+
+#, fuzzy
+#~ msgid "View Device Extents"
+#~ msgstr "Minden állandó útvonal mutatása"
+
+#, fuzzy
+#~ msgid "File Extents"
+#~ msgstr "Minden felhasználó mutatása"
+
+#, fuzzy
+#~ msgid "View File Extents"
+#~ msgstr "Minden felhasználó mutatása"
+
+#~ msgid "The IP '%s' is not valid."
+#~ msgstr "A(z) '%s' IP cím nem érvényes."
+
+#~ msgid "Share Character Set"
+#~ msgstr "Megosztás karakter kódolás"
+
+#~ msgid "Disk Discovery"
+#~ msgstr "Lemez feltérképezés"
+
+#~ msgid "Disk discovery mode"
+#~ msgstr "Lemez feltérképezési mód"
+
+#~ msgid "Windows File Names"
+#~ msgstr "Windows fájlnevek"
+
+#~ msgid "ProDOS"
+#~ msgstr "ProDOS"
+
+#, fuzzy
+#~ msgid "Volume add"
+#~ msgstr "Kötetnév"
+
+#~ msgid "You must select a filesystem"
+#~ msgstr "Ki kell választanod a fájlrendszer típusát"
+
+#, fuzzy
+#~ msgid "ZFS Volume Name"
+#~ msgstr "ZFS kötet"
+
+#, fuzzy
+#~ msgid "Size for this ZFS Volume"
+#~ msgstr "ZFS kötet"
+
+#, fuzzy
+#~ msgid "Filesystem/Volume"
+#~ msgstr "Kötet létrehozása"
+
+#, fuzzy
+#~ msgid "View ZFS Scrubs"
+#~ msgstr "Minden csoport mutatása"
+
+#, fuzzy
+#~ msgid "Volume Manager"
+#~ msgstr "Kötetnév"
+
+#, fuzzy
+#~ msgid "Create ZFS Volume"
+#~ msgstr "ZFS kötet"
+
+#~ msgid "S.M.A.R.T. Extra Options"
+#~ msgstr "S.M.A.R.T. Extra Beállítások"
+
+#, fuzzy
+#~ msgid "Snapshot successfully added."
+#~ msgstr "%s sikeresen törölve!"
+
+#, fuzzy
+#~ msgid "You must specify a number between 1 and 65535, inclusive."
+#~ msgstr "Az értéknek 0 és 65535 között kell lennie."
+
+#, fuzzy
+#~ msgid "Number is required."
+#~ msgstr "Kötelező."
+
+#~ msgid "WebGUI Address"
+#~ msgstr "WebGUI címe"
+
+#, fuzzy
+#~ msgid "WebGUI Port"
+#~ msgstr "WebGUI Port"
+
+#~ msgid "No LAGG interface defined"
+#~ msgstr "Nincs LAGG interfész beállítva"
+
+#~ msgid "Add LAGG Interface "
+#~ msgstr "LAGG Interfész hozzáadása"
+
+#~ msgid "Edit VLAN"
+#~ msgstr "VLAN szerkesztése"
+
+#~ msgid "Delete VLAN"
+#~ msgstr "VLAN törlése"
+
+#~ msgid "No VLAN defined"
+#~ msgstr "Nincs VLAN definiállva"
+
+#~ msgid "Add VLAN Interface"
+#~ msgstr "VLAN interfész hozzáadása"
+
+#, fuzzy
+#~ msgid "Edit Plugin"
+#~ msgstr "Lemez"
+
+#, fuzzy
+#~ msgid "No mount points defined"
+#~ msgstr "S.M.A.R.T. beállítások"
+
+#~ msgid "Please log in."
+#~ msgstr "Jelentkezz be."
+
+#, fuzzy
+#~ msgid "Plugins Settings"
+#~ msgstr "Beállítások"
+
+#~ msgid "Authorized Initiators"
+#~ msgstr "Engedélyezett hálózat(initators)"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentikácíó"
+
+#, fuzzy
+#~ msgid "No associated targets defined"
+#~ msgstr "S.M.A.R.T. beállítások"
+
+#~ msgid "Authorized Network"
+#~ msgstr "Autórizált Hálózat"
+
+#~ msgid "No authorized initiators defined"
+#~ msgstr "Nincs autorizált initator definiálva"
+
+#, fuzzy
+#~ msgid "No device extents defined"
+#~ msgstr "S.M.A.R.T. beállítások"
+
+#, fuzzy
+#~ msgid "File Extent"
+#~ msgstr "Minden felhasználó mutatása"
+
+#, fuzzy
+#~ msgid "No extents defined"
+#~ msgstr "Nincs NTP kiszolgáló kijelölve. "
+
+#~ msgid "No IP defined for this Portal"
+#~ msgstr "Nincs IP beállítva ehez a Portálhoz"
+
+#, fuzzy
+#~ msgid "No portals defined"
+#~ msgstr "S.M.A.R.T. beállítások"
+
+#~ msgid "No targets defined"
+#~ msgstr "Nincs cél definiálva"
+
+#~ msgid "All the files within the plugins jail will be permanently deleted."
+#~ msgstr ""
+#~ "Az összes file a bővitmény(plugin) jail-én belül véglegesen törölve lesz."
+
+#, fuzzy
+#~ msgid "Delete Plugins Jail"
+#~ msgstr "Aljzat fájlok törlése"
+
+#~ msgid "No rsync modules defined"
+#~ msgstr "Nincs rsync modul definiállva"
+
+#~ msgid "Delete Apple (AFP) Share"
+#~ msgstr " Apple (AFP) Megosztás törlése"
+
+#, fuzzy
+#~ msgid "Add Apple (AFP) Share"
+#~ msgstr "Apple megosztás"
+
+#~ msgid "There are no active UNIX (NFS) shares."
+#~ msgstr "Nincs aktív UNIX (NFS) megosztás"
+
+#, fuzzy
+#~ msgid "Edit UNIX (NFS) Share"
+#~ msgstr "UNIX megosztás"
+
+#~ msgid "Delete UNIX (NFS) Share"
+#~ msgstr "UNIX (NFS) Megosztás törlése"
+
+#, fuzzy
+#~ msgid "Add UNIX (NFS) Share"
+#~ msgstr "UNIX megosztás"
+
+#~ msgid "There are no active Windows (CIFS) shares."
+#~ msgstr "Nincs aktív Windows(CIFS) megosztás"
+
+#, fuzzy
+#~ msgid "Edit Windows (CIFS) Share"
+#~ msgstr "Windows megosztás"
+
+#, fuzzy
+#~ msgid "Delete Windows (CIFS) Share"
+#~ msgstr "Windows megosztás"
+
+#, fuzzy
+#~ msgid "Add Windows (CIFS) Share"
+#~ msgstr "Windows megosztás"
+
+#, fuzzy
+#~ msgid "No scrub tasks defined."
+#~ msgstr "S.M.A.R.T. beállítások"
+
+#, fuzzy
+#~ msgid "Add ZFS Scrub"
+#~ msgstr "ZFS kötet"
+
+#~ msgid "There are no scheduled snapshots."
+#~ msgstr "Nincs időzitve 'merevlemez pillanatkép' készítés"
+
+#~ msgid "How"
+#~ msgstr "Hogy"
+
+#, fuzzy
+#~ msgid "Destroy ZFS Volume"
+#~ msgstr "ZFS kötet"
+
+#~ msgid "Volume to extend"
+#~ msgstr "Kötet kiterjesztése"
+
+#, fuzzy
+#~ msgid "ZFS Extra"
+#~ msgstr "ZFS Extrák"
+
+#~ msgid "Log"
+#~ msgstr "Napló(Log)"
+
+#~ msgid "Spare"
+#~ msgstr "Tartalék"
+
+#~ msgid "Create ZFS volume on %(name)s"
+#~ msgstr "ZFS kötet létrehozása a következőn: %(name)"
+
+#, fuzzy
+#~ msgid "Add ZFS Volume"
+#~ msgstr "ZFS kötet"
+
+#, fuzzy
+#~ msgid "Import Plugins Jail"
+#~ msgstr "Aljzat fájlok törlése"
+
+#~ msgid "Add a cron job"
+#~ msgstr "Egy ütemezett feladat hozzáadása"
+
+#~ msgid "Add cron job"
+#~ msgstr "Ütemezett feladat hozzáadása"
+
+#~ msgid "No NTP servers defined."
+#~ msgstr "Nincs NTP kiszolgáló kijelölve. "
+
+#~ msgid "Add NTP server"
+#~ msgstr "NTP kiszolgáló hozzáadása"
+
+#~ msgid "Add NTP Server"
+#~ msgstr "NTP kiszolgáló hozzáadása"
+
+#~ msgid "Local Path"
+#~ msgstr "Helyi elérési út"
+
+#, fuzzy
+#~ msgid "Remote"
+#~ msgstr "Távoli megfigyelés"
+
+#~ msgid "No rsync tasks defined."
+#~ msgstr "Nincs rsync feladat definiállva"
+
+#, fuzzy
+#~ msgid "No S.M.A.R.T. tests defined"
+#~ msgstr "S.M.A.R.T. beállítások"
+
+#, fuzzy
+#~ msgid "Add S.M.A.R.T. Test"
+#~ msgstr "S.M.A.R.T."
+
+#, fuzzy
+#~ msgid "Add S.M.A.R.T. test"
+#~ msgstr "S.M.A.R.T."
+
+#, fuzzy
+#~ msgid "Add sysctl"
+#~ msgstr "Hozzáad %s"
+
+#~ msgid "Add Sysctl"
+#~ msgstr "Sysctl hozzáadása %s"
+
+#~ msgid ""
+#~ "You have to change the password for the admin user (currently no password "
+#~ "is required to login)"
+#~ msgstr ""
+#~ "Meg kell vátoztatnod az admin felhasználó jelszavát (jelenleg nincs "
+#~ "jelszó beállítva és ezért nem szükséges jelszó a bejelentkezéshez)"
+
+#~ msgid "The WebGUI Address could not be bind to %s; using wildcard"
+#~ msgstr ""
+#~ "A WebGUI címét nem lehet csatolni a következőhőz: %s, joker(wildard) "
+#~ "használatával"
+
+#~ msgid "Selected"
+#~ msgstr "Kiválasztva"
+
+#~ msgid "Plugin uname"
+#~ msgstr "Bővitmény neve"
+
+#~ msgid "Allow guest access"
+#~ msgstr "Vendég hozzáférés engedélyezése"
+
+#~ msgid "Only allow guest access"
+#~ msgstr "Csak vendég hozzáférés engedélyezése"
+
+#~ msgid "View S.M.A.R.T. Tests"
+#~ msgstr "S.M.A.R.T. tesztek megtekintése"
+
+#, fuzzy
+#~ msgid "View Sysctls"
+#~ msgstr "Minden %s"
+
+#, fuzzy
+#~ msgid "View Tunables"
+#~ msgstr "Minden felhasználó mutatása"
+
+#, fuzzy
+#~ msgid "Add Apple (CIFS) Share"
+#~ msgstr "UNIX megosztás"
+
+#~ msgid "Hourly"
+#~ msgstr "Óránként"
+
+#~ msgid "Weekly"
+#~ msgstr "Heti"
+
+#~ msgid "Monthly"
+#~ msgstr "Havi"
+
+#~ msgid "DVD"
+#~ msgstr "DVD"
+
+#~ msgid "Tape"
+#~ msgstr "Szalagos meghajtó"
+
+#~ msgid "Pass"
+#~ msgstr "Átengedés"
+
+#~ msgid "Disable password"
+#~ msgstr "Jelszó letiltása"
+
+#~ msgid "My Account"
+#~ msgstr "Saját fiókom"
+
+#~ msgid "View All Users"
+#~ msgstr "Minden felhasználó mutatása"
+
+#~ msgid ""
+#~ "We apologize, but your form has expired. Please continue filling out the "
+#~ "form from this page."
+#~ msgstr ""
+#~ "Sajnáljuk, az oldal lejárt! Folytassa a kitöltést erről az oldalról!"
+
+#~ msgid "The location must contain only alphanumeric characters, _ or -"
+#~ msgstr "A hely csak alfanumerikus jelekből, _ és - jelekből állhat."
+
+#~ msgid "Local Access"
+#~ msgstr "Helyi hozzáférés"
+
+#~ msgid "Allow users with local accounts to access apple shares on this box."
+#~ msgstr "A Helyi felhasználók hozzáférhetnek minden Apple megosztáshoz."
+
+#~ msgid "Time in milliseconds"
+#~ msgstr "Idő miliszekundumban"
+
+#~ msgid "Username of Domain Administrator Account"
+#~ msgstr "Domain Adminisztrátor fiók felhasználóneve"
+
+#~ msgid "ISCSI"
+#~ msgstr "ISCSI"
+
+#~ msgid "Guest Account"
+#~ msgstr "Vendég fiók"
+
+#~ msgid ""
+#~ "Use this option to override the username ('ftp' by default) which will be "
+#~ "used for access to services which are specified as guest. Whatever "
+#~ "privileges this user has will be available to any client connecting to "
+#~ "the guest service. This user must exist in the password file, but does "
+#~ "not require a valid login."
+#~ msgstr ""
+#~ "Ezzel a beállítással felülbírálható a felhasználónév ('ftp' "
+#~ "alapértelmezetten) amivel a vendégként elérhető szolgáltatások "
+#~ "használhatók. Amilyen jogosultság van a felhasználói fiókhoz rendelve, "
+#~ "azt mind elérik a vendégként kapcsolódó felhasználók. A felhasználónak "
+#~ "szerepelnie kell a jelszó fájlban, de nem szükséges érvényes "
+#~ "bejelentkezési engedély."
+
+#, fuzzy
+#~ msgid "CIFS Shares"
+#~ msgstr "UNIX karakterkészlet"
+
+#~ msgid "NTP server 2"
+#~ msgstr "NTP kiszolgáló 2"
+
+#~ msgid "NTP server 3"
+#~ msgstr "NTP kiszolgáló 3"
+
+#~ msgid "Loader"
+#~ msgstr "Betöltő"
+
+#, fuzzy
+#~ msgid "Loaders"
+#~ msgstr "Átlagos terhelés"
+
+#, fuzzy
+#~ msgid "Export Volume"
+#~ msgstr "ZFS kötet"
+
+#~ msgid "successfully deleted"
+#~ msgstr "sikeresen törölve"
+
+#~ msgid "%s successfully added."
+#~ msgstr "%s sikeresen hozzáadva!"
+
+#~ msgid "IPv6 Netmask"
+#~ msgstr "IPv6 hálózati maszk"
+
+#~ msgid "This value must be between 0 and 10000, inclusive."
+#~ msgstr "Az értéknek 0 és 10000 között kell lennie."
+
+#~ msgid "This value must be between 0 and 1000, inclusive."
+#~ msgstr "Az értéknek 0 és 1000 között kell lennie."
+
+#~ msgid "Enable DDP"
+#~ msgstr "DDP engedélyezése"
+
+#~ msgid "Enables DDP support for low-level appletalk access."
+#~ msgstr "DDP engedélyezése alacsony-szintű appletalk hozzáféréshez. "
+
+#~ msgid "Turn on/off TLS"
+#~ msgstr "TLS ki/be kapcsolása"
+
+#~ msgid "Rsyncd"
+#~ msgstr "Rsyncd"
+
+#~ msgid "Config"
+#~ msgstr "Konfiguráció"
+
+#~ msgid "%s successfully update."
+#~ msgstr "%s sikeresen frissítve."
+
+#~ msgid "Admin user"
+#~ msgstr "Admin felhasználó"
+
+#~ msgid ""
+#~ "Use this option to override the username ('www' by default) which will be "
+#~ "used for access to services which are specified as guest. Whatever "
+#~ "privileges this user has will be available to any client connecting to "
+#~ "the guest service. This user must exist in the password file, but does "
+#~ "not require a valid login."
+#~ msgstr ""
+#~ "Ezzel a beállítással felülbírálható az a felhasználónév ('www' "
+#~ "alapértelmezetten) amivel a vendégként elérhető szolgáltatások "
+#~ "használhatók. Amilyen jogosultság van a felhasználói fiókhoz rendelve, "
+#~ "azt mind elérik a vendégként kapcsolódó felhasználók. Ennek a "
+#~ "felhasználónak szerepelnie kell a jelszó fájlban, de nem szükséges "
+#~ "érvényes bejelentkezési engedély."
+
+#, fuzzy
+#~ msgid "ZVol Name"
+#~ msgstr "Teljes név"
+
+#~ msgid "English"
+#~ msgstr "Angol"
+
+#~ msgid "Level"
+#~ msgstr "Szint"
+
+#~ msgid "Add Link Aggregation"
+#~ msgstr "Hálózat egyesítés hozzáadása"
+
+#~ msgid "View All Interfaces"
+#~ msgstr "Minden interfész mutatása"
+
+#~ msgid "View All VLANs"
+#~ msgstr "Minden VLAN mutatása"
+
+#: jails/models.py:347
+msgid "OS"
+msgstr ""
+
+#: system/models.py:222
+msgid "Enable automatic upload of kernel crash dumps"
+msgstr ""
+
+#: templates/jails/index.html:8
+#: templates/plugins/index.html:32
+msgid "You must configure a default route (Network->IPv4 Default Gateway)"
+msgstr ""
+
+#: jails/models.py:353
+msgid "Architecture"
+msgstr ""
+
+#: plugins/models.py:141
+#, fuzzy
+msgid "Plugin Kernel Module"
+msgstr "Bővítmény engedélyezése"
